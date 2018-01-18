@@ -1,0 +1,8 @@
+@-moz-document url-prefix("https://twitter.com/"), url-prefix("https://pinboard.in/"), url-prefix("http://www.hkitalk.net/"), url-prefix("http://router.asus.com/"), url-prefix("http://www.backpackers.com.tw/"), url-prefix("https://console.aws.amazon.com") {
+* { font-family: sans-serif ! important; }
+}
+
+@-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
+/* body, td, a, p, .h, .gsfi, .gsfs, .jhp input[type="submit"], .sbdd a input, .gbqfba { font-family: Roboto, sans-serif; } */
+*, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: Roboto, sans-serif; }
+}
