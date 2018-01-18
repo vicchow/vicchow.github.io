@@ -1,0 +1,2 @@
+a, a *, u { text-decoration: none ! important; }
+a:hover { text-decoration: none; /* filter: opacity(50%); */ }
