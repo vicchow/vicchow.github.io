@@ -10,3 +10,7 @@
 @-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
     *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: sans-serif; }
 }
+
+@-moz-document url-prefix("https://pinboard.in") {
+    textarea { font-size; 12px; }
+}
