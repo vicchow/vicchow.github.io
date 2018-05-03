@@ -18,3 +18,7 @@
 @-moz-document url-prefix("https://pinboard.in") {
     textarea { font-size: 12px; }
 }
+
+@-moz-document url-prefix("https://stackoverflow.com") {
+    html, body { font-family: sans-serif; }
+}
