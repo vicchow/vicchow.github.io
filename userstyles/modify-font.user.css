@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 1.0.3
+@version 1.0.4
 ==/UserStyle== */
 @-moz-document url-prefix("https://twitter.com/"), url-prefix("https://pinboard.in/"), url-prefix("http://www.hkitalk.net/"), url-prefix("http://router.asus.com/"), url-prefix("http://www.backpackers.com.tw/"), url-prefix("https://console.aws.amazon.com") {
     * { font-family: sans-serif ! important; }
@@ -19,6 +19,6 @@
     textarea { font-size: 12px; }
 }
 
-@-moz-document url-prefix("https://stackoverflow.com") {
+@-moz-document url-prefix("https://stackoverflow.com"), domain("stackexchange.com") {
     html, body { font-family: sans-serif; }
 }
