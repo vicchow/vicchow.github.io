@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 1.0.5
+@version 1.0.6
 ==/UserStyle== */
 @-moz-document url-prefix("https://twitter.com/"), url-prefix("https://pinboard.in/"), url-prefix("http://www.hkitalk.net/"), url-prefix("http://router.asus.com/"), url-prefix("http://www.backpackers.com.tw/"), url-prefix("https://console.aws.amazon.com") {
     * { font-family: sans-serif ! important; }
@@ -24,5 +24,11 @@
     .module a, .module question-hyperlink, .module .answer-hyperlink, 
     #sidebar, #sidebar .module.community-bulletin a, #herobox { 
         font-family: sans-serif; 
+    }
+}
+
+@-moz-document url-prefix("steamcommunity.com") {
+    body, textarea {
+        font-family: "Motiva Sans", sans-serif;
     }
 }
