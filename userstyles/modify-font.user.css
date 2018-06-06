@@ -32,3 +32,7 @@
         font-family: "Motiva Sans", sans-serif; 
     }
 }
+
+@-moz-document url-prefix("https://www.ieee.org") {
+    html, body, #meta-nav { font-family: sans-serif; }
+}
