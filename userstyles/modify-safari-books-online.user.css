@@ -1,8 +1,9 @@
 /* ==UserStyle==
 @name modify-safari-books-online
 @namespace vicchow
-@version 1.0.0
+@version 1.0.1
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.safaribooksonline.com") {
     #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: serif !important; }
+    [class^="VideoContent-title"] { font-family: inherit !important; }
 }
