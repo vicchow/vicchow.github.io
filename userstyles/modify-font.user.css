@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 1.5.0
+@version 1.5.1
 ==/UserStyle== */
 @-moz-document url-prefix("https://twitter.com/"), url-prefix("https://pinboard.in/"), url-prefix("http://www.hkitalk.net/"), url-prefix("http://router.asus.com/"), url-prefix("http://www.backpackers.com.tw/"), url-prefix("https://console.aws.amazon.com") {
     * { font-family: sans-serif ! important; }
@@ -22,7 +22,7 @@
 @-moz-document url-prefix("https://stackoverflow.com"), url-prefix("https://superuser.com"), url-prefix("https://serverfault.com"), domain("stackexchange.com") {
     html, body, 
     .module a, .module question-hyperlink, .module .answer-hyperlink, 
-    #sidebar, #sidebar .module.community-bulletin a, #herobox { 
+    #sidebar, #sidebar .module.community-bulletin a, #herobox, #question-header .question-hyperlink, .post-text { 
         font-family: sans-serif; 
     }
 }
