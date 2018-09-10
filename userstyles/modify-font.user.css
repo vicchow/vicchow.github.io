@@ -24,7 +24,7 @@
     .module a, .module question-hyperlink, .module .answer-hyperlink, 
     .question-summary .question-hyperlink, .topbar-dialog,
     #question-header .question-hyperlink, .post-text { 
-        font-family: sans-serif; 
+        font-family: sans-serif !important;
     }
 }
 
