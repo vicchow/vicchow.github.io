@@ -23,7 +23,7 @@
     html, body, 
     .module a, .module question-hyperlink, .module .answer-hyperlink, 
     .question-summary .question-hyperlink, .topbar-dialog,
-    #sidebar, #sidebar .module.community-bulletin a, #herobox { 
+    #question-header .question-hyperlink, .post-text { 
         font-family: sans-serif; 
     }
 }
