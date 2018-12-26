@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 1.6.3
+@version 1.6.4
 ==/UserStyle== */
-@-moz-document url-prefix("https://twitter.com/"), url-prefix("https://pinboard.in/"), url-prefix("http://www.hkitalk.net/"), url-prefix("http://router.asus.com/"), url-prefix("http://www.backpackers.com.tw/"), url-prefix("https://console.aws.amazon.com") {
+@-moz-document url-prefix("https://twitter.com"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("http://router.asus.com"), domain("backpackers.com.tw"), url-prefix("https://console.aws.amazon.com") {
     * { font-family: sans-serif ! important; }
 }
 
@@ -11,15 +11,15 @@
     *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: sans-serif; }
 }
 
-@-moz-document url-prefix("https://trello.com/") {
+@-moz-document url-prefix("https://trello.com") {
     body, button, html, input, select, textarea, .button { font-family: sans-serif; }
 }
 
-@-moz-document url-prefix("https://pinboard.in") {
+@-moz-document domain("pinboard.in") {
     textarea { font-size: 12px; }
 }
 
-@-moz-document url-prefix("https://stackoverflow.com"), url-prefix("https://superuser.com"), url-prefix("https://serverfault.com"), domain("stackexchange.com") {
+@-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
     html, body, 
     .module a, .module question-hyperlink, .module .answer-hyperlink, 
     .question-summary .question-hyperlink, .topbar-dialog,
@@ -28,13 +28,13 @@
     }
 }
 
-@-moz-document url-prefix("https://steamcommunity.com") {
+@-moz-document domain("steamcommunity.com") {
     body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle { 
         font-family: "Motiva Sans", sans-serif; 
     }
 }
 
-@-moz-document url-prefix("https://leanpub.com") {
+@-moz-document domain("leanpub.com") {
     .book-hero__blurb, .about-book__copy, .lane-item__blurb,
     #leanpub-toc, .toc {
         font-family: serif !important;
