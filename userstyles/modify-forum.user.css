@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name modify-forum
+@namespace vicchow
+@version 1.0.0
+==/UserStyle== */
+@-moz-document domain("hkitalk.net") {
+  div#wp > table:first-child {
+    display: none;
+  }
+}
