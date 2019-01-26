@@ -1,18 +1,18 @@
 /* ==UserStyle==
 @name modify-forum
 @namespace vicchow
-@version 1.1.0
+@version 1.1.1
 ==/UserStyle== */
 @-moz-document domain("hkitalk.net") {
   div#wp > table:first-child {
     display: none;
   }
 
-  div#wp td.naclass2 {
+  div#wp td.naclass2, div#wp > table > tbody > tr > td:nth-child(2)  {
     width: 1%;
   }
 
-  div#wp td.naclass2 > ins {
+  div#wp td.naclass2 > ins, div#wp > table > tbody > tr > td:nth-child(2) > ins {
     width: 0px !important;
   }
 }
