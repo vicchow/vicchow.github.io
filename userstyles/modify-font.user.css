@@ -1,8 +1,15 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.0.0
+@version 7.1.0
 ==/UserStyle== */
+
+/* 
+ * Version numbering conventon: <major>.<minor>.<patch>
+ * <major>: new site
+ * <minor>: new rule
+ * <patch>: update on rules
+ */
 @-moz-document url-prefix("https://twitter.com"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("http://router.asus.com"), domain("backpackers.com.tw"), url-prefix("https://console.aws.amazon.com") {
     * { font-family: sans-serif ! important; }
 }
@@ -28,8 +35,9 @@
     }
 }
 
-@-moz-document domain("steamcommunity.com") {
-    body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle { 
+@-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+    body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
+    body.v6, .early_access_review { 
         font-family: "Motiva Sans", sans-serif; 
     }
 }
