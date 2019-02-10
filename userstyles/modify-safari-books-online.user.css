@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-safari-books-online
 @namespace vicchow
-@version 1.0.5
+@version 1.1.0
 ==/UserStyle== */
 
 /* 
@@ -11,6 +11,19 @@
  * <patch>: update on rules
  */
 @-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
-  #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: serif !important; }
-  [class^="VideoContent-title"] { font-family: inherit !important; }
+  :root {
+    --font-family-sans-serif: sans-serif;
+    --font-family-serif: serif;
+  }
+  @media not all and (min-resolution:.001dpcm) { 
+    @media {
+      :root {
+        --font-family-sans-serif: -apple-system;
+        --font-family-serif: "Iowan Old Style";
+      }
+    }
+  }
+
+  #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: var(--font-family-serif) ! important; }
+  [class^="VideoContent-title"] { font-family: inherit ! important; }
 }
