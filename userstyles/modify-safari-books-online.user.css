@@ -1,9 +1,16 @@
 /* ==UserStyle==
 @name modify-safari-books-online
 @namespace vicchow
-@version 1.0.2
+@version 1.0.3
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.safaribooksonline.com"), url-prefix("https://learning.oreilly.com") {
+
+/* 
+ * Version numbering conventon: <major>.<minor>.<patch>
+ * <major>: new site
+ * <minor>: new rule
+ * <patch>: update on rules
+ */
+@-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
     #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: serif !important; }
     [class^="VideoContent-title"] { font-family: inherit !important; }
 }
