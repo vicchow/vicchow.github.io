@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.3.1
+@version 7.3.2
 ==/UserStyle== */
 
 /* 
@@ -10,17 +10,6 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
- @-moz-document url-prefix("http:"), url-prefix("https") {
-  :root {
-    --font-famaily-sans-serif: sans-serif;
-  }
-  @supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
-    :root {
-      --font-famaily-sans-serif: -apple-system;
-    }
-  }
-}
-
 @-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
   * { font-family: sans-serif ! important; }
 }
@@ -30,7 +19,12 @@
 }
 
 @-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
-  *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: var(--font-famaily-sans-serif); }
+  *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: sans-serif; }
+  @media not all and (min-resolution:.001dpcm) { 
+    @media {
+      *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: -apple-system; }
+    }
+  }
 }
 
 @-moz-document domain("trello.com"), domain("developer.mozilla.org") {
