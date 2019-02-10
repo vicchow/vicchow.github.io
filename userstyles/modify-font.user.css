@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.3.4
+@version 7.3.5
 ==/UserStyle== */
 
 /* 
  * Version numbering conventon: <major>.<minor>.<patch>
- * <major>: new site
+ * <major>: new section
  * <minor>: new rule
  * <patch>: update on rules
  */
@@ -37,7 +37,7 @@
   *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: var(--font-family-sans-serif); }
 }
 
-@-moz-document domain("trello.com"), domain("developer.mozilla.org") {
+@-moz-document domain("trello.com"), domain("developer.mozilla.org"), domain("wikipedia.org") {
   body, button, html, input, select, textarea, .button { font-family: var(--font-family-sans-serif); }
 }
 
