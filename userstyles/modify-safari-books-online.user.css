@@ -11,6 +11,6 @@
  * <patch>: update on rules
  */
 @-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
-    #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: serif !important; }
-    [class^="VideoContent-title"] { font-family: inherit !important; }
+  #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4 { font-family: serif !important; }
+  [class^="VideoContent-title"] { font-family: inherit !important; }
 }
