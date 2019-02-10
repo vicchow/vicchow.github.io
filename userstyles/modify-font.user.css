@@ -10,58 +10,71 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
+
+:root {
+  --font-famaily-sans-serif: sans-serif;
+}
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    :root {
+      --font-famaily-sans-serif: -apple-system;
+    }
+  }
+}
+
 @-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
-    * { font-family: sans-serif ! important; }
+  * { font-family: sans-serif ! important; }
 }
 
 @-moz-document domain("console.aws.amazon.com"), url-prefix("https://console.aws.amazon.com") {
-    * { font-family: "Amazon Ember", sans-serif ! important; }
+  * { font-family: "Amazon Ember", sans-serif ! important; }
 }
 
 @-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
-    *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: sans-serif; }
+  *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: var(--font-famaily-sans-serif); }
 }
 
-@-moz-document domain("trello.com") {
-    body, button, html, input, select, textarea, .button { font-family: sans-serif; }
+@-moz-document domain("trello.com"), domain("developer.mozilla.org") {
+  body, button, html, input, select, textarea, .button { font-family: sans-serif; }
 }
 
 @-moz-document domain("pinboard.in") {
-    textarea { font-size: 12px; }
+  textarea { font-size: 12px; }
 }
 
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-    html, body, 
-    .module a, .module question-hyperlink, .module .answer-hyperlink, 
-    .question-summary .question-hyperlink, .topbar-dialog,
-    #question-header .question-hyperlink, .post-text, .comment-copy { 
-        font-family: sans-serif !important;
-    }
+  html, body, 
+  .module a, .module question-hyperlink, .module .answer-hyperlink, 
+  .question-summary .question-hyperlink, .topbar-dialog,
+  #question-header .question-hyperlink,
+  .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt { 
+    font-family: sans-serif !important;
+  }
 }
 
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-    body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
-    body.v6, .early_access_review { 
-        font-family: "Motiva Sans", sans-serif; 
-    }
+  body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
+  body.v6, .early_access_review { 
+    font-family: "Motiva Sans", sans-serif; 
+  }
 }
 
 @-moz-document domain("leanpub.com") {
-    .book-hero__blurb, .about-book__copy, .lane-item__blurb,
-    #leanpub-toc, .toc {
-        font-family: serif !important;
-    }
+  .book-hero__blurb, .about-book__copy, .lane-item__blurb,
+  #leanpub-toc, .toc {
+    font-family: serif !important;
+  }
 }
 
 @-moz-document domain("ieee.org") {
-    html, body, #meta-nav, .rsp h1, .rsp h3 { font-family: sans-serif; }
+  html, body, #meta-nav, .rsp h1, .rsp h3 { font-family: sans-serif; }
 }
 
 @-moz-document domain("wikia.com") {
-    body { font-family: sans-serif; }
+  body { font-family: sans-serif; }
 }
 
 @-moz-document domain("bbc.com") {
-    body { font-family: ReithSans, sans-serif; }
-    .content { font-family: ReithSans, sans-serif; }
+  body { font-family: ReithSans, sans-serif; }
+  .content { font-family: ReithSans, sans-serif; }
 }
