@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.3.0
+@version 7.3.1
 ==/UserStyle== */
 
 /* 
@@ -10,12 +10,11 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
-
-:root {
-  --font-famaily-sans-serif: sans-serif;
-}
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+ @-moz-document url-prefix("http:"), url-prefix("https") {
+  :root {
+    --font-famaily-sans-serif: sans-serif;
+  }
+  @supports (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
     :root {
       --font-famaily-sans-serif: -apple-system;
     }
