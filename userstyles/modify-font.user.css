@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.3.6
+@version 7.3.7
 ==/UserStyle== */
 
 /* 
@@ -57,7 +57,7 @@
 
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
   body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
-  body.v6, .early_access_review { 
+  body.v6, .early_access_review, .group_overview_announcement .large_title { 
     font-family: "Motiva Sans", var(--font-family-sans-serif); 
   }
 }
