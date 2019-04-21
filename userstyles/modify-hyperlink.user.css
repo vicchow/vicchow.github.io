@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 2.0.0
+@version 2.0.1
 ==/UserStyle== */
 
 /* 
@@ -15,6 +15,6 @@
   a:hover { text-decoration: none; /* filter: opacity(50%); */ }
 }
 
-@-moz-document domain("medium.com") {
+@-moz-document domain("medium.com"), domain("medium.freecodecamp.org"), domain("uxdesign.cc") {
   body.is-withMagicUnderlines .markup--anchor { background-position: 0 calc(1.2em) !important; }
 }
