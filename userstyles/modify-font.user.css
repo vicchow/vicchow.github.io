@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 7.3.9
+@version 8.0.0
 ==/UserStyle== */
 
 /* 
@@ -80,4 +80,8 @@
 @-moz-document domain("bbc.com") {
   body { font-family: ReithSans, var(--font-family-sans-serif); }
   .module__title, .content { font-family: ReithSans, var(--font-family-sans-serif); }
+}
+
+@-moz-document domain("telegram.org") {
+  body { font-family: sans-serif !important; }
 }
