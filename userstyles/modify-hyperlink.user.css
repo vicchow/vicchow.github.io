@@ -15,7 +15,7 @@
   a:hover { text-decoration: none; /* filter: opacity(50%); */ }
 }
 
-@-moz-document domain("medium.com"), domain("medium.freecodecamp.org"), domain("uxdesign.cc"), domain("fredjame.com"), domain("hackernoon.com"), domain("itnext.io") {
+@-moz-document domain("medium.com"), domain("medium.freecodecamp.org"), domain("uxdesign.cc"), domain("fredjame.com"), domain("hackernoon.com"), domain("itnext.io"), domain("uxplanet.org") {
   /* body.is-withMagicUnderlines .markup--anchor { background-position: 0 calc(1.19em) !important; } */
   body.is-withMagicUnderlines .markup--anchor { 
     border-bottom: 1px solid currentColor;
