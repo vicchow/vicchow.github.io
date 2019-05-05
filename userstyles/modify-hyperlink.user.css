@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 2.0.6
+@version 3.0.0
 ==/UserStyle== */
 
 /* 
@@ -18,7 +18,19 @@
 @-moz-document domain("medium.com"), domain("medium.freecodecamp.org"), domain("fredjame.com"), domain("hackernoon.com"), domain("itnext.io"), domain("uxdesign.cc"), domain("uxplanet.org") {
   /* body.is-withMagicUnderlines .markup--anchor { background-position: 0 calc(1.19em) !important; } */
   body.is-withMagicUnderlines .markup--anchor { 
-    border-bottom: 1px solid currentColor;
     background-size: 0 0 !important;
+    border-bottom: 1px solid currentColor;
+  }
+}
+
+@-moz-document domain("hacks.mozilla.org") {
+  .fancy-link, .article a:link, h3 a:link, h2 a:link {
+    background-size: 0 0 !important;
+    border-bottom: 1px solid currentColor;
+  }
+
+  abbr[title] {
+    text-decoration: none !important;
+    border-bottom: 1px dotted currentColor;
   }
 }
