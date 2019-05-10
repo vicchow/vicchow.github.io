@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 9.0.3
+@version 9.0.4
 ==/UserStyle== */
 
 /* 
@@ -19,7 +19,7 @@
     @media {
       :root {
         --font-family-sans-serif: -apple-system;
-        --font-family-serif: "Merriweather";
+        --font-family-serif: Merriweather;
       }
     }
   }
@@ -97,6 +97,6 @@
     font-weight: bold !important;
   }
   .title_row a.article_title { font-size: 1.5rem !important; }
-  .title_meta { font-size: .7rem !important; }
+  .title_meta { font-size: .75rem !important; }
   .article_inner_item { line-height: 1.5rem; }
 }
