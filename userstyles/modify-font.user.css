@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 9.0.1
+@version 9.0.2
 ==/UserStyle== */
 
 /* 
@@ -19,7 +19,6 @@
     @media {
       :root {
         --font-family-sans-serif: -apple-system;
-        /* --font-family-serif: "Iowan Old Style"; */
         --font-family-serif: "Merriweather";
       }
     }
@@ -92,6 +91,9 @@
   .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar, 
   .article_preview, .article_item, .title_meta {  
     font-family: var(--font-family-serif) !important;
+  }
+  .title_meta {
+    font-size: .7rem !important;
   }
   h1, .title_row a.article_title { 
     font-family: var(--font-family-sans-serif) !important;
