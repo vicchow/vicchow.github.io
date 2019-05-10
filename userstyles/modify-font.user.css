@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 8.0.1
+@version 9.0.0
 ==/UserStyle== */
 
 /* 
@@ -84,5 +84,16 @@
 }
 
 @-moz-document domain("telegram.org") {
-  body { font-family: sans-serif !important; }
+  body { font-family: var(--font-family-sans-serif) !important; }
+}
+
+@-moz-document url-prefix("https://www.instapaper.com") {
+  .lyon_mode #footer, .lyon_mode #speedRead, .lyon_mode #story, .lyon_mode #titlebar,
+  .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar {
+    font-family: var(--font-family-serif) !important;
+  }
+  h1 { 
+    font-family: var(--font-family-sans-serif) !important;
+    font-weight: bold !important;
+  }
 }
