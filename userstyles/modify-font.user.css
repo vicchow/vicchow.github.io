@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 9.0.7
+@version 10.0.0
 ==/UserStyle== */
 
 /* 
@@ -26,11 +26,16 @@
 }
 
 @-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
-  * { font-family: var(--font-family-sans-serif) ! important; }
+  * { font-family: var(--font-family-sans-serif) !important; }
 }
 
 @-moz-document domain("console.aws.amazon.com"), url-prefix("https://console.aws.amazon.com") {
-  * { font-family: "Amazon Ember", var(--font-family-sans-serif) ! important; }
+  * { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
+}
+
+@-moz-document domain("www.amazon.com") {
+  * { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
+
 }
 
 @-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
@@ -51,7 +56,7 @@
   .question-summary .question-hyperlink, .topbar-dialog,
   #question-header .question-hyperlink,
   .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt { 
-    font-family: var(--font-family-sans-serif) ! important;
+    font-family: var(--font-family-sans-serif) !important;
   }
 }
 
@@ -63,9 +68,8 @@
 }
 
 @-moz-document domain("leanpub.com") {
-  .book-hero__blurb, .about-book__copy, .lane-item__blurb,
-  #leanpub-toc, .toc {
-    font-family: var(--font-family-serif) ! important;
+  .book-hero__blurb, .about-book__copy, .lane-item__blurb, #leanpub-toc, .toc {
+    font-family: var(--font-family-serif) !important;
   }
 }
 
