@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 10.0.0
+@version 11.0.0
 ==/UserStyle== */
 
 /* 
@@ -18,7 +18,7 @@
   @media not all and (min-resolution:.001dpcm) { 
     @media {
       :root {
-        --font-family-sans-serif: -apple-system;
+        --font-family-sans-serif: -apple-system, sans-serif;
         --font-family-serif: "Merriweather", "Iowan Old Style", serif;
       }
     }
@@ -103,4 +103,9 @@
   .title_row a.article_title { font-size: 1.5rem !important; }
   .title_meta { font-size: .75rem !important; }
   .article_inner_item { line-height: 1.5rem; }
+}
+
+@-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
+  #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { font-family: var(--font-family-serif) !important; }
+  [class^="VideoContent-title"] { font-family: inherit !important; }
 }
