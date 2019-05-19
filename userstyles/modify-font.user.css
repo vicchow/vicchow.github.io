@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 11.0.0
+@version 11.0.1
 ==/UserStyle== */
 
 /* 
@@ -10,17 +10,19 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
-@-moz-document url-prefix("http:"), url-prefix("https:") {
+ 
+ 
+ @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
     --font-family-sans-serif: sans-serif;
     --font-family-serif: serif;
   }
+  /* Below rules are applicable to Safari 10.1+ only. */
+  @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap') not all and (min-resolution:.001dpcm);
   @media not all and (min-resolution:.001dpcm) { 
-    @media {
-      :root {
-        --font-family-sans-serif: -apple-system, sans-serif;
-        --font-family-serif: "Merriweather", "Iowan Old Style", serif;
-      }
+    :root {
+      --font-family-sans-serif: -apple-system, sans-serif;
+      --font-family-serif: "Merriweather", "Iowan Old Style", serif;
     }
   }
 }
