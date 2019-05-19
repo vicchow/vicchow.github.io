@@ -24,13 +24,15 @@
 }
 
 @-moz-document domain("hacks.mozilla.org") {
-  .fancy-link, .article a:link, h3 a:link, h2 a:link {
-    background-size: 0 0 !important;
-    border-bottom: 1px solid currentColor;
-  }
-
-  abbr[title] {
-    text-decoration: none !important;
-    border-bottom: 1px dotted currentColor;
+  @media all {
+    .fancy-link, .article a:link, h3 a:link, h2 a:link {
+      background-size: 0 0 !important;
+      border-bottom: 1px solid currentColor;
+    }
+  
+    abbr[title] {
+      text-decoration: none !important;
+      border-bottom: 1px dotted currentColor;
+    }  
   }
 }
