@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 11.0.6
+@version 12.0.0
 ==/UserStyle== */
 
 /* 
@@ -190,4 +190,10 @@
 @-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
   #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { font-family: var(--font-family-serif) !important; }
   [class^="VideoContent-title"] { font-family: inherit !important; }
+}
+
+@-moz-document domain("store.apple.com") {
+  body, input, textarea, button, legend {
+    font-family: var(--font-family-sans-serif) !important;
+  }
 }
