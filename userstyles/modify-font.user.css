@@ -199,5 +199,5 @@
 }
 
 @-moz-document domain("asiamiles.com") {
-  *, * body, body { font-family: "Open Sans", sans-serif !important; }
+  *, * body, body { font-family: "Open Sans", var(--font-family-sans-serif); }
 }
