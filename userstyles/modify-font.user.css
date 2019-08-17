@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 13.0.2
+@version 13.0.3
 ==/UserStyle== */
 
 /* 
@@ -112,7 +112,7 @@
 }
 
 @-moz-document domain("console.aws.amazon.com"), url-prefix("https://console.aws.amazon.com") {
-  * { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
+  * { font-family: "Amazon Ember", var(--font-family-sans-serif); }
 }
 
 @-moz-document domain("www.amazon.com") {
