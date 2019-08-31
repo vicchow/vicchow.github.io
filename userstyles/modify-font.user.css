@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 13.0.4
+@version 13.0.5
 ==/UserStyle== */
 
 /* 
@@ -111,7 +111,7 @@
   * { font-family: var(--font-family-sans-serif) !important; }
 }
 
-@-moz-document domain("console.aws.amazon.com"), url-prefix("https://console.aws.amazon.com") {
+@-moz-document domain("console.aws.amazon.com") {
   * { font-family: "Amazon Ember", var(--font-family-sans-serif); }
 }
 
@@ -150,7 +150,7 @@
 }
 
 @-moz-document domain("leanpub.com") {
-  .book-hero__blurb, .about-book__copy, .featured-book-tagline, .lane-item__blurb, #leanpub-toc, .toc {
+  .book-hero__blurb, .about-book__copy, .featured-book-tagline, .lane-item__blurb, .lane-item__author_blurb, #leanpub-toc, .toc {
     font-family: var(--font-family-serif);
   }
 }
