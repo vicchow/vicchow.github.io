@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 13.1.1
+@version 13.1.2
 ==/UserStyle== */
 
 /* 
@@ -25,7 +25,7 @@
   #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
 }
 
-@-moz-document url-prefix("https://www.google.com"), url-prefix("https://inbox.google.com") {
+@-moz-document url-prefix("https://www.google.com") {
   *, body, td, a, p, .h, .jhp input[type], .gsfi { font-family: var(--font-family-sans-serif); }
 }
 
@@ -93,7 +93,7 @@
 }
 
 @-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
-  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { font-family: var(--font-family-serif) !important; }
+  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content p, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { font-family: var(--font-family-serif) !important; }
   [class^="VideoContent-title"] { font-family: inherit !important; }
 }
 
