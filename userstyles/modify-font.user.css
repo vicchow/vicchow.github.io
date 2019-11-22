@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 14.0.0
+@version 14.0.1
 ==/UserStyle== */
 
 /* 
@@ -68,7 +68,7 @@
   body { font-family: var(--font-family-sans-serif); }
 }
 
-@-moz-document domain("bbc.com") {
+@-moz-document domain("bbc.com"), domain("bbc.co.uk") {
   body { font-family: ReithSans, var(--font-family-sans-serif); }
   .module__title, .content { font-family: ReithSans, var(--font-family-sans-serif); }
 }
