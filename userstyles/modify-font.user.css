@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 14.0.1
+@version 14.0.2
 ==/UserStyle== */
 
 /* 
@@ -198,7 +198,7 @@
     /* */
     :root {
       --font-family-sans-serif: -apple-system, sans-serif;
-      --font-family-serif: "Merriweather", "Iowan Old Style", serif;
+      --font-family-serif: "Charter", "Merriweather", serif;
     }
   }
 }
