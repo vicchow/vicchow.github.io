@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 14.0.3
+@version 14.0.4
 ==/UserStyle== */
 
 /* 
@@ -10,6 +10,7 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
  
 @-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
   * { font-family: var(--font-family-sans-serif) !important; }
@@ -115,8 +116,6 @@
   /* Below rules are applicable to Safari 10.1+ only. */
   @media not all and (min-resolution:.001dpcm) {
     @media {
-      @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
-     
       :root {
         --font-family-sans-serif: -apple-system, sans-serif;
         --font-family-serif: "Merriweather", serif;
