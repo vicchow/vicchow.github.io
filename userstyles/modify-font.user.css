@@ -120,7 +120,7 @@
   @media not all and (min-resolution: .001dpcm) { 
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
-        --font-family-sans-serif: -apple-system;
+        --font-family-sans-serif: system-ui;
         --font-family-serif: serif;
       }
     }
