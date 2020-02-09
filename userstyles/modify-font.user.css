@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 15.0.3
+@version 15.0.4
 ==/UserStyle== */
 
 /* 
@@ -20,7 +20,7 @@
   * { font-family: "Amazon Ember", var(--font-family-sans-serif); }
 }
 
-@-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de") {
+@-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de"), domain("www.amazon.co.uk"), domain("smile.amazon.co.uk") {
   * { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
   #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading { font-family: "Amazon Ember", var(--font-family-sans-serif) !important; }
 }
