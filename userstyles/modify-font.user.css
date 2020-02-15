@@ -57,6 +57,7 @@
     line-height: inherit !important;
   }
   .workshopItemShortDesc {
+    font-size: 12px !important;
     padding-top: 8px !important;
   }
 }
