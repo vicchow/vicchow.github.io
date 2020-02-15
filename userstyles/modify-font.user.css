@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 15.0.4
+@version 15.1.0
 ==/UserStyle== */
 
 /* 
@@ -51,6 +51,12 @@
   body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
   body.v6, .early_access_review, .group_overview_announcement .large_title, .slideshow_item_title { 
     font-family: "Motiva Sans", var(--font-family-sans-serif); 
+  }
+  div.bb_h1 { 
+    font-size: 12px !important;
+  }
+  .workshopItemShortDesc {
+    max-height: 30px !important;
   }
 }
 
