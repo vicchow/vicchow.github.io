@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 15.1.0
+@version 15.1.1
 ==/UserStyle== */
 
 /* 
@@ -54,9 +54,10 @@
   }
   div.bb_h1 { 
     font-size: 12px !important;
+    line-height: inherit !important;
   }
   .workshopItemShortDesc {
-    max-height: 30px !important;
+    padding-top: 8px !important;
   }
 }
 
