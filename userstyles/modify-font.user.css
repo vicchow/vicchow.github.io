@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 15.1.1
+@version 16.0.0
 ==/UserStyle== */
 
 /* 
@@ -11,7 +11,7 @@
  * <patch>: update on rules
  */
 
- @-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
+@-moz-document url-prefix("https://twitter.com"), url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
   * { font-family: var(--font-family-sans-serif) !important; }
   textarea { font-family: monospace !important; }
 }
@@ -119,12 +119,17 @@
   body, button, input, select, textarea { font-family: var(--font-family-sans-serif) !important; }
 }
 
+@-moz-document domain("martinfowler.com") {
+  body { margin: 0 auto; max-width: 1000px; }
+}
+
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
     --font-family-sans-serif: sans-serif;
     --font-family-serif: serif;
   }
-  
+
+  /* Safari specific */
   @media not all and (min-resolution: .001dpcm) { 
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
