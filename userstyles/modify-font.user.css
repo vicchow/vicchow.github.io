@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 16.0.0
+@version 17.0.0
 ==/UserStyle== */
 
 /* 
@@ -121,6 +121,10 @@
 
 @-moz-document domain("martinfowler.com") {
   body { margin: 0 auto; max-width: 1000px; }
+}
+
+@-moz-document domain("viu.tv") {
+  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue { font-size: 48px !important; }
 }
 
 @-moz-document url-prefix("http:"), url-prefix("https:") {
