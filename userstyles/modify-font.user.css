@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 17.1.1
+@version 17.1.2
 ==/UserStyle== */
 
 /* 
@@ -77,7 +77,7 @@
 }
 
 @-moz-document domain("bbc.com"), domain("bbc.co.uk") {
-  body, .module__title, .content, .primary-header-with-context h1, .primary-header-with-context .primary-heading { font-family: ReithSans, var(--font-family-sans-serif); }
+  body, .module__title, .content, .primary-header-with-context h1, .primary-header-with-context .primary-heading, .hero-unit p.introduction { font-family: ReithSans, var(--font-family-sans-serif); }
 }
 
 @-moz-document domain("telegram.org") {
