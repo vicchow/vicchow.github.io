@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 3.1.0
+@version 4.0.0
 ==/UserStyle== */
 
 /* 
@@ -10,11 +10,8 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
-@-moz-document url-prefix("http:"), url-prefix("https:") {
-  a, a *, u { text-decoration: none !important; }
-  a:hover { text-decoration: none; /* filter: opacity(50%); */ }
-}
 
+/* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
     .fancy-link, .article a:link, h3 a:link, h2 a:link {
@@ -27,4 +24,10 @@
       border-bottom: 1px dotted currentColor;
     }  
   }
+}
+
+/* All sites */
+@-moz-document url-prefix("http:"), url-prefix("https:") {
+  a, a *, u { text-decoration: none !important; }
+  a:hover { text-decoration: none; /* filter: opacity(50%); */ }
 }
