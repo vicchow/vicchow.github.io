@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 18.0.0
+@version 18.0.1
 ==/UserStyle== */
 
 /* 
@@ -58,7 +58,7 @@
 
 /* Instapaper */
 @-moz-document url-prefix("https://www.instapaper.com") {
-  body { font-family: var(--font-family-sans-serif) !important; }   
+  body, .article_item_footer { font-family: var(--font-family-sans-serif) !important; }   
   .lyon_mode #footer, .lyon_mode #speedRead, .lyon_mode #story, .lyon_mode #titlebar,
   .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar, 
   .article_preview, .article_item, .title_meta {  
