@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 17.1.3
+@version 17.1.4
 ==/UserStyle== */
 
 /* 
@@ -93,6 +93,7 @@
 }
 
 @-moz-document url-prefix("https://www.instapaper.com") {
+  body, 
   .lyon_mode #footer, .lyon_mode #speedRead, .lyon_mode #story, .lyon_mode #titlebar,
   .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar, 
   .article_preview, .article_item, .title_meta {  
