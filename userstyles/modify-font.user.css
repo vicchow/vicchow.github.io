@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 18.0.1
+@version 19.0.0
 ==/UserStyle== */
 
 /* 
@@ -88,6 +88,11 @@
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com") {
   body { margin: 0 auto; max-width: 1000px; }
+}
+
+/* Medium */
+@-moz-document domain("medium.com") {
+  .uiScale-ui--small .ui-h3 { transform: none !important; }
 }
 
 /* O'Reilly Learning */
