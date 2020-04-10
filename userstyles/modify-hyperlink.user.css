@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 4.0.0
+@version 5.0.0
 ==/UserStyle== */
 
 /* 
@@ -10,6 +10,14 @@
  * <minor>: new rule
  * <patch>: update on rules
  */
+
+/* Medium */
+@-moz-document domain("medium.com") {
+  article a {
+    background-position: 0px calc(1em + 3px) !important;
+    text-shadow: -1px -1px white, -1px 1px white, 1px -1px white, 1px 1px white;
+  }
+}
 
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
