@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 5.0.0
+@version 5.0.1
 ==/UserStyle== */
 
 /* 
@@ -12,7 +12,7 @@
  */
 
 /* Medium */
-@-moz-document domain("medium.com") {
+@-moz-document domain("medium.com"), url-prefix("https://itnext.io") {
   article a {
     background-position: 0px calc(1em + 3px) !important;
     text-shadow: -1px -1px white, -1px 1px white, 1px -1px white, 1px 1px white;
