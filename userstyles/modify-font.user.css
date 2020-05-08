@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 19.0.1
+@version 20.0.0
 ==/UserStyle== */
 
 /* 
@@ -44,6 +44,16 @@
   .context-heading { 
     font-family: ReithSans, var(--font-family-sans-serif); 
   }
+}
+
+/* GitHub */
+@-moz-document domain("github.com") {
+  code, pre, tt, .blob-code-inner { font-family: monospace; }
+}
+
+/* GitLab */
+@-moz-document domain("gitlab.com") {
+  .file-content.code pre code { font-family: monospace; }
 }
 
 /* Google */
