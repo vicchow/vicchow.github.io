@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 20.0.0
+@version 20.0.1
 ==/UserStyle== */
 
 /* 
@@ -106,9 +106,12 @@
 }
 
 /* O'Reilly Learning */
-@-moz-document domain("safaribooksonline.com"), domain("learning.oreilly.com") {
+@-moz-document domain("learning.oreilly.com") {
   #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content p, #sbo-rt-content li, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { 
     font-family: var(--font-family-serif) !important; 
+  }
+  #sbo-rt-content .boxg p, #sbo-rt-content .note p, #sbo-rt-content .note1 p, #sbo-rt-content .sidebar1 p, #sbo-rt-content .tip p, #sbo-rt-content .warning p, #sbo-rt-content div.note p, #sbo-rt-content div.sidebar p, #sbo-rt-content div.tip p, #sbo-rt-content div.warning p {
+    font-family: var(--font-family-sans-serif) !important;
   }
   [class^="VideoContent-title"] { font-family: inherit !important; }
   .content-VideoContent > .content-VideoContent-title { font-family: inherit !important; font-weight: 500; }
