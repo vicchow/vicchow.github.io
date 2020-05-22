@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 20.0.2
+@version 21.0.0
 ==/UserStyle== */
 
 /* 
@@ -106,8 +106,8 @@
 }
 
 /* Now E, ViuTV */
-@-moz-document domain("nowe.com"), domain("viu.tv") {
-  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue { font-size: 48px !important; }
+@-moz-document domain("nowe.com") {
+  .sqp-subtitle-element { font-size: 48px !important; }
 }
 
 /* O'Reilly Learning */
@@ -158,6 +158,11 @@
 /* Telegram */
 @-moz-document domain("telegram.org") {
   body { font-family: var(--font-family-sans-serif); }
+}
+
+/* ViuTV */
+@-moz-document domain("viu.tv") {
+  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue { font-size: 48px !important; }
 }
 
 /* Wikia */
