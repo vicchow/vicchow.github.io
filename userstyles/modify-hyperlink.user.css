@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 5.0.3
+@version 5.1.0
 ==/UserStyle== */
 
 /* 
@@ -12,7 +12,7 @@
  */
 
 /* Medium */
-@-moz-document domain("medium.com"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
+@-moz-document domain("medium.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
   article a {
     background-position: 0px calc(1em + 3px) !important;
     text-shadow: -1px -1px white, -1px 0px white, -1px 1px white, 0px 1px white, 1px 1px white, 1px 0px white, 1px -1px white, 0px -1px white;
