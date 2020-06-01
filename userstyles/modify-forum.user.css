@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-forum
 @namespace vicchow
-@version 2.0.0
+@version 2.1.0
 ==/UserStyle== */
 
 /* 
@@ -13,15 +13,9 @@
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-  div#wp > table:first-child {
-    display: none;
-  }
+  div#wp > table:first-of-type,
+  div#wp td.naclass2, div#wp > table > tbody > tr > td:nth-child(2), 
+  div#vfastpost { display: none; }
 
-  div#wp td.naclass2, div#wp > table > tbody > tr > td:nth-child(2)  {
-    width: 1%;
-  }
-
-  div#wp td.naclass2 > ins, div#wp > table > tbody > tr > td:nth-child(2) > ins {
-    width: 0px !important;
-  }
+  div#wp td.naclass2 > ins, div#wp > table > tbody > tr > td:nth-child(2) > ins { width: 0px !important; }
 }
