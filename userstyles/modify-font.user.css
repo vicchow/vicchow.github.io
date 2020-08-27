@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 21.0.1
+@version 21.0.2
 ==/UserStyle== */
 
 /* 
@@ -165,7 +165,8 @@
   .module a, .module question-hyperlink, .module .answer-hyperlink, 
   .question-summary .question-hyperlink, .topbar-dialog,
   #question-header .question-hyperlink,
-  .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt { 
+  .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt,
+  .s-prose, .comment-copy, .question-status, .excerpt { 
     font-family: var(--font-family-sans-serif) !important;
   }
   code { 
