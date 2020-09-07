@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.2.0
+@version 22.3.0
 ==/UserStyle== */
 
 /* 
@@ -187,6 +187,9 @@
   }
   .tbl_header_left div.border_left_grey, .tbl_header_right div.border_right_grey {
     background-image: none;
+  }
+  .tbl_content_right {
+    font-variant-numeric: tabular-nums;
   }
 }
 
