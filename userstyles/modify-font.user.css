@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.1.0
+@version 22.1.1
 ==/UserStyle== */
 
 /* 
@@ -182,7 +182,7 @@
   .tbl_layout {
     margin: 0 auto;
   }
-  .tbl_listing th, .tbl_content_left, .tbl_content_middle, .tbl_content_right {
+  .tbl_paging td, .tbl_listing th, .tbl_content_left, .tbl_content_middle, .tbl_content_right {
     padding: 5px;
   }
 }
