@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.1.1
+@version 22.2.0
 ==/UserStyle== */
 
 /* 
@@ -184,6 +184,9 @@
   }
   .tbl_paging td, .tbl_listing th, .tbl_content_left, .tbl_content_middle, .tbl_content_right {
     padding: 5px;
+  }
+  .tbl_header_left div.border_left_grey, .tbl_header_right div.border_right_grey {
+    background-image: none;
   }
 }
 
