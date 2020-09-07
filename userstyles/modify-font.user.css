@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.0.2
+@version 22.1.0
 ==/UserStyle== */
 
 /* 
@@ -177,10 +177,13 @@
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk") {
   html, body, form, a, acronym, code, div, hr, img, label, p, pre, span, strong, table, tr, th, td, button, input, select, textarea {
-    font-family: var(--font-family-sans-serif);
+    font-family: var(--font-family-sans-serif)
   }
   .tbl_layout {
     margin: 0 auto;
+  }
+  .tbl_listing th, .tbl_content_left, .tbl_content_middle, .tbl_content_right {
+    padding: 5px;
   }
 }
 
