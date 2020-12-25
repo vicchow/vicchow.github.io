@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-forum
 @namespace vicchow
-@version 2.3.0
+@version 2.4.0
 ==/UserStyle== */
 
 /* 
@@ -13,8 +13,10 @@
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-  body, input, button, select, textarea {
-    font-family: sans-serif;
+  body > table:first-of-type,
+  #ct > table > tbody > tr > td:nth-child(2),
+  .insert_ads {
+    display: none;
   }
 /*
   div#wp > table:first-of-type,
