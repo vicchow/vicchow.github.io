@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-forum
 @namespace vicchow
-@version 2.4.1
+@version 2.4.2
 ==/UserStyle== */
 
 /* 
@@ -16,6 +16,7 @@
   body > table:first-of-type,
   #ct > table > tbody > tr > td:nth-child(2),
   #nv_forum > table > tbody > tr > td:nth-child(2),
+  td.naclass2,
   .insert_ads {
     display: none;
   }
