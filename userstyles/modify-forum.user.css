@@ -20,15 +20,4 @@
   .insert_ads {
     display: none;
   }
-/*
-  div#wp > table:first-of-type,
-  div#wp td.naclass2, div#wp > table > tbody > tr > td:nth-child(2), 
-  div#vfastpost { 
-    display: none; 
-  }
-
-  div#wp td.naclass2 > ins, div#wp > table > tbody > tr > td:nth-child(2) > ins { 
-    width: 0px !important; 
-  }
-*/
 }
