@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 2.1.0
+@version 2.2.0
 ==/UserStyle== */
 
 /*
@@ -33,7 +33,7 @@
 }
 
 /* Jenkins */
-@-moz-document url-prefix("http://tw07.talgroup.com"), url-prefix("http://hdcpcib001.talgroup.com"), domain("jenkins.talgroup.com") {
+@-moz-document url-prefix("http://hdcpcib001.talgroup.com"), domain("jenkins.talgroup.com") {
   body, table, form, input, td, th, p, select { font-family: sans-serif !important; }
   textarea, code, pre, kbd { font-family: monospace !important; }
   .line { font-family: monospace !important; font-size: 1.25em !important; }
@@ -42,9 +42,10 @@
 @-moz-document domain("sharepoint.com"), domain("office.com") {
   .o365cs-topnavText { font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif; }
   .ms-DetailsRow { width: 100% }
+  button { font-family: inherit !important; }
 
-  div[data-item-key^="displayNameColumn"], div[data-automation-key^="displayNameColumn"] { width: 780px !important; }
-  div[data-item-key^="modifiedByColumn"], div[data-automation-key^="modifiedByColumn"] { width: 210px !important; }
+  /* div[data-item-key^="displayNameColumn"], div[data-automation-key^="displayNameColumn"] { width: 700px !important; } */
+  div[data-item-key^="modifiedByColumn"], div[data-automation-key^="modifiedByColumn"] { width: 200px !important; }
 }
 
 /* Nexus */
