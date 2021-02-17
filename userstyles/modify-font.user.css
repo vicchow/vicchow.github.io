@@ -1,10 +1,10 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.4.0
+@version 22.4.1
 ==/UserStyle== */
 
-/* 
+/*
  * Version number convention: <major>.<minor>.<patch>
  * <major>: new section
  * <minor>: new rule or update on section
@@ -13,17 +13,17 @@
 
 /* Amazon */
 @-moz-document domain("console.aws.amazon.com") {
-  * { 
-    font-family: "Amazon Ember", var(--font-family-sans-serif); 
+  * {
+    font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
 }
 
 @-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de"), domain("www.amazon.co.uk"), domain("smile.amazon.co.uk") {
-  * { 
-    font-family: "Amazon Ember", var(--font-family-sans-serif) !important; 
+  * {
+    font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
-  #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading { 
-    font-family: "Amazon Ember", var(--font-family-sans-serif) !important; 
+  #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading {
+    font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
 }
 
@@ -36,79 +36,79 @@
 
 /* Asia Miles */
 @-moz-document domain("asiamiles.com") {
-  *, * body, body { 
-    font-family: "Open Sans", var(--font-family-sans-serif); 
+  *, * body, body {
+    font-family: "Open Sans", var(--font-family-sans-serif);
   }
 }
 
 /* BBC */
 @-moz-document domain("bbc.com"), domain("bbc.co.uk") {
   body, label, select, input,
-  .module__title, .content, 
-  .primary-header-with-context h1, .primary-header-with-context .primary-heading, 
+  .module__title, .content,
+  .primary-header-with-context h1, .primary-header-with-context .primary-heading,
   .hero-unit p.introduction,
   .headed-section .section-title,
   .event-filter.event-filter-promo .promo-unit-location, .event-filter.event-filter-promo .promo-unit-title,
-  .context-heading { 
-    font-family: ReithSans, var(--font-family-sans-serif); 
+  .context-heading {
+    font-family: ReithSans, var(--font-family-sans-serif);
   }
 }
 
 /* GitHub */
 @-moz-document domain("github.com") {
-  code, pre, tt, .blob-code-inner { 
-    font-family: var(--font-family-monospace); 
+  code, pre, tt, .blob-code-inner {
+    font-family: var(--font-family-monospace);
   }
 }
 
 /* GitLab */
 @-moz-document domain("gitlab.com") {
-  .file-content.code pre code { 
-    font-family: var(--font-family-monospace); 
+  .file-content.code pre code {
+    font-family: var(--font-family-monospace);
   }
 }
 
 /* Google */
 @-moz-document url-prefix("https://www.google.com") {
-  *, body, td, a, p, .h, .jhp input[type], .gsfi { 
-    font-family: var(--font-family-sans-serif); 
+  *, body, td, a, p, .h, .jhp input[type], .gsfi {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-  html, body, #meta-nav, .rsp h1, .rsp h3 { 
-    font-family: var(--font-family-sans-serif); 
+  html, body, #meta-nav, .rsp h1, .rsp h3 {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
 /* Instapaper */
 @-moz-document url-prefix("https://www.instapaper.com") {
-  body, .article_item_footer { font-family: var(--font-family-sans-serif) !important; }   
+  body, .article_item_footer { font-family: var(--font-family-sans-serif) !important; }
   .lyon_mode #footer, .lyon_mode #speedRead, .lyon_mode #story, .lyon_mode #titlebar,
-  .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar, 
-  .article_preview, .article_item, .title_meta {  
+  .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar,
+  .article_preview, .article_item, .title_meta {
     font-family: var(--font-family-serif) !important;
   }
-  h1, .title_row a.article_title { 
+  h1, .title_row a.article_title {
     font-family: var(--font-family-sans-serif) !important;
     font-weight: bold !important;
   }
-  .title_row a.article_title { 
-    font-size: 1.5rem !important; 
+  .title_row a.article_title {
+    font-size: 1.5rem !important;
   }
-  .title_meta { 
-    font-size: .75rem !important; 
+  .title_meta {
+    font-size: .75rem !important;
   }
-  .article_inner_item { 
-    line-height: 1.5rem; 
+  .article_inner_item {
+    line-height: 1.5rem;
   }
 }
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
-  body, button, input, select, textarea { 
-    font-family: var(--font-family-sans-serif) !important; 
+  body, button, input, select, textarea {
+    font-family: var(--font-family-sans-serif) !important;
   }
 }
 
@@ -121,29 +121,29 @@
 
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com") {
-  body { 
-    margin: 0 auto; max-width: 1000px; 
+  body {
+    margin: 0 auto; max-width: 1000px;
   }
 }
 
 /* Medium */
 @-moz-document domain("medium.com") {
-  .uiScale-ui--small .ui-h3 { 
-    transform: none !important; 
+  .uiScale-ui--small .ui-h3 {
+    transform: none !important;
   }
 }
 
 /* Now E */
 @-moz-document domain("nowe.com") {
-  .sqp-subtitle-element { 
-    font-size: 48px !important; 
+  .sqp-subtitle-element {
+    font-size: 48px !important;
   }
 }
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content p, #sbo-rt-content li, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent { 
-    font-family: var(--font-family-serif) !important; 
+  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content p, #sbo-rt-content li, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent {
+    font-family: var(--font-family-serif) !important;
   }
   #sbo-rt-content .boxg p, #sbo-rt-content .note p, #sbo-rt-content .note1 p, #sbo-rt-content .sidebar1 p, #sbo-rt-content .tip p, #sbo-rt-content .warning p, #sbo-rt-content div.note p, #sbo-rt-content div.sidebar p, #sbo-rt-content div.tip p, #sbo-rt-content div.warning p {
     font-family: var(--font-family-sans-serif) !important;
@@ -154,23 +154,23 @@
 
 /* Pinboard */
 @-moz-document domain("pinboard.in") {
-  textarea { 
-    font-size: 12px; 
+  textarea {
+    font-size: 12px;
   }
 }
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-  html, body, 
-  .module a, .module question-hyperlink, .module .answer-hyperlink, 
+  html, body,
+  .module a, .module question-hyperlink, .module .answer-hyperlink,
   .question-summary .question-hyperlink, .topbar-dialog,
   #question-header .question-hyperlink,
   .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt,
-  .s-prose, .comment-copy, .question-status, .excerpt { 
+  .s-prose, .comment-copy, .question-status, .excerpt {
     font-family: var(--font-family-sans-serif) !important;
   }
-  code { 
-    font-family: var(--font-family-monospace); 
+  code {
+    font-family: var(--font-family-monospace);
   }
 }
 
@@ -196,10 +196,10 @@
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
   body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
-  body.v6, .early_access_review, .group_overview_announcement .large_title, .slideshow_item_title { 
-    font-family: "Motiva Sans", var(--font-family-sans-serif); 
+  body.v6, .early_access_review, .group_overview_announcement .large_title, .slideshow_item_title {
+    font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
-  div.bb_h1 { 
+  div.bb_h1 {
     font-size: 12px !important;
     line-height: inherit !important;
   }
@@ -213,38 +213,38 @@
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
-  body { 
-    font-family: var(--font-family-sans-serif); 
+  body {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
-  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue { 
-    font-size: 48px !important; 
+  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue {
+    font-size: 48px !important;
   }
 }
 
 /* Wikia */
 @-moz-document domain("wikia.com") {
-  body { 
-    font-family: var(--font-family-sans-serif); 
+  body {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
 /* Multiple sites */
 @-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("https://twitter.com") {
-  * { 
-    font-family: var(--font-family-sans-serif) !important; 
+  * {
+    font-family: var(--font-family-sans-serif) !important;
   }
-  textarea { 
-    font-family: var(--font-family-monospace) !important; 
+  textarea {
+    font-family: var(--font-family-monospace) !important;
   }
 }
 
 @-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
-  body, button, html, input, select, textarea, .button { 
-    font-family: var(--font-family-sans-serif); 
+  body, button, html, input, select, textarea, .button {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
@@ -257,7 +257,7 @@
   }
 
   /* Safari specific */
-  @media not all and (min-resolution: .001dpcm) { 
+  @media not all and (min-resolution: .001dpcm) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
         --font-family-sans-serif: system-ui;
