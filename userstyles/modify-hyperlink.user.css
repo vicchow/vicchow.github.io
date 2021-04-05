@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 5.1.4
+@version 5.1.5
 ==/UserStyle== */
 
 /* 
@@ -14,8 +14,6 @@
 /* Medium */
 @-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
   article a {
-    /* background-position: 0px calc(1em + 3px) !important;
-    text-shadow: -1px -1px white, -1px 0px white, -1px 1px white, 0px 1px white, 1px 1px white, 1px 0px white, 1px -1px white, 0px -1px white; */
     text-underline-offset: var(--underline-offset);
   }
 }
@@ -24,14 +22,10 @@
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
     .fancy-link, .article a:link, h3 a:link, h2 a:link {
-      /* background-size: 0 0 !important;
-      border-bottom: 1px solid currentColor; */
       text-underline-offset: var(--underline-offset);
     }
   
     abbr[title] {
-      /* text-decoration: none !important;
-      border-bottom: 1px dotted currentColor; */
       text-underline-offset: var(--underline-offset);
     }  
   }
@@ -44,10 +38,6 @@
   }
   
   a, a *, u { 
-    /* text-decoration: none !important; */
     text-underline-offset: var(--underline-offset);
   }
-  /* a:hover { 
-    text-decoration: none;
-  } */
 }
