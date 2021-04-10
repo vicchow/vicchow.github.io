@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.4.1
+@version 22.5.0
 ==/UserStyle== */
 
 /*
@@ -233,7 +233,7 @@
 }
 
 /* Multiple sites */
-@-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("https://twitter.com") {
+@-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("asusrt.home"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("https://twitter.com") {
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
