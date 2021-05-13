@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 22.5.0
+@version 22.6.0
 ==/UserStyle== */
 
 /*
@@ -24,6 +24,9 @@
   }
   #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
+  }
+  #navbar.nav-bluebeacon #nav-xshop #nav-pldn-org-name {
+    height: 14px;
   }
 }
 
