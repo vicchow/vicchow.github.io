@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.0.1
+@version 23.0.2
 ==/UserStyle== */
 
 /*
@@ -117,7 +117,8 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-  .book-hero__blurb, .about-book__copy, .featured-book-tagline, .profile__blurb, .lane-item__blurb, .lane-item__author_blurb, #leanpub-toc, .toc {
+  .book-hero__blurb, .about-book__copy, .featured-book-tagline, .profile__blurb, .lane-item__blurb, .lane-item__author_blurb, #leanpub-toc, .toc,
+  .bundle-hero__titles a, .about-bundle__blurb {
     font-family: var(--font-family-serif);
   }
 }
