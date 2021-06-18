@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.0.2
+@version 23.0.3
 ==/UserStyle== */
 
 /*
@@ -146,7 +146,7 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content p, #sbo-rt-content li, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent {
+  #sbo-reader .sbo-reader-content, #sbo-rt-content, #sbo-rt-content div, #sbo-rt-content li, #sbo-rt-content h1, #sbo-rt-content h2, #sbo-rt-content h3, #sbo-rt-content h4, #sbo-rt-content h5, #sbo-rt-content h6, #sbo-rt-content p, #sbo-rt-content blockquote, #sbo-rt-content blockquote p, #sbo-rt-content .heading-1, #sbo-rt-content .heading-3, #sbo-rt-content .paragraph-head, #sbo-rt-content .cn-chapter-number, #sbo-rt-content .title_document, #sbo-rt-content .fm_title_document, #sbo-rt-content .box_title, #sbo-rt-content .chaptertitle, #sbo-rt-content .chapterTitle, #sbo-rt-content .chapterNumber, #sbo-rt-content .packt_para, #sbo-rt-content .calibre4, #sbo-rt-content .noindent, #sbo-rt-content .indent, #sbo-rt-content .note p, #sbo-rt-content .blockquote p {
     font-family: var(--font-family-serif) !important;
   }
   #sbo-rt-content .boxg p, #sbo-rt-content .note p, #sbo-rt-content .note1 p, #sbo-rt-content .sidebar1 p, #sbo-rt-content .tip p, #sbo-rt-content .warning p, #sbo-rt-content div.note p, #sbo-rt-content div.sidebar p, #sbo-rt-content div.tip p, #sbo-rt-content div.warning p {
