@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.0.5
+@version 23.1.0
 ==/UserStyle== */
 
 /*
@@ -131,7 +131,8 @@
 }
 
 /* Instapaper */
-@-moz-document url-prefix("https://www.instapaper.com") {
+@-moz-document url-prefix("https://www.instapaper.com")
+{
   body,
   .article_item_footer {
     font-family: var(--font-family-sans-serif) !important;
@@ -271,6 +272,20 @@
   #book-content #sbo-rt-content div.tip p,
   #book-content #sbo-rt-content div.warning p {
     font-family: var(--font-family-sans-serif) !important;
+  }
+
+  #sbo-rt-content kbd,
+  #sbo-rt-content .packt_action {
+    font-size: 1em !important;
+  }
+
+  #book-content #sbo-rt-content pre,
+  #book-content #sbo-rt-content .pre,
+  #book-content #sbo-rt-content p.pre,
+  #book-content #sbo-rt-content .pre1,
+  #book-content #sbo-rt-content .pre-ex,
+  #book-content #sbo-rt-content .pre_w {
+    font-family: var(--font-family-monospace) !important;
   }
 
   [class^="VideoContent-title"] {
