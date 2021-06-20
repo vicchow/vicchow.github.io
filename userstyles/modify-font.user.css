@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.0.4
+@version 23.0.5
 ==/UserStyle== */
 
 /*
@@ -22,9 +22,27 @@
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
-  #AUI_A9AdsMiddleBoxTop h2, #customer-reviews_feature_div h2, #customerReviewsHeader, #detailpage-click2call-header, #hmdFormDiv h2, #need-help-deciding .secHeader, #pf-fitment-wrapper h2, #revMHLContainer h2, #reviewBucketHeader, #rhfMainHeading, #sponsored-products-dp_feature_div h2, .bucket h2, .cdInlineAskBoxTitle, .cdQuestionAnswerHeader, .pa_componentTitleTest h2, h2.amtcmp, h2.featureHeading {
+
+  #AUI_A9AdsMiddleBoxTop h2,
+  #customer-reviews_feature_div h2,
+  #customerReviewsHeader,
+  #detailpage-click2call-header,
+  #hmdFormDiv h2,
+  #need-help-deciding .secHeader,
+  #pf-fitment-wrapper h2,
+  #revMHLContainer h2,
+  #reviewBucketHeader,
+  #rhfMainHeading,
+  #sponsored-products-dp_feature_div h2,
+  .bucket h2,
+  .cdInlineAskBoxTitle,
+  .cdQuestionAnswerHeader,
+  .pa_componentTitleTest h2,
+  h2.amtcmp,
+  h2.featureHeading {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
+
   #navbar.nav-bluebeacon #nav-xshop #nav-pldn-org-name {
     height: 14px;
   }
@@ -32,26 +50,38 @@
 
 /* Apple */
 @-moz-document domain("store.apple.com") {
-  body, input, textarea, button, legend {
+  body,
+  input,
+  textarea,
+  button,
+  legend {
     font-family: var(--font-family-sans-serif) !important;
   }
 }
 
 /* Asia Miles */
 @-moz-document domain("asiamiles.com") {
-  *, * body, body {
+  *,
+  * body,
+  body {
     font-family: "Open Sans", var(--font-family-sans-serif);
   }
 }
 
 /* BBC */
 @-moz-document domain("bbc.com"), domain("bbc.co.uk") {
-  body, label, select, input,
-  .module__title, .content,
-  .primary-header-with-context h1, .primary-header-with-context .primary-heading,
+  body,
+  label,
+  select,
+  input,
+  .module__title,
+  .content,
+  .primary-header-with-context h1,
+  .primary-header-with-context .primary-heading,
   .hero-unit p.introduction,
   .headed-section .section-title,
-  .event-filter.event-filter-promo .promo-unit-location, .event-filter.event-filter-promo .promo-unit-title,
+  .event-filter.event-filter-promo .promo-unit-location,
+  .event-filter.event-filter-promo .promo-unit-title,
   .context-heading {
     font-family: ReithSans, var(--font-family-sans-serif);
   }
@@ -59,7 +89,10 @@
 
 /* GitHub */
 @-moz-document domain("github.com") {
-  code, pre, tt, .blob-code-inner {
+  code,
+  pre,
+  tt,
+  .blob-code-inner {
     font-family: var(--font-family-monospace);
   }
 }
@@ -72,37 +105,66 @@
 }
 
 /* Google */
-@-moz-document url-prefix("https://www.google.com") {
-  *, body, td, a, p, .h, .jhp input[type], .gsfi {
+@-moz-document url-prefix("https://www.google.com")
+{
+  *,
+  body,
+  td,
+  a,
+  p,
+  .h,
+  .jhp input[type],
+  .gsfi {
     font-family: var(--font-family-sans-serif);
   }
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-  html, body, #meta-nav, .rsp h1, .rsp h3 {
+  html,
+  body,
+  #meta-nav,
+  .rsp h1,
+  .rsp h3 {
     font-family: var(--font-family-sans-serif);
   }
 }
 
 /* Instapaper */
 @-moz-document url-prefix("https://www.instapaper.com") {
-  body, .article_item_footer { font-family: var(--font-family-sans-serif) !important; }
-  .lyon_mode #footer, .lyon_mode #speedRead, .lyon_mode #story, .lyon_mode #titlebar,
-  .tisa_mode #footer, .tisa_mode #speedRead, .tisa_mode #story, .tisa_mode #titlebar,
-  .article_preview, .article_item, .title_meta {
+  body,
+  .article_item_footer {
+    font-family: var(--font-family-sans-serif) !important;
+  }
+
+  .lyon_mode #footer,
+  .lyon_mode #speedRead,
+  .lyon_mode #story,
+  .lyon_mode #titlebar,
+  .tisa_mode #footer,
+  .tisa_mode #speedRead,
+  .tisa_mode #story,
+  .tisa_mode #titlebar,
+  .article_preview,
+  .article_item,
+  .title_meta {
     font-family: var(--font-family-serif) !important;
   }
-  h1, .title_row a.article_title {
+
+  h1,
+  .title_row a.article_title {
     font-family: var(--font-family-sans-serif) !important;
     font-weight: bold !important;
   }
+
   .title_row a.article_title {
     font-size: 1.5rem !important;
   }
+
   .title_meta {
-    font-size: .75rem !important;
+    font-size: 0.75rem !important;
   }
+
   .article_inner_item {
     line-height: 1.5rem;
   }
@@ -110,15 +172,27 @@
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
-  body, button, input, select, textarea {
+  body,
+  button,
+  input,
+  select,
+  textarea {
     font-family: var(--font-family-sans-serif) !important;
   }
 }
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-  .book-hero__blurb, .about-book__copy, .featured-book-tagline, .profile__blurb, .lane-item__blurb, .lane-item__author_blurb, #leanpub-toc, .toc,
-  .bundle-hero__titles a, .about-bundle__blurb {
+  .book-hero__blurb,
+  .about-book__copy,
+  .featured-book-tagline,
+  .profile__blurb,
+  .lane-item__blurb,
+  .lane-item__author_blurb,
+  #leanpub-toc,
+  .toc,
+  .bundle-hero__titles a,
+  .about-bundle__blurb {
     font-family: var(--font-family-serif);
   }
 }
@@ -126,7 +200,8 @@
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com") {
   body {
-    margin: 0 auto; max-width: 1000px;
+    margin: 0 auto;
+    max-width: 1000px;
   }
 }
 
@@ -146,45 +221,65 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-  #sbo-reader .sbo-reader-content, 
-  #book-content #sbo-rt-content, 
-  #book-content #sbo-rt-content div, 
-  #book-content #sbo-rt-content li, 
-  #book-content #sbo-rt-content h1, 
-  #book-content #sbo-rt-content h2, 
-  #book-content #sbo-rt-content h3, 
-  #book-content #sbo-rt-content h4, 
-  #book-content #sbo-rt-content h5, 
-  #book-content #sbo-rt-content h6, 
-  #book-content #sbo-rt-content p, 
-  #book-content #sbo-rt-content blockquote, 
-  #book-content #sbo-rt-content blockquote p, 
-  #book-content #sbo-rt-content .heading-1, 
-  #book-content #sbo-rt-content .heading-3, 
-  #book-content #sbo-rt-content .paragraph-head, 
-  #book-content #sbo-rt-content .cn-chapter-number, 
-  #book-content #sbo-rt-content .title_document, 
-  #book-content #sbo-rt-content .fm_title_document, 
-  #book-content #sbo-rt-content .box_title, 
-  #book-content #sbo-rt-content .chaptertitle, 
-  #book-content #sbo-rt-content .chapterTitle, 
+  #sbo-reader .sbo-reader-content,
+  #book-content #sbo-rt-content,
+  #book-content #sbo-rt-content a,
+  #book-content #sbo-rt-content a:link,
+  #book-content #sbo-rt-content a:visited,
+  #book-content #sbo-rt-content div,
+  #book-content #sbo-rt-content li,
+  #book-content #sbo-rt-content ul li,
+  #book-content #sbo-rt-content ol li,
+  #book-content #sbo-rt-content ul li p,
+  #book-content #sbo-rt-content ol li p,
+  #book-content #sbo-rt-content h1,
+  #book-content #sbo-rt-content h2,
+  #book-content #sbo-rt-content h3,
+  #book-content #sbo-rt-content h4,
+  #book-content #sbo-rt-content h5,
+  #book-content #sbo-rt-content h6,
+  #book-content #sbo-rt-content p,
+  #book-content #sbo-rt-content blockquote,
+  #book-content #sbo-rt-content blockquote p,
+  #book-content #sbo-rt-content .heading-1,
+  #book-content #sbo-rt-content .heading-3,
+  #book-content #sbo-rt-content .paragraph-head,
+  #book-content #sbo-rt-content .cn-chapter-number,
+  #book-content #sbo-rt-content .title_document,
+  #book-content #sbo-rt-content .fm_title_document,
+  #book-content #sbo-rt-content .box_title,
+  #book-content #sbo-rt-content .chaptertitle,
+  #book-content #sbo-rt-content .chapterTitle,
   #book-content #sbo-rt-content .chapterNumber,
-  #book-content #sbo-rt-content .packt_para, 
-  #book-content #sbo-rt-content .calibre4, 
-  #book-content #sbo-rt-content .noindent, 
+  #book-content #sbo-rt-content .packt_para,
+  #book-content #sbo-rt-content .calibre4,
+  #book-content #sbo-rt-content .noindent,
   #book-content #sbo-rt-content .indent,
-  #book-content #sbo-rt-content .note p, 
+  #book-content #sbo-rt-content .note p,
   #book-content #sbo-rt-content .blockquote p {
     font-family: var(--font-family-serif) !important;
   }
-  #book-content #sbo-rt-content .boxg p, #book-content #sbo-rt-content .note p, #book-content #sbo-rt-content .note1 p, #book-content #sbo-rt-content .sidebar1 p, #book-content #sbo-rt-content .tip p, #book-content #sbo-rt-content .warning p, #book-content #sbo-rt-content div.note p, #book-content #sbo-rt-content div.sidebar p, #book-content #sbo-rt-content div.tip p, #book-content #sbo-rt-content div.warning p {
+
+  #book-content #sbo-rt-content .boxg p,
+  #book-content #sbo-rt-content .note p,
+  #book-content #sbo-rt-content .note1 p,
+  #book-content #sbo-rt-content .sidebar1 p,
+  #book-content #sbo-rt-content .tip p,
+  #book-content #sbo-rt-content .warning p,
+  #book-content #sbo-rt-content div.note p,
+  #book-content #sbo-rt-content div.sidebar p,
+  #book-content #sbo-rt-content div.tip p,
+  #book-content #sbo-rt-content div.warning p {
     font-family: var(--font-family-sans-serif) !important;
   }
-  [class^="VideoContent-title"] { 
-    font-family: inherit !important; 
+
+  [class^="VideoContent-title"] {
+    font-family: inherit !important;
   }
-  .content-VideoContent > .content-VideoContent-title { 
-    font-family: inherit !important; font-weight: 500; 
+
+  .content-VideoContent > .content-VideoContent-title {
+    font-family: inherit !important;
+    font-weight: 500;
   }
 }
 
@@ -197,21 +292,34 @@
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
-  body, div {
+  body,
+  div {
     font-family: sans-serif;
   }
 }
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-  html, body,
-  .module a, .module question-hyperlink, .module .answer-hyperlink,
-  .question-summary .question-hyperlink, .topbar-dialog,
+  html,
+  body,
+  .module a,
+  .module question-hyperlink,
+  .module .answer-hyperlink,
+  .question-summary .question-hyperlink,
+  .topbar-dialog,
   #question-header .question-hyperlink,
-  .post-text, .wmd-preview, .comment-copy, .question-status, .excerpt,
-  .s-prose, .comment-copy, .question-status, .excerpt {
+  .post-text,
+  .wmd-preview,
+  .comment-copy,
+  .question-status,
+  .excerpt,
+  .s-prose,
+  .comment-copy,
+  .question-status,
+  .excerpt {
     font-family: var(--font-family-sans-serif) !important;
   }
+
   code {
     font-family: var(--font-family-monospace);
   }
@@ -219,18 +327,48 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
-  html, body, form, a, acronym, code, div, hr, img, label, p, pre, span, strong, table, tr, th, td, button, input, select, textarea {
-    font-family: var(--font-family-sans-serif)
+  html,
+  body,
+  form,
+  a,
+  acronym,
+  code,
+  div,
+  hr,
+  img,
+  label,
+  p,
+  pre,
+  span,
+  strong,
+  table,
+  tr,
+  th,
+  td,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: var(--font-family-sans-serif);
   }
+
   .tbl_layout {
     margin: 0 auto;
   }
-  .tbl_paging td, .tbl_listing th, .tbl_content_left, .tbl_content_middle, .tbl_content_right {
+
+  .tbl_paging td,
+  .tbl_listing th,
+  .tbl_content_left,
+  .tbl_content_middle,
+  .tbl_content_right {
     padding: 5px;
   }
-  .tbl_header_left div.border_left_grey, .tbl_header_right div.border_right_grey {
+
+  .tbl_header_left div.border_left_grey,
+  .tbl_header_right div.border_right_grey {
     background-image: none;
   }
+
   .tbl_content_right {
     font-variant-numeric: tabular-nums;
   }
@@ -238,15 +376,28 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-  body, textarea, .community_home_subtitle, .workshopItemTitle, .dynamiclink_box, .apphub_CardContentDiscussionTitle,
-  body.v6, .early_access_review, .group_overview_announcement .large_title, .slideshow_item_title {
+  body,
+  textarea,
+  .community_home_subtitle,
+  .workshopItemTitle,
+  .dynamiclink_box,
+  .apphub_CardContentDiscussionTitle,
+  body.v6,
+  .early_access_review,
+  .group_overview_announcement .large_title,
+  .slideshow_item_title {
     font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
+
   div.bb_h1 {
     font-size: 12px !important;
     line-height: inherit !important;
   }
-  .collectionItem .workshopItemTitle { padding-top: 6px !important; }
+
+  .collectionItem .workshopItemTitle {
+    padding-top: 6px !important;
+  }
+
   .workshopItemShortDesc {
     font-size: 12px !important;
     padding-top: 8px !important;
@@ -263,7 +414,10 @@
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
-  .jw-captions, .jw-text-track-cue, .jw-video::-webkit-media-text-track-display, .jw-video::cue {
+  .jw-captions,
+  .jw-text-track-cue,
+  .jw-video::-webkit-media-text-track-display,
+  .jw-video::cue {
     font-size: 48px !important;
   }
 }
@@ -276,17 +430,31 @@
 }
 
 /* Multiple sites */
-@-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), domain("asusrt.home"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net"), url-prefix("https://twitter.com") {
+@-moz-document url-prefix("http://router.asus.com"),
+  url-prefix("https://vicchow.asuscomm.com"),
+  domain("asusrt.home"),
+  domain("backpackers.com.tw"),
+  domain("pinboard.in"),
+  domain("hkitalk.net"),
+  url-prefix("https://twitter.com")
+{
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
+
   textarea {
     font-family: var(--font-family-monospace) !important;
   }
 }
 
 @-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
-  body, button, html, input, select, textarea, .button {
+  body,
+  button,
+  html,
+  input,
+  select,
+  textarea,
+  .button {
     font-family: var(--font-family-sans-serif);
   }
 }
@@ -300,7 +468,7 @@
   }
 
   /* Safari specific */
-  @media not all and (min-resolution: .001dpcm) {
+  @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
         --font-family-sans-serif: system-ui;
