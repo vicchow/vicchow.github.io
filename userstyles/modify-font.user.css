@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.1.1
+@version 23.1.2
 ==/UserStyle== */
 
 /*
@@ -223,6 +223,7 @@
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
   #sbo-reader .sbo-reader-content,
+  #sbo-rt-content,
   #book-content #sbo-rt-content,
   #book-content #sbo-rt-content a,
   #book-content #sbo-rt-content a:link,
