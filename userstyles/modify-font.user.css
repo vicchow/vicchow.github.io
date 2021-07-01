@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 23.1.2
+@version 24.0.0
 ==/UserStyle== */
 
 /*
@@ -425,6 +425,13 @@
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
+  body {
+    font-family: var(--font-family-sans-serif);
+  }
+}
+
+/* TMTP */
+@-moz-document domain("www.tmtp.com.hk") {
   body {
     font-family: var(--font-family-sans-serif);
   }
