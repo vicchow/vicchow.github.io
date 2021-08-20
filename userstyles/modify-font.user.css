@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.0
+@version 26.0.1
 ==/UserStyle== */
 
 /*
@@ -439,7 +439,8 @@
 
 /* The Verge */
 @-moz-document domain("theverge.com") {
-  body {
+  body,
+  .c-global-header__login-menu {
     font-family: var(--font-family-sans-serif);
   }
 }
