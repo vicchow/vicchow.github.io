@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.2
+@version 26.0.3
 ==/UserStyle== */
 
 /*
@@ -113,7 +113,7 @@
   a,
   p,
   .h,
-  .jhp input[type],
+  .lJ9FBc input[type],
   .gsfi {
     font-family: var(--font-family-sans-serif);
   }
