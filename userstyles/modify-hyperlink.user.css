@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 5.1.5
+@version 6.0.0
 ==/UserStyle== */
 
 /* 
@@ -10,6 +10,13 @@
  * <minor>: new rule or update on section
  * <patch>: update on rule
  */
+
+/* Google */
+@-moz-document domain("docs.google.com") {
+  :not(.docs-title-save-label-disabled) > .docs-title-save-label-text-link {
+    text-underline-offset: var(--underline-offset);
+  }
+}
 
 /* Medium */
 @-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
