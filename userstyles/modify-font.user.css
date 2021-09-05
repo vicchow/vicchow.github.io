@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.3
+@version 26.0.4
 ==/UserStyle== */
 
 /*
@@ -38,6 +38,10 @@
   .cdInlineAskBoxTitle,
   .cdQuestionAnswerHeader,
   .pa_componentTitleTest h2,
+  .merchbarW a,
+  .merchbarW span,
+  .merchbarW .shoveler-header,
+  .price,
   h2.amtcmp,
   h2.featureHeading {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
