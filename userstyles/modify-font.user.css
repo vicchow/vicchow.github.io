@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.7
+@version 26.0.8
 ==/UserStyle== */
 
 /*
@@ -22,7 +22,7 @@
   }
 }
 
-@-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de"), domain("www.amazon.co.uk"), domain("smile.amazon.co.uk") {
+@-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de"), domain("www.amazon.co.uk"), domain("smile.amazon.co.uk"), domain("awscli.amazonaws.com") {
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
