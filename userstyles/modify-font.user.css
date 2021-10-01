@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.4
+@version 26.0.5
 ==/UserStyle== */
 
 /*
@@ -447,7 +447,8 @@
   .c-byline,
   .c-entry-content,
   .c-global-header__login-menu,
-  .c-related-list ul {
+  .c-related-list ul,
+  .l-feature {
     font-family: var(--font-family-sans-serif);
   }
 }
