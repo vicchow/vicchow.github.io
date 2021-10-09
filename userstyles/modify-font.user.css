@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 27.1.1
+@version 27.1.2
 ==/UserStyle== */
 
 /*
@@ -328,6 +328,7 @@
   div.body h6,
   form.inline-search input,
   div.sphinxsidebar input,
+  div.sphinxsidebar h3,
   body {
     font-family: var(--font-family-sans-serif);
   }
