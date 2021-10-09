@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 27.0.0
+@version 27.1.0
 ==/UserStyle== */
 
 /*
@@ -318,7 +318,8 @@
   }
 }
 
-@-moz-document domain("docs.python.org"), domain("packaging.python.org") {
+/* Python */
+@-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
   div.body h1,
   div.body h2,
   div.body h3,
