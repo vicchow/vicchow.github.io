@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 26.0.9
+@version 27.0.0
 ==/UserStyle== */
 
 /*
@@ -12,8 +12,8 @@
  */
 
 /* Load web fonts */
-@import url('//fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url("//fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Google+Sans&display=swap");
 
 /* Amazon */
 @-moz-document domain("console.aws.amazon.com") {
@@ -113,11 +113,12 @@
 }
 
 /* Google */
-@-moz-document url-prefix("https://www.google.com") {
+@-moz-document url-prefix("https://www.google.com")
+{
   *,
   body,
   button,
-  input, 
+  input,
   td,
   a,
   p,
@@ -314,6 +315,20 @@
 @-moz-document domain("pinboard.in") {
   textarea {
     font-size: 12px;
+  }
+}
+
+@-moz-document domain("docs.python.org"), domain("packaging.python.org") {
+  div.body h1,
+  div.body h2,
+  div.body h3,
+  div.body h4,
+  div.body h5,
+  div.body h6,
+  form.inline-search input,
+  div.sphinxsidebar input,
+  body {
+    font-family: sans-serif;
   }
 }
 
