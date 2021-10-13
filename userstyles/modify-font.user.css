@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 27.1.2
+@version 27.2.0
 ==/UserStyle== */
 
 /*
@@ -12,8 +12,9 @@
  */
 
 /* Load web fonts */
-@import url("//fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("//fonts.googleapis.com/css2?family=Google+Sans&display=swap");
+@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Amazon */
 @-moz-document domain("console.aws.amazon.com") {
@@ -540,7 +541,7 @@
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
         --font-family-sans-serif: system-ui;
-        --font-family-serif: serif;
+        --font-family-serif: 'Merriweather';
         -webkit-font-smoothing: antialiased;
       }
     }
