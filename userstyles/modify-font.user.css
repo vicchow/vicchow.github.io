@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 27.2.0
+@version 28.0.0
 ==/UserStyle== */
 
 /*
@@ -221,6 +221,16 @@
 @-moz-document domain("medium.com") {
   .uiScale-ui--small .ui-h3 {
     transform: none !important;
+  }
+}
+
+/* Mozilla */
+@-moz-document domain("hacks.mozilla.org") {
+  .fancy-link, .article a:link, h3 a:link, h2 a:link {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: inherit;
   }
 }
 
