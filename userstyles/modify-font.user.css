@@ -345,6 +345,19 @@
   }
 }
 
+@-moz-document domain("pypi.org") {
+  a {
+    background-position: inherit;
+    background-repeat: inherit;
+    background-image: none;
+    text-decoration: none;
+  }
+  a:hover {
+    background-image: none;
+    text-decoration: underline;
+  }
+}
+
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
   body,
