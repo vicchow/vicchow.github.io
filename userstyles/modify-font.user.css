@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 29.0.0
+@version 29.0.1
 ==/UserStyle== */
 
 /*
@@ -563,9 +563,9 @@
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
-        --font-family-sans-serif: system-ui;
+        --font-family-sans-serif: system-ui, -apple-system;
         --font-family-serif: 'Merriweather';
-        -webkit-font-smoothing: antialiased;
+        /* -webkit-font-smoothing: antialiased; */
       }
     }
   }
