@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 29.1.0
+@version 29.1.1
 ==/UserStyle== */
 
 /*
@@ -12,9 +12,9 @@
  */
 
 /* Load web fonts */
-@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("//fonts.googleapis.com/css2?family=Google+Sans&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* Amazon */
 @-moz-document domain("console.aws.amazon.com") {
@@ -56,7 +56,12 @@
     height: 14px;
   }
 
-  div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 {
+  div.body h1,
+  div.body h2,
+  div.body h3,
+  div.body h4,
+  div.body h5,
+  div.body h6 {
     font-family: var(--font-family-sans-serif);
   }
 }
@@ -83,6 +88,10 @@
 
 /* BBC */
 @-moz-document domain("bbc.com"), domain("bbc.co.uk") {
+  html > body #orb-modules {
+    font-family: var(--bbc-font);
+  }
+
   body,
   label,
   select,
@@ -230,7 +239,10 @@
 
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
-  .fancy-link, .article a:link, h3 a:link, h2 a:link {
+  .fancy-link,
+  .article a:link,
+  h3 a:link,
+  h2 a:link {
     background-image: none;
     background-repeat: no-repeat;
     background-size: auto;
@@ -568,7 +580,7 @@
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
         --font-family-sans-serif: system-ui, -apple-system;
-        --font-family-serif: 'Merriweather';
+        --font-family-serif: "Merriweather";
         /* -webkit-font-smoothing: antialiased; */
       }
     }
