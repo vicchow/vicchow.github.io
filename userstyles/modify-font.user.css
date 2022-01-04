@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 29.1.4
+@version 30.0.0
 ==/UserStyle== */
 
 /*
@@ -257,6 +257,20 @@
 @-moz-document domain("nowe.com") {
   .sqp-subtitle-element {
     font-size: 48px !important;
+  }
+}
+
+/* NVIDIA */
+@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/") {
+  .ww_skin_toc_entry,
+  div.WebWorks_MiniTOC,
+  div.Body_Text, caption.Body_Text,
+  div.List_Bullet, caption.List_Bullet,
+  div.Cell_Heading, caption.Cell_Heading,
+  div.Cell_Text, caption.Cell_Text,
+  h2.Heading_2, div.Heading_2, caption.Heading_2,
+  span.Strong, span.Strong a, span.Strong a:active, abbreviation.Strong, abbreviation.Strong a, abbreviation.Strong a:active, acronym.Strong, acronym.Strong a, acronym.Strong a:active, citation.Strong, citation.Strong a, citation.Strong a:active {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
