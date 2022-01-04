@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.0.0
+@version 30.0.1
 ==/UserStyle== */
 
 /*
@@ -266,8 +266,11 @@
   div.WebWorks_MiniTOC,
   div.Body_Text, caption.Body_Text,
   div.List_Bullet, caption.List_Bullet,
+  div.List_Continue, caption.List_Continue,
   div.Cell_Heading, caption.Cell_Heading,
   div.Cell_Text, caption.Cell_Text,
+  div.Heading_5, caption.Heading_5,
+  h1.Heading_1, div.Heading_1, caption.Heading_1,
   h2.Heading_2, div.Heading_2, caption.Heading_2,
   span.Strong, span.Strong a, span.Strong a:active, abbreviation.Strong, abbreviation.Strong a, abbreviation.Strong a:active, acronym.Strong, acronym.Strong a, acronym.Strong a:active, citation.Strong, citation.Strong a, citation.Strong a:active {
     font-family: var(--font-family-sans-serif);
