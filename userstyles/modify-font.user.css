@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.0.2
+@version 30.0.3
 ==/UserStyle== */
 
 /*
@@ -260,6 +260,7 @@
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+  html, body,
   .ww_skin_toc_entry,
   div.WebWorks_MiniTOC,
   div.Body_Text, caption.Body_Text,
