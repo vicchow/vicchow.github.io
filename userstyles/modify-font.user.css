@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.0.3
+@version 30.0.4
 ==/UserStyle== */
 
 /*
@@ -139,8 +139,10 @@
   p,
   .h,
   .lJ9FBc input[type],
+  .gb_0b,
   .gsfi, 
-  .MBeuO {
+  .MBeuO,
+  .ZwRhJd {
     font-family: var(--font-family-sans-serif);
   }
 }
