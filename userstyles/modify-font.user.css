@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.0.5
+@version 30.1.0
 ==/UserStyle== */
 
 /*
@@ -141,7 +141,6 @@
   .lJ9FBc input[type],
   .gb_0b,
   .gsfi, 
-  .JCHpcb,
   .MBeuO,
   .ZwRhJd {
     font-family: var(--font-family-sans-serif);
@@ -515,6 +514,10 @@
     font-size: 12px !important;
     padding-top: 8px !important;
     white-space: normal !important;
+  }
+
+  .wishlist_row .tag {
+    line-height: 13px;
   }
 }
 
