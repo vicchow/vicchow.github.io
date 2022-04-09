@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.1.0
+@version 30.2.0
 ==/UserStyle== */
 
 /*
@@ -567,6 +567,7 @@
 /* Multiple sites */
 @-moz-document url-prefix("http://router.asus.com"),
   url-prefix("https://vicchow.asuscomm.com"),
+  url-prefix("https://192.168.1.1:8443"),
   domain("asusrt.home"),
   domain("backpackers.com.tw"),
   domain("pinboard.in"),
