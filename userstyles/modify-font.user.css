@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.2.0
+@version 30.2.1
 ==/UserStyle== */
 
 /*
@@ -299,6 +299,7 @@
   #book-content #sbo-rt-content h5,
   #book-content #sbo-rt-content h6,
   #book-content #sbo-rt-content p,
+  #book-content #sbo-rt-content dt,
   #book-content #sbo-rt-content blockquote,
   #book-content #sbo-rt-content blockquote p,
   #book-content #sbo-rt-content table p,
