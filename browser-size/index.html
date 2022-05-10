@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Browser Size</title>
-    <style>
-      @media (prefers-color-scheme: dark) {
-        body {
-          filter: invert(90%) hue-rotate(25deg);
-          background-color: #333;
-        }
-      }
 
+<head>
+  <title>Browser Size</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
       body {
-        font-family: sans-serif;
-        font-size: 10pt;
+        filter: invert(90%) hue-rotate(25deg);
+        background-color: #333;
       }
+    }
 
-      li {
-        line-height: 1.5;
-      }
+    body {
+      font-family: sans-serif;
+      font-size: 10pt;
+    }
 
-      li img {
-        vertical-align: middle;
-      }
-    </style>
-    <script>
-      function updateBrowserSizeOutput() {
-        const heightOutput = document.querySelector("#height");
-        const widthOutput = document.querySelector("#width");
+    li {
+      line-height: 1.5;
+    }
 
-        heightOutput.textContent = window.innerHeight;
-        widthOutput.textContent = window.innerWidth;
-      }
+    li img {
+      vertical-align: middle;
+    }
+  </style>
+  <script>
+    function updateBrowserSizeOutput() {
+      const heightOutput = document.querySelector("#height");
+      const widthOutput = document.querySelector("#width");
 
-      window.addEventListener("resize", updateBrowserSizeOutput);
+      heightOutput.textContent = window.innerHeight;
+      widthOutput.textContent = window.innerWidth;
+    }
+
+    window.addEventListener("resize", (event) => {
       updateBrowserSizeOutput();
-    </script>
-  </head>
+    });
+    window.addEventListener("DOMContentLoaded", (event) => {
+      updateBrowserSizeOutput();
+    });
+  </script>
+</head>
 
-  <body>
-    Browser display content size: <span id="height"></span> px x <span id="width"></span> px.
-  </body>
+<body>
+  Browser content size (w x h): <span id="width"></span> px x <span id="height"></span> px.
+</body>
+
 </html>
