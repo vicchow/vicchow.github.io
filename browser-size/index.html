@@ -24,10 +24,10 @@
       }
     </style>
     <script>
-      const heightOutput = document.querySelector("#height");
-      const widthOutput = document.querySelector("#width");
+      function updateBrowserSizeOutput(heightOutput, widthOutput) {
+        const heightOutput = document.querySelector("#height");
+        const widthOutput = document.querySelector("#width");
 
-      function updateBrowserSizeOutput() {
         heightOutput.textContent = window.innerHeight;
         widthOutput.textContent = window.innerWidth;
       }
