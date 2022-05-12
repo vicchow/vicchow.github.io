@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 30.2.1
+@version 31.0.0
 ==/UserStyle== */
 
 /*
@@ -89,7 +89,7 @@
 }
 
 /* BBC */
-@-moz-document domain("bbc.com"), domain("bbc.co.uk") {
+/* @-moz-document domain("bbc.com"), domain("bbc.co.uk") {
   html > body #orb-modules {
     font-family: var(--bbc-font);
   }
@@ -109,7 +109,7 @@
   .context-heading {
     font-family: ReithSans, var(--font-family-sans-serif);
   }
-}
+} */
 
 /* GitHub */
 @-moz-document domain("github.com") {
