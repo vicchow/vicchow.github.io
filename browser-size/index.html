@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Browser Size</title>
-  <style>
-    @media (prefers-color-scheme: dark) {
-      body {
-        filter: invert(90%) hue-rotate(25deg);
-        background-color: #333;
+  <head>
+    <title>Browser Size</title>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body {
+          filter: invert(90%) hue-rotate(25deg);
+          background-color: #333;
+        }
       }
-    }
 
-    body {
-      font-family: sans-serif;
-      font-size: 10pt;
-    }
+      @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@0;1&display=swap");
 
-    li {
-      line-height: 1.5;
-    }
+      body {
+        font-family: "Atkinson Hyperlegible", sans-serif;
+        font-size: 10pt;
+      }
 
-    li img {
-      vertical-align: middle;
-    }
-  </style>
-  <script>
-    function updateBrowserSizeOutput() {
-      const heightOutput = document.querySelector("#height");
-      const widthOutput = document.querySelector("#width");
+      li {
+        line-height: 1.5;
+      }
 
-      heightOutput.textContent = window.innerHeight;
-      widthOutput.textContent = window.innerWidth;
-    }
+      li img {
+        vertical-align: middle;
+      }
+    </style>
+    <script>
+      function updateBrowserSizeOutput() {
+        const heightOutput = document.querySelector("#height");
+        const widthOutput = document.querySelector("#width");
 
-    window.addEventListener("resize", (event) => {
-      updateBrowserSizeOutput();
-    });
-    window.addEventListener("DOMContentLoaded", (event) => {
-      updateBrowserSizeOutput();
-    });
-  </script>
-</head>
+        heightOutput.textContent = window.innerHeight;
+        widthOutput.textContent = window.innerWidth;
+      }
 
-<body>
-  Browser content size (w x h): <span id="width"></span> px x <span id="height"></span> px.
-</body>
+      window.addEventListener("resize", (event) => {
+        updateBrowserSizeOutput();
+      });
+      window.addEventListener("DOMContentLoaded", (event) => {
+        updateBrowserSizeOutput();
+      });
+    </script>
+  </head>
 
+  <body>
+    Browser content size (w x h): <span id="width"></span> px x <span id="height"></span> px.
+  </body>
 </html>
