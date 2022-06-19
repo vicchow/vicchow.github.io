@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@0;1&display=swap");
+
+@media (prefers-color-scheme: dark) {
+  body {
+    filter: invert(90%) hue-rotate(25deg);
+    background-color: #333;
+  }
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+article {
+  width: 960px;
+  max-width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+li img {
+  vertical-align: middle;
+}
+
+.sans-serif {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+.serif {
+  font-family: serif;
+}
