@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 33.1.0
+@version 34.0.0
 ==/UserStyle== */
 
 /*
@@ -541,18 +541,6 @@
 /* Telegram */
 @-moz-document domain("telegram.org") {
   body {
-    font-family: var(--font-family-sans-serif);
-  }
-}
-
-/* The Verge */
-@-moz-document domain("theverge.com") {
-  body,
-  .c-byline,
-  .c-entry-content,
-  .c-global-header__login-menu,
-  .c-related-list ul,
-  .l-feature {
     font-family: var(--font-family-sans-serif);
   }
 }
