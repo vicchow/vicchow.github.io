@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.0.0
+@version 37.1.0
 ==/UserStyle== */
 
 /*
@@ -539,6 +539,10 @@
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
+  #page-manager.ytd-app {
+    margin-left: 0;
+  }
+
   #items.ytd-mini-guide-renderer {
     display: none;
   }
@@ -547,6 +551,7 @@
     ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
     }
+
     ytd-browse-feed-actions-renderer.ytd-two-column-browse-results-renderer {
       width: 275px;
     }
