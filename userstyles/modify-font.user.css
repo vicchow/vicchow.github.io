@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 36.0.0
+@version 37.0.0
 ==/UserStyle== */
 
 /*
@@ -534,6 +534,22 @@
 @-moz-document domain("wikia.com") {
   body {
     font-family: var(--font-family-sans-serif);
+  }
+}
+
+/* YouTube */
+@-moz-document domain("www.youtube.com") {
+  #items.ytd-mini-guide-renderer {
+    display: none;
+  }
+
+  @media (min-width: 876px) {
+    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
+      padding-right: 332px;
+    }
+    ytd-browse-feed-actions-renderer.ytd-two-column-browse-results-renderer {
+      width: 275px;
+    }
   }
 }
 
