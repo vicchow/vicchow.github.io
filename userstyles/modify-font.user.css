@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.1.0
+@version 37.1.1
 ==/UserStyle== */
 
 /*
@@ -543,7 +543,7 @@
     margin-left: 0;
   }
 
-  #items.ytd-mini-guide-renderer {
+  ytd-mini-guide-renderer {
     display: none;
   }
 
