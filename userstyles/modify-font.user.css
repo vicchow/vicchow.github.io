@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.1.1
+@version 37.2.0
 ==/UserStyle== */
 
 /*
@@ -545,6 +545,10 @@
 
   ytd-mini-guide-renderer {
     display: none;
+  }
+
+  ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse, ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+    left: 0;
   }
 
   @media (min-width: 876px) {
