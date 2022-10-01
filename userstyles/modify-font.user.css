@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 35.0.0
+@version 36.0.0
 ==/UserStyle== */
 
 /*
@@ -339,6 +339,15 @@
 @-moz-document domain("pinboard.in") {
   textarea {
     font-size: 12px;
+  }
+}
+
+/* PTT */
+@-moz-document url-prefix("https://www.ptt.cc/bbs") {
+  .bbs-content {
+    font-family: monospace;
+    line-height: 150%;
+    width: 95%;
   }
 }
 
