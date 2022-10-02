@@ -539,16 +539,17 @@
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
-  #page-manager.ytd-app {
-    margin-left: 0;
-  }
-
-  ytd-mini-guide-renderer {
+  ytd-mini-guide-renderer.ytd-app {
     display: none;
   }
 
-  ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse, ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
+  ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse, 
+  ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
     left: 0;
+  }
+
+  ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
+    margin-left: auto
   }
 
   @media (min-width: 876px) {
