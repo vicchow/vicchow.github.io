@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.2.0
+@version 37.2.1
 ==/UserStyle== */
 
 /*
@@ -552,6 +552,7 @@
     margin-left: auto
   }
 
+  /* Playlist */
   @media (min-width: 876px) {
     ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
