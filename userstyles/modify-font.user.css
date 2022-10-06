@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.3.2
+@version 37.3.3
 ==/UserStyle== */
 
 /*
@@ -126,7 +126,7 @@
   .lJ9FBc input[type],
   .MBeuO,
   .tNxQIb,
-  .wHYlTd
+  .wHYlTd,
   .ZnExKf,
   .ZwRhJd {
     font-family: var(--font-family-sans-serif);
@@ -166,8 +166,7 @@
   #leanpub-toc,
   .toc,
   .bundle-hero__titles a,
-  .about-bundle__blurb,
-  .wHYlTd {
+  .about-bundle__blurb {
     font-family: var(--font-family-serif);
   }
 }
