@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.7
+@version 37.5.8
 ==/UserStyle== */
 
 /*
@@ -601,6 +601,7 @@
   #video-title.ytd-rich-grid-media,
   #video-title.ytd-rich-grid-slim-media,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
+  yt-formatted-string.ytd-menu-navigation-item-renderer,
   yt-formatted-string.ytd-menu-service-item-download-renderer,
   yt-formatted-string.ytd-menu-service-item-renderer,
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
@@ -616,6 +617,7 @@
   ytd-rich-list-header-renderer[is-modern-sd] #title.ytd-rich-list-header-renderer,
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer,
   ytd-text-header-renderer,
+  ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name.ytd-video-owner-renderer,
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer {
     font-family: "YouTube Sans", var(--font-family-sans-serif);
