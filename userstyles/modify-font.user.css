@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.6
+@version 37.5.7
 ==/UserStyle== */
 
 /*
@@ -599,6 +599,7 @@
   #video-title.ytd-grid-movie-renderer,
   #video-title.ytd-playlist-video-renderer,
   #video-title.ytd-rich-grid-media,
+  #video-title.ytd-rich-grid-slim-media,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string.ytd-menu-service-item-download-renderer,
   yt-formatted-string.ytd-menu-service-item-renderer,
@@ -611,6 +612,7 @@
   ytd-guide-section-renderer[guide-refresh] #guide-section-title.ytd-guide-section-renderer,
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4.ytd-macro-markers-list-item-renderer,
   ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media,
+  ytd-rich-grid-slim-media[mini-mode] #video-title.ytd-rich-grid-slim-media,
   ytd-rich-list-header-renderer[is-modern-sd] #title.ytd-rich-list-header-renderer,
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer,
   ytd-text-header-renderer,
