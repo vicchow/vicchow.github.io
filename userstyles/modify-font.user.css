@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.1
+@version 37.5.2
 ==/UserStyle== */
 
 /*
@@ -549,18 +549,46 @@
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
   *,
+  html,
   .less-button.ytd-comment-renderer,
   .more-button.ytd-comment-renderer, 
+  .promo-title.ytd-background-promo-renderer,
+  .subheadline.ytd-channel-about-metadata-renderer,
   .title.ytd-guide-entry-renderer,
+  #aside-text.ytd-settings-radio-option-renderer,
+  #bio.ytd-channel-about-metadata-renderer,
   #content-text.ytd-comment-renderer,
+  #description-text.ytd-video-renderer,
+  #description.ytd-channel-about-metadata-renderer, 
   #label.ytd-compact-link-renderer,
+  #label.ytd-dropdown-item-renderer,
+  #label.ytd-profile-column-stats-entry-renderer,
+  #label.ytd-settings-checkbox-renderer,
+  #label.ytd-settings-radio-option-renderer, 
+  #label.ytd-toggle-theme-compact-link-renderer,
   #name.ytd-page-introduction-renderer,
+  #primary-links.ytd-c4-tabbed-header-renderer yt-formatted-string.ytd-c4-tabbed-header-renderer,
+  #search-input.ytd-searchbox-spt input,
+  #subscriber-count.ytd-c4-tabbed-header-renderer,
+  #subtitle.ytd-compact-link-renderer,
   #subtitle.ytd-item-section-header-renderer,
+  #subtitle.ytd-settings-switch-renderer,
+  #text.ytd-connected-app-renderer,
+  #text.ytd-page-introduction-renderer,
+  #text.ytd-settings-options-renderer,
+  #title.ytd-connected-app-renderer,
   #title.ytd-page-introduction-renderer,
+  #title.ytd-profile-column-user-info-renderer,
   #title.ytd-settings-options-renderer,
+  #title.ytd-settings-switch-renderer,
   #video-title.ytd-compact-video-renderer,
   #video-title.ytd-playlist-video-renderer,
+  #video-title.ytd-rich-grid-media,
+  yt-formatted-string.ytd-menu-service-item-renderer,
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
+  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden] + #primary-text-container.ytd-compact-link-renderer > #label.ytd-compact-link-renderer,
+  ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
+  ytd-guide-entry-renderer[active] .title.ytd-guide-entry-renderer,
   ytd-guide-section-renderer[guide-refresh] #guide-section-title.ytd-guide-section-renderer,
   ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media {
     font-family: "YouTube Sans", var(--font-family-sans-serif);
