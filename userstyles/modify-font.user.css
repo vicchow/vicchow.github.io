@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.12
+@version 37.5.13
 ==/UserStyle== */
 
 /*
@@ -583,6 +583,7 @@
   #subtitle.ytd-compact-link-renderer,
   #subtitle.ytd-item-section-header-renderer,
   #subtitle.ytd-rich-list-header-renderer,
+  #subtitle.ytd-rich-shelf-renderer,
   #subtitle.ytd-settings-switch-renderer,
   #subtitle.ytd-shelf-renderer,
   #subtitle.ytd-topic-channel-details-renderer,
@@ -595,6 +596,7 @@
   #title.ytd-grid-channel-renderer,
   #title.ytd-page-introduction-renderer,
   #title.ytd-profile-column-user-info-renderer,
+  #title.ytd-rich-shelf-renderer,
   #title.ytd-settings-options-renderer,
   #title.ytd-settings-switch-renderer,
   #title.ytd-shelf-renderer,
@@ -607,6 +609,7 @@
   #video-title.ytd-rich-grid-media,
   #video-title.ytd-rich-grid-slim-media,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
+  yt-formatted-string.ytd-game-details-renderer,
   yt-formatted-string.ytd-menu-navigation-item-renderer,
   yt-formatted-string.ytd-menu-service-item-download-renderer,
   yt-formatted-string.ytd-menu-service-item-renderer,
