@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.3
+@version 37.5.4
 ==/UserStyle== */
 
 /*
@@ -550,6 +550,7 @@
 @-moz-document domain("www.youtube.com") {
   *,
   html,
+  .grid-movie-renderer-metadata.ytd-grid-movie-renderer,
   .less-button.ytd-comment-renderer,
   .more-button.ytd-comment-renderer, 
   .promo-body-text.ytd-background-promo-renderer,
@@ -567,34 +568,45 @@
   #label.ytd-settings-checkbox-renderer,
   #label.ytd-settings-radio-option-renderer, 
   #label.ytd-toggle-theme-compact-link-renderer,
+  #message.ytd-message-renderer,
   #name.ytd-page-introduction-renderer,
   #primary-links.ytd-c4-tabbed-header-renderer yt-formatted-string.ytd-c4-tabbed-header-renderer,
   #search-input.ytd-searchbox-spt input,
   #subscriber-count.ytd-c4-tabbed-header-renderer,
   #subtitle.ytd-compact-link-renderer,
   #subtitle.ytd-item-section-header-renderer,
+  #subtitle.ytd-rich-list-header-renderer,
   #subtitle.ytd-settings-switch-renderer,
+  #subtitle.ytd-topic-channel-details-renderer,
   #text.ytd-connected-app-renderer,
   #text.ytd-notification-multi-action-renderer,
   #text.ytd-page-introduction-renderer,
   #text.ytd-settings-options-renderer,
+  #thumbnail-attribution.ytd-grid-channel-renderer,
   #title.ytd-connected-app-renderer,
+  #title.ytd-grid-channel-renderer,
   #title.ytd-page-introduction-renderer,
   #title.ytd-profile-column-user-info-renderer,
   #title.ytd-settings-options-renderer,
   #title.ytd-settings-switch-renderer,
+  #title.ytd-shelf-renderer,
   #title.ytd-sub-feed-selector-renderer,
+  #title.ytd-topic-channel-details-renderer,
   #video-title.ytd-compact-video-renderer,
+  #video-title.ytd-grid-movie-renderer,
   #video-title.ytd-playlist-video-renderer,
   #video-title.ytd-rich-grid-media,
   yt-formatted-string.ytd-menu-service-item-download-renderer,
   yt-formatted-string.ytd-menu-service-item-renderer,
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer, ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer,
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer, ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer,
   ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden] + #primary-text-container.ytd-compact-link-renderer > #label.ytd-compact-link-renderer,
   ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
   ytd-guide-entry-renderer[active] .title.ytd-guide-entry-renderer,
   ytd-guide-section-renderer[guide-refresh] #guide-section-title.ytd-guide-section-renderer,
   ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media,
+  ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer,
   ytd-text-header-renderer {
     font-family: "YouTube Sans", var(--font-family-sans-serif);
   }
