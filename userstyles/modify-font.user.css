@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.11
+@version 37.5.12
 ==/UserStyle== */
 
 /*
@@ -566,6 +566,7 @@
   #content-text.ytd-comment-renderer,
   #description-text.ytd-video-renderer,
   #description.ytd-channel-about-metadata-renderer,
+  #description.ytd-playlist-sidebar-primary-info-renderer,
   #label.ytd-compact-link-renderer,
   #label.ytd-dropdown-item-renderer,
   #label.ytd-profile-column-stats-entry-renderer,
@@ -600,6 +601,7 @@
   #title.ytd-sub-feed-selector-renderer,
   #title.ytd-topic-channel-details-renderer,
   #video-title.ytd-compact-video-renderer,
+  #video-title.ytd-grid-playlist-renderer,
   #video-title.ytd-grid-movie-renderer,
   #video-title.ytd-playlist-video-renderer,
   #video-title.ytd-rich-grid-media,
