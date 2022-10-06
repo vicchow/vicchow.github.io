@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.0
+@version 37.5.1
 ==/UserStyle== */
 
 /*
@@ -548,7 +548,21 @@
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
-  * {
+  *,
+  .less-button.ytd-comment-renderer,
+  .more-button.ytd-comment-renderer, 
+  .title.ytd-guide-entry-renderer,
+  #content-text.ytd-comment-renderer,
+  #label.ytd-compact-link-renderer,
+  #name.ytd-page-introduction-renderer,
+  #subtitle.ytd-item-section-header-renderer,
+  #title.ytd-page-introduction-renderer,
+  #title.ytd-settings-options-renderer,
+  #video-title.ytd-compact-video-renderer,
+  #video-title.ytd-playlist-video-renderer,
+  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
+  ytd-guide-section-renderer[guide-refresh] #guide-section-title.ytd-guide-section-renderer,
+  ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media {
     font-family: "YouTube Sans", var(--font-family-sans-serif);
   }
 
