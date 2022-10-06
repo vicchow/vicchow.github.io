@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.4
+@version 37.5.5
 ==/UserStyle== */
 
 /*
@@ -550,6 +550,7 @@
 @-moz-document domain("www.youtube.com") {
   *,
   html,
+  .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata.ytd-grid-movie-renderer,
   .less-button.ytd-comment-renderer,
   .more-button.ytd-comment-renderer, 
@@ -570,8 +571,10 @@
   #label.ytd-toggle-theme-compact-link-renderer,
   #message.ytd-message-renderer,
   #name.ytd-page-introduction-renderer,
+  #next-label.ytd-playlist-panel-renderer,
   #primary-links.ytd-c4-tabbed-header-renderer yt-formatted-string.ytd-c4-tabbed-header-renderer,
   #search-input.ytd-searchbox-spt input,
+  #simplebox-placeholder.ytd-comment-simplebox-renderer,
   #subscriber-count.ytd-c4-tabbed-header-renderer,
   #subtitle.ytd-compact-link-renderer,
   #subtitle.ytd-item-section-header-renderer,
@@ -596,6 +599,7 @@
   #video-title.ytd-grid-movie-renderer,
   #video-title.ytd-playlist-video-renderer,
   #video-title.ytd-rich-grid-media,
+  tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string.ytd-menu-service-item-download-renderer,
   yt-formatted-string.ytd-menu-service-item-renderer,
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
@@ -605,9 +609,12 @@
   ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
   ytd-guide-entry-renderer[active] .title.ytd-guide-entry-renderer,
   ytd-guide-section-renderer[guide-refresh] #guide-section-title.ytd-guide-section-renderer,
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4.ytd-macro-markers-list-item-renderer,
   ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media,
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title.ytd-rich-list-header-renderer,
-  ytd-text-header-renderer {
+  ytd-text-header-renderer,
+  ytd-video-owner-renderer[modern-metapanel] #channel-name.ytd-video-owner-renderer,
+  ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer {
     font-family: "YouTube Sans", var(--font-family-sans-serif);
   }
 
