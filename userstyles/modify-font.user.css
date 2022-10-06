@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.3.1
+@version 37.3.2
 ==/UserStyle== */
 
 /*
@@ -119,13 +119,16 @@
   a,
   p,
   .dG2XIf,
-  .h,
-  .lJ9FBc input[type],
   .gb_0b,
   .gLFyf,
   .gsfi,
-  .ZwRhJd,
-  .wHYlTd {
+  .h,
+  .lJ9FBc input[type],
+  .MBeuO,
+  .tNxQIb,
+  .wHYlTd
+  .ZnExKf,
+  .ZwRhJd {
     font-family: var(--font-family-sans-serif);
   }
 }
