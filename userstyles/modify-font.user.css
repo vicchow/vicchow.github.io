@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.4.1
+@version 37.5.0
 ==/UserStyle== */
 
 /*
@@ -132,13 +132,6 @@
   .wx62f,
   .ZwRhJd {
     font-family: "Google Sans Text", var(--font-family-sans-serif);
-  }
-
-  .ZnExKf {
-    font: 400 14px/20px "Google Sans Text", var(--font-family-sans-serif);
-  }
-  .zpoCob {
-    font: 400 12px/16px "Google Sans Text", var(--font-family-sans-serif);
   }
 }
 
@@ -555,6 +548,10 @@
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
+  * {
+    font-family: "YouTube Sans", var(--font-family-sans-serif);
+  }
+
   ytd-mini-guide-renderer.ytd-app {
     display: none;
   }
