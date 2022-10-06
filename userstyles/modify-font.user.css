@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.10
+@version 37.5.11
 ==/UserStyle== */
 
 /*
@@ -552,22 +552,25 @@
   html,
   .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata.ytd-grid-movie-renderer,
+  .less-button.ytd-backstage-post-renderer,
   .less-button.ytd-comment-renderer,
-  .more-button.ytd-comment-renderer, 
+  .more-button.ytd-backstage-post-renderer,
+  .more-button.ytd-comment-renderer,
   .promo-body-text.ytd-background-promo-renderer,
   .promo-title.ytd-background-promo-renderer,
   .subheadline.ytd-channel-about-metadata-renderer,
   .title.ytd-guide-entry-renderer,
   #aside-text.ytd-settings-radio-option-renderer,
   #bio.ytd-channel-about-metadata-renderer,
+  #content-text.ytd-backstage-post-renderer,
   #content-text.ytd-comment-renderer,
   #description-text.ytd-video-renderer,
-  #description.ytd-channel-about-metadata-renderer, 
+  #description.ytd-channel-about-metadata-renderer,
   #label.ytd-compact-link-renderer,
   #label.ytd-dropdown-item-renderer,
   #label.ytd-profile-column-stats-entry-renderer,
   #label.ytd-settings-checkbox-renderer,
-  #label.ytd-settings-radio-option-renderer, 
+  #label.ytd-settings-radio-option-renderer,
   #label.ytd-toggle-theme-compact-link-renderer,
   #message.ytd-message-renderer,
   #name.ytd-page-introduction-renderer,
@@ -580,6 +583,7 @@
   #subtitle.ytd-item-section-header-renderer,
   #subtitle.ytd-rich-list-header-renderer,
   #subtitle.ytd-settings-switch-renderer,
+  #subtitle.ytd-shelf-renderer,
   #subtitle.ytd-topic-channel-details-renderer,
   #text.ytd-connected-app-renderer,
   #text.ytd-notification-multi-action-renderer,
