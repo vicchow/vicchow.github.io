@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.9
+@version 37.5.10
 ==/UserStyle== */
 
 /*
@@ -620,7 +620,7 @@
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name.ytd-video-owner-renderer,
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer {
-    font-family: "YouTube Sans", var(--font-family-sans-serif);
+    font-family: "Google Sans", "YouTube Sans", var(--font-family-sans-serif);
   }
 
   ytd-mini-guide-renderer.ytd-app {
