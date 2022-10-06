@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.4.0
+@version 37.4.1
 ==/UserStyle== */
 
 /*
@@ -126,12 +126,19 @@
   .h,
   .lJ9FBc input[type],
   .MBeuO,
+  .Rq5Gcb,
   .tNxQIb,
   .wHYlTd,
   .wx62f,
-  .ZnExKf,
   .ZwRhJd {
     font-family: "Google Sans Text", var(--font-family-sans-serif);
+  }
+
+  .ZnExKf {
+    font: 400 14px/20px "Google Sans Text", var(--font-family-sans-serif);
+  }
+  .zpoCob {
+    font: 400 12px/16px "Google Sans Text", var(--font-family-sans-serif);
   }
 }
 
@@ -552,7 +559,7 @@
     display: none;
   }
 
-  ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse, 
+  ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse,
   ytd-browse[mini-guide-visible] ytd-playlist-sidebar-renderer.ytd-browse {
     left: 0;
   }
@@ -611,10 +618,10 @@
   }
 
   /* Safari specific */
-  @media not all and (min-resolution: 0.001dpcm) {
+  @media not all and (min-resolution: .001dpcm) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
       :root {
-        --font-family-sans-serif: "Source Sans 3", sans-serif, system-ui, -apple-system;
+        --font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
         --font-family-serif: "Source Serif 4", serif;
       }
 
