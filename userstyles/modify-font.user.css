@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.14
+@version 36.0.0
 ==/UserStyle== */
 
 /*
@@ -71,7 +71,7 @@
 }
 
 /* Apple */
-@-moz-document domain("store.apple.com") {
+/* @-moz-document domain("store.apple.com") {
   body,
   input,
   textarea,
@@ -79,16 +79,16 @@
   legend {
     font-family: var(--font-family-sans-serif) !important;
   }
-}
+} */
 
 /* Asia Miles */
-@-moz-document domain("asiamiles.com") {
+/* @-moz-document domain("asiamiles.com") {
   *,
   * body,
   body {
     font-family: "Open Sans", var(--font-family-sans-serif);
   }
-}
+} */
 
 /* GitHub */
 @-moz-document domain("github.com") {
@@ -182,11 +182,11 @@
 }
 
 /* Medium */
-@-moz-document domain("medium.com") {
+/* @-moz-document domain("medium.com") {
   .uiScale-ui--small .ui-h3 {
     transform: none !important;
   }
-}
+} */
 
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
@@ -552,18 +552,21 @@
   html,
   .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata.ytd-grid-movie-renderer,
-  .less-button.ytd-backstage-post-renderer,
-  .less-button.ytd-comment-renderer,
-  .more-button.ytd-backstage-post-renderer,
-  .more-button.ytd-comment-renderer,
+  /* .less-button.ytd-backstage-post-renderer,
+  .less-button.ytd-comment-renderer, */
+  .less-button[class$=renderer],
+  /* .more-button.ytd-backstage-post-renderer,
+  .more-button.ytd-comment-renderer, */
+  .more-button[class$=renderer],
   .promo-body-text.ytd-background-promo-renderer,
   .promo-title.ytd-background-promo-renderer,
   .subheadline.ytd-channel-about-metadata-renderer,
   .title.ytd-guide-entry-renderer,
   #aside-text.ytd-settings-radio-option-renderer,
   #bio.ytd-channel-about-metadata-renderer,
-  #content-text.ytd-backstage-post-renderer,
-  #content-text.ytd-comment-renderer,
+  /* #content-text.ytd-backstage-post-renderer,
+  #content-text.ytd-comment-renderer, */
+  #content-text[class$=renderer],
   /* #description-text.ytd-video-renderer,
   #description.ytd-channel-about-metadata-renderer,
   #description.ytd-playlist-sidebar-primary-info-renderer, */
@@ -612,8 +615,9 @@
   #video-title.ytd-grid-movie-renderer,
   #video-title.ytd-playlist-video-renderer, */
   #video-title[class$=-renderer],
-  #video-title.ytd-rich-grid-media,
-  #video-title.ytd-rich-grid-slim-media,
+  /* #video-title.ytd-rich-grid-media,
+  #video-title.ytd-rich-grid-slim-media, */
+  #video-title[class$=-media],
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   /* yt-formatted-string.ytd-game-details-renderer,
   yt-formatted-string.ytd-menu-navigation-item-renderer,
