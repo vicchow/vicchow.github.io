@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-hyperlink
 @namespace vicchow
-@version 7.0.0
+@version 8.0.0
 ==/UserStyle== */
 
 /* 
@@ -13,7 +13,8 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("smile.amazon.com"), domain("www.amazon.de"), domain("smile.amazon.de"), domain("www.amazon.co.uk"), domain("smile.amazon.co.uk"), domain("awscli.amazonaws.com") {
-  .s-underline-text.s-underline-link-text, .s-underline-text {
+  .s-underline-text,
+  .s-underline-text.s-underline-link-text {
     text-decoration: none;
   }
 }

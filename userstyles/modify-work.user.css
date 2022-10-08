@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 2.2.0
+@version 3.0.0
 ==/UserStyle== */
 
 /*
@@ -13,47 +13,91 @@
 
 /* GitLab */
 @-moz-document domain("git.talgroup.com") {
-  :root { --font-family-monospace: monospace; }
+  :root {
+    --font-family-monospace: monospace;
+  }
 
-  .monospace, .commit-sha, .gfm-commit, .gfm-commit_range,
-  .ref-name, .git-revision-dropdown .dropdown-content ul li a,
-  .mr-state-widget .label-branch, .pipeline-number,
-  .file-editor .file-title, .git-clone-holder .form-control,
-  .git-clone-holder .search form, .search .git-clone-holder form,
+  .monospace,
+  .commit-sha,
+  .gfm-commit,
+  .gfm-commit_range,
+  .ref-name,
+  .git-revision-dropdown .dropdown-content ul li a,
+  .mr-state-widget .label-branch,
+  .pipeline-number,
+  .file-editor .file-title,
+  .git-clone-holder .form-control,
+  .git-clone-holder .search form,
+  .search .git-clone-holder form,
   .commit-message-container,
   .ace_editor,
   .file-content.code pre code,
   .file-content.code pre,
   .file-content.code .line-numbers a,
   table.code,
-  pre, code, kbd, samp { font-family: monospace; }
-
-  /* IDE */
-  /* .margin-view-overlays, .view-lines, .cursor, .inputarea, .type { font-family: monospace !important; } */
+  pre,
+  code,
+  kbd,
+  samp {
+    font-family: monospace;
+  }
 }
 
 /* Jenkins */
-@-moz-document url-prefix("http://hdcpcib001.talgroup.com"), domain("jenkins.talgroup.com") {
-  body, table, form, input, td, th, p, select { font-family: sans-serif !important; }
-  textarea, code, pre, kbd { font-family: monospace !important; }
-  .line { font-family: monospace !important; font-size: 1.25em !important; }
+@-moz-document url-prefix("http://hdcpcib001.talgroup.com"), domain("jenkins.talgroup.com")
+{
+  body,
+  table,
+  form,
+  input,
+  td,
+  th,
+  p,
+  select {
+    font-family: sans-serif !important;
+  }
+
+  textarea,
+  code,
+  pre,
+  kbd {
+    font-family: monospace !important;
+  }
+
+  .line {
+    font-family: monospace !important;
+    font-size: 1.25em !important;
+  }
 }
+
 /* Microsoft Office and SharePoint */
 @-moz-document domain("sharepoint.com"), domain("office.com") {
-  .o365cs-topnavText { font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif; }
-  .ms-DetailsRow { width: 100% }
-  button { font-family: inherit !important; }
+  .o365cs-topnavText {
+    font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+  }
+  .ms-DetailsRow {
+    width: 100%;
+  }
+  button {
+    font-family: inherit !important;
+  }
 
-  /* div[data-item-key^="displayNameColumn"], div[data-automation-key^="displayNameColumn"] { width: 700px !important; } */
-  div[data-item-key^="modifiedByColumn"], div[data-automation-key^="modifiedByColumn"] { width: 200px !important; }
+  div[data-item-key^="modifiedByColumn"],
+  div[data-automation-key^="modifiedByColumn"] {
+    width: 200px !important;
+  }
 }
 
 /* Nexus */
 @-moz-document domain("repo.talgroup.com") {
-  body { font-family: sans-serif !important; }
+  body {
+    font-family: sans-serif !important;
+  }
 }
 
 /* Salesforce */
 @-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com") {
-  * { font-family: sans-serif !important; }
+  * {
+    font-family: sans-serif !important;
+  }
 }
