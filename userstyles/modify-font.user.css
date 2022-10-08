@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 37.5.13
+@version 37.5.14
 ==/UserStyle== */
 
 /*
@@ -564,15 +564,17 @@
   #bio.ytd-channel-about-metadata-renderer,
   #content-text.ytd-backstage-post-renderer,
   #content-text.ytd-comment-renderer,
-  #description-text.ytd-video-renderer,
+  /* #description-text.ytd-video-renderer,
   #description.ytd-channel-about-metadata-renderer,
-  #description.ytd-playlist-sidebar-primary-info-renderer,
-  #label.ytd-compact-link-renderer,
+  #description.ytd-playlist-sidebar-primary-info-renderer, */
+  #description[class$=-renderer],
+  /* #label.ytd-compact-link-renderer,
   #label.ytd-dropdown-item-renderer,
   #label.ytd-profile-column-stats-entry-renderer,
   #label.ytd-settings-checkbox-renderer,
   #label.ytd-settings-radio-option-renderer,
-  #label.ytd-toggle-theme-compact-link-renderer,
+  #label.ytd-toggle-theme-compact-link-renderer, */
+  #label[class$=-renderer],
   #message.ytd-message-renderer,
   #name.ytd-page-introduction-renderer,
   #next-label.ytd-playlist-panel-renderer,
@@ -580,19 +582,21 @@
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder.ytd-comment-simplebox-renderer,
   #subscriber-count.ytd-c4-tabbed-header-renderer,
-  #subtitle.ytd-compact-link-renderer,
+  /* #subtitle.ytd-compact-link-renderer,
   #subtitle.ytd-item-section-header-renderer,
   #subtitle.ytd-rich-list-header-renderer,
   #subtitle.ytd-rich-shelf-renderer,
   #subtitle.ytd-settings-switch-renderer,
   #subtitle.ytd-shelf-renderer,
-  #subtitle.ytd-topic-channel-details-renderer,
-  #text.ytd-connected-app-renderer,
+  #subtitle.ytd-topic-channel-details-renderer, */
+  #subtitle[class$=-renderer],
+  /* #text.ytd-connected-app-renderer,
   #text.ytd-notification-multi-action-renderer,
   #text.ytd-page-introduction-renderer,
-  #text.ytd-settings-options-renderer,
+  #text.ytd-settings-options-renderer, */
+  #text[class$=-renderer],
   #thumbnail-attribution.ytd-grid-channel-renderer,
-  #title.ytd-connected-app-renderer,
+  /* #title.ytd-connected-app-renderer,
   #title.ytd-grid-channel-renderer,
   #title.ytd-page-introduction-renderer,
   #title.ytd-profile-column-user-info-renderer,
@@ -601,18 +605,21 @@
   #title.ytd-settings-switch-renderer,
   #title.ytd-shelf-renderer,
   #title.ytd-sub-feed-selector-renderer,
-  #title.ytd-topic-channel-details-renderer,
-  #video-title.ytd-compact-video-renderer,
+  #title.ytd-topic-channel-details-renderer, */
+  #title[class$=-renderer],
+  /* #video-title.ytd-compact-video-renderer,
   #video-title.ytd-grid-playlist-renderer,
   #video-title.ytd-grid-movie-renderer,
-  #video-title.ytd-playlist-video-renderer,
+  #video-title.ytd-playlist-video-renderer, */
+  #video-title[class$=-renderer],
   #video-title.ytd-rich-grid-media,
   #video-title.ytd-rich-grid-slim-media,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
-  yt-formatted-string.ytd-game-details-renderer,
+  /* yt-formatted-string.ytd-game-details-renderer,
   yt-formatted-string.ytd-menu-navigation-item-renderer,
   yt-formatted-string.ytd-menu-service-item-download-renderer,
-  yt-formatted-string.ytd-menu-service-item-renderer,
+  yt-formatted-string.ytd-menu-service-item-renderer, */
+  yt-formatted-string[class$=-renderer],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name.ytd-active-account-header-renderer,
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer, ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer,
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer, ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden]).ytd-background-promo-renderer,
