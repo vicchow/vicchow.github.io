@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 36.0.0
+@version 38.0.0
 ==/UserStyle== */
 
 /*
@@ -252,7 +252,7 @@
 /* OpenSearch */
 @-moz-document domain("opensearch.org") {
   body {
-    font-family: serif;
+    font-family: var(--font-family-serif);
   }
 }
 
@@ -354,7 +354,7 @@
 /* PTT */
 @-moz-document url-prefix("https://www.ptt.cc/bbs") {
   .bbs-content {
-    font-family: monospace;
+    font-family: var(--font-family-monospace);
     line-height: 150%;
     width: 95%;
   }
@@ -640,7 +640,7 @@
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name.ytd-video-owner-renderer,
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count.ytd-video-owner-renderer {
-    font-family: "Google Sans", "YouTube Sans", var(--font-family-sans-serif);
+    font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
   ytd-mini-guide-renderer.ytd-app {
@@ -653,7 +653,7 @@
   }
 
   ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
-    margin-left: auto
+    margin-left: auto;
   }
 
   /* Playlist */
