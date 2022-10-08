@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 38.0.0
+@version 40.0.0
 ==/UserStyle== */
 
 /*
@@ -12,8 +12,8 @@
  */
 
 /* Load web fonts */
-@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 @import url('//fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
 /* @import url('//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
 @import url('//fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
@@ -30,6 +30,14 @@
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
 
+  .bucket h2,
+  .cdInlineAskBoxTitle,
+  .cdQuestionAnswerHeader,
+  .merchbarW .shoveler-header,
+  .merchbarW a,
+  .merchbarW span,
+  .pa_componentTitleTest h2,
+  .price,
   #AUI_A9AdsMiddleBoxTop h2,
   #customer-reviews_feature_div h2,
   #customerReviewsHeader,
@@ -37,20 +45,12 @@
   #hmdFormDiv h2,
   #need-help-deciding .secHeader,
   #pf-fitment-wrapper h2,
-  #prodDetails td,
   #prodDetails .wrapper,
-  #revMHLContainer h2,
+  #prodDetails td,
   #reviewBucketHeader,
+  #revMHLContainer h2,
   #rhfMainHeading,
   #sponsored-products-dp_feature_div h2,
-  .bucket h2,
-  .cdInlineAskBoxTitle,
-  .cdQuestionAnswerHeader,
-  .pa_componentTitleTest h2,
-  .merchbarW a,
-  .merchbarW span,
-  .merchbarW .shoveler-header,
-  .price,
   h2.amtcmp,
   h2.featureHeading {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
@@ -69,26 +69,6 @@
     font-family: var(--font-family-sans-serif);
   }
 }
-
-/* Apple */
-/* @-moz-document domain("store.apple.com") {
-  body,
-  input,
-  textarea,
-  button,
-  legend {
-    font-family: var(--font-family-sans-serif) !important;
-  }
-} */
-
-/* Asia Miles */
-/* @-moz-document domain("asiamiles.com") {
-  *,
-  * body,
-  body {
-    font-family: "Open Sans", var(--font-family-sans-serif);
-  }
-} */
 
 /* GitHub */
 @-moz-document domain("github.com") {
@@ -114,11 +94,6 @@
   }
 
   *,
-  button,
-  input,
-  td,
-  a,
-  p,
   .dG2XIf,
   .gb_0b,
   .gLFyf,
@@ -130,18 +105,23 @@
   .tNxQIb,
   .wHYlTd,
   .wx62f,
-  .ZwRhJd {
+  .ZwRhJd,
+  a,
+  button,
+  input,
+  p,
+  td {
     font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-  html,
-  body,
-  #meta-nav,
   .rsp h1,
-  .rsp h3 {
+  .rsp h3,
+  #meta-nav,
+  body,
+  html {
     font-family: var(--font-family-sans-serif);
   }
 }
@@ -159,16 +139,16 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-  .book-hero__blurb,
   .about-book__copy,
-  .featured-book-tagline,
-  .profile__blurb,
-  .lane-item__blurb,
-  .lane-item__author_blurb,
-  #leanpub-toc,
-  .toc,
+  .about-bundle__blurb,
+  .book-hero__blurb,
   .bundle-hero__titles a,
-  .about-bundle__blurb {
+  .featured-book-tagline,
+  .lane-item__author_blurb,
+  .lane-item__blurb,
+  .profile__blurb,
+  .toc,
+  #leanpub-toc {
     font-family: var(--font-family-serif);
   }
 }
@@ -181,19 +161,12 @@
   }
 }
 
-/* Medium */
-/* @-moz-document domain("medium.com") {
-  .uiScale-ui--small .ui-h3 {
-    transform: none !important;
-  }
-} */
-
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
-  .fancy-link,
   .article a:link,
-  h3 a:link,
-  h2 a:link {
+  .fancy-link,
+  h2 a:link,
+  h3 a:link {
     background-image: none;
     background-repeat: no-repeat;
     background-size: auto;
@@ -211,40 +184,40 @@
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
 {
-  html,
-  body,
   .ww_skin_toc_entry,
-  div.WebWorks_MiniTOC,
-  div.Body_Text,
-  caption.Body_Text,
-  div.List_Bullet,
-  caption.List_Bullet,
-  div.List_Continue,
-  caption.List_Continue,
-  div.Cell_Heading,
-  caption.Cell_Heading,
-  div.Cell_Text,
-  caption.Cell_Text,
-  div.Heading_5,
-  caption.Heading_5,
-  h1.Heading_1,
-  div.Heading_1,
-  caption.Heading_1,
-  h2.Heading_2,
-  div.Heading_2,
-  caption.Heading_2,
-  span.Strong,
-  span.Strong a,
-  span.Strong a:active,
-  abbreviation.Strong,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
-  acronym.Strong,
+  abbreviation.Strong,
   acronym.Strong a,
   acronym.Strong a:active,
-  citation.Strong,
+  acronym.Strong,
+  body,
+  caption.Body_Text,
+  caption.Cell_Heading,
+  caption.Cell_Text,
+  caption.Heading_1,
+  caption.Heading_2,
+  caption.Heading_5,
+  caption.List_Bullet,
+  caption.List_Continue,
   citation.Strong a,
-  citation.Strong a:active {
+  citation.Strong a:active,
+  citation.Strong,
+  div.Body_Text,
+  div.Cell_Heading,
+  div.Cell_Text,
+  div.Heading_1,
+  div.Heading_2,
+  div.Heading_5,
+  div.List_Bullet,
+  div.List_Continue,
+  div.WebWorks_MiniTOC,
+  h1.Heading_1,
+  h2.Heading_2,
+  html,
+  span.Strong a,
+  span.Strong a:active,
+  span.Strong {
     font-family: var(--font-family-sans-serif);
   }
 }
@@ -258,50 +231,50 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-  #sbo-reader .sbo-reader-content,
-  #sbo-rt-content,
-  #book-content #sbo-rt-content,
+  #book-content #sbo-rt-content .blockquote p,
+  #book-content #sbo-rt-content .box_title,
+  #book-content #sbo-rt-content .calibre4,
+  #book-content #sbo-rt-content .cn-chapter-number,
+  #book-content #sbo-rt-content .indent,
+  #book-content #sbo-rt-content .noindent,
+  #book-content #sbo-rt-content .note p,
+  #book-content #sbo-rt-content .packt_para,
+  #book-content #sbo-rt-content .paragraph-head,
   #book-content #sbo-rt-content a,
   #book-content #sbo-rt-content a:link,
   #book-content #sbo-rt-content a:visited,
-  #book-content #sbo-rt-content div,
-  #book-content #sbo-rt-content li,
-  #book-content #sbo-rt-content ul li,
-  #book-content #sbo-rt-content ol li,
-  #book-content #sbo-rt-content ul li p,
-  #book-content #sbo-rt-content ol li p,
-  #book-content #sbo-rt-content p,
-  #book-content #sbo-rt-content dt,
-  #book-content #sbo-rt-content blockquote,
   #book-content #sbo-rt-content blockquote p,
+  #book-content #sbo-rt-content blockquote,
+  #book-content #sbo-rt-content div,
+  #book-content #sbo-rt-content dt,
+  #book-content #sbo-rt-content li,
+  #book-content #sbo-rt-content ol li p,
+  #book-content #sbo-rt-content ol li,
+  #book-content #sbo-rt-content p,
   #book-content #sbo-rt-content table p,
   #book-content #sbo-rt-content table tr td,
-  #book-content #sbo-rt-content .paragraph-head,
-  #book-content #sbo-rt-content .cn-chapter-number,
-  #book-content #sbo-rt-content .box_title,
-  #book-content #sbo-rt-content .packt_para,
-  #book-content #sbo-rt-content .calibre4,
-  #book-content #sbo-rt-content .noindent,
-  #book-content #sbo-rt-content .indent,
-  #book-content #sbo-rt-content .note p,
-  #book-content #sbo-rt-content .blockquote p {
+  #book-content #sbo-rt-content ul li p,
+  #book-content #sbo-rt-content ul li,
+  #book-content #sbo-rt-content,
+  #sbo-reader .sbo-reader-content,
+  #sbo-rt-content {
     font-family: var(--font-family-serif) !important;
     font-weight: normal !important;
   }
 
+  #book-content #sbo-rt-content .chapterNumber,
+  #book-content #sbo-rt-content .chaptertitle,
+  #book-content #sbo-rt-content .chapterTitle,
+  #book-content #sbo-rt-content .fm_title_document,
+  #book-content #sbo-rt-content .heading-1,
+  #book-content #sbo-rt-content .heading-3,
+  #book-content #sbo-rt-content .title_document,
   #book-content #sbo-rt-content h1,
   #book-content #sbo-rt-content h2,
   #book-content #sbo-rt-content h3,
   #book-content #sbo-rt-content h4,
   #book-content #sbo-rt-content h5,
-  #book-content #sbo-rt-content h6,
-  #book-content #sbo-rt-content .heading-1,
-  #book-content #sbo-rt-content .heading-3,
-  #book-content #sbo-rt-content .chaptertitle,
-  #book-content #sbo-rt-content .chapterTitle,
-  #book-content #sbo-rt-content .chapterNumber,
-  #book-content #sbo-rt-content .title_document,
-  #book-content #sbo-rt-content .fm_title_document {
+  #book-content #sbo-rt-content h6 {
     font-family: "Guardian Sans Text", var(--font-family-sans-serif) !important;
     font-weight: normal !important;
   }
@@ -319,17 +292,17 @@
     font-family: var(--font-family-sans-serif) !important;
   }
 
-  #sbo-rt-content kbd,
-  #sbo-rt-content .packt_action {
+  #sbo-rt-content .packt_action,
+  #sbo-rt-content kbd {
     font-size: 1em !important;
   }
 
-  #book-content #sbo-rt-content pre,
-  #book-content #sbo-rt-content .pre,
-  #book-content #sbo-rt-content p.pre,
-  #book-content #sbo-rt-content .pre1,
+  #book-content #sbo-rt-content .pre_w,
   #book-content #sbo-rt-content .pre-ex,
-  #book-content #sbo-rt-content .pre_w {
+  #book-content #sbo-rt-content .pre,
+  #book-content #sbo-rt-content .pre1,
+  #book-content #sbo-rt-content p.pre,
+  #book-content #sbo-rt-content pre {
     font-family: var(--font-family-monospace) !important;
     font-weight: normal !important;
   }
@@ -362,25 +335,25 @@
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
+  body,
   div.body h1,
   div.body h2,
   div.body h3,
   div.body h4,
   div.body h5,
   div.body h6,
-  form.inline-search input,
-  div.sphinxsidebar input,
   div.sphinxsidebar h3,
-  body {
+  div.sphinxsidebar input,
+  form.inline-search input {
     font-family: var(--font-family-sans-serif);
   }
 }
 
 @-moz-document domain("pypi.org") {
   a {
+    background-image: none;
     background-position: inherit;
     background-repeat: inherit;
-    background-image: none;
     text-decoration: none;
   }
   a:hover {
@@ -399,23 +372,22 @@
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-  html,
-  body,
+  .comment-copy,
+  .comment-copy,
+  .excerpt,
+  .module .answer-hyperlink,
   .module a,
   .module question-hyperlink,
-  .module .answer-hyperlink,
-  .question-summary .question-hyperlink,
-  .topbar-dialog,
-  #question-header .question-hyperlink,
   .post-text,
-  .wmd-preview,
-  .comment-copy,
   .question-status,
-  .excerpt,
+  .question-status,
+  .question-summary .question-hyperlink,
   .s-prose,
-  .comment-copy,
-  .question-status,
-  .excerpt {
+  .topbar-dialog,
+  .wmd-preview,
+  #question-header .question-hyperlink,
+  body,
+  html {
     font-family: var(--font-family-sans-serif) !important;
   }
 
@@ -426,28 +398,28 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
-  html,
-  body,
-  form,
   a,
   acronym,
+  body,
+  button,
   code,
   div,
+  form,
   hr,
+  html,
   img,
+  input,
   label,
   p,
   pre,
+  select,
   span,
   strong,
   table,
-  tr,
-  th,
   td,
-  button,
-  input,
-  select,
-  textarea {
+  textarea,
+  th,
+  tr {
     font-family: var(--font-family-sans-serif);
   }
 
@@ -455,11 +427,11 @@
     margin: 0 auto;
   }
 
-  .tbl_paging td,
-  .tbl_listing th,
   .tbl_content_left,
   .tbl_content_middle,
-  .tbl_content_right {
+  .tbl_content_right,
+  .tbl_listing th,
+  .tbl_paging td {
     padding: 5px;
   }
 
@@ -482,16 +454,16 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-  body,
-  textarea,
-  .community_home_subtitle,
-  .workshopItemTitle,
-  .dynamiclink_box,
   .apphub_CardContentDiscussionTitle,
-  body.v6,
+  .community_home_subtitle,
+  .dynamiclink_box,
   .early_access_review,
   .group_overview_announcement .large_title,
-  .slideshow_item_title {
+  .slideshow_item_title,
+  .workshopItemTitle,
+  body,
+  body.v6,
+  textarea {
     font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
 
@@ -686,13 +658,13 @@
 }
 
 @-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
+  .button,
   body,
   button,
   html,
   input,
   select,
-  textarea,
-  .button {
+  textarea {
     font-family: var(--font-family-sans-serif);
   }
 }
@@ -700,9 +672,9 @@
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
+    --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
     --font-family-serif: serif;
-    --font-family-monospace: monospace;
   }
 
   /* Safari specific */
