@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 40.0.2
+@version 41.0.0
 ==/UserStyle== */
 
 /*
@@ -67,6 +67,17 @@
   div.body h5,
   div.body h6 {
     font-family: var(--font-family-sans-serif);
+  }
+}
+
+/* Books.com.tw */
+@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail/") {
+  .table-01 th, .table-01 td {
+    padding: 5px 5px;
+  }
+
+  table th, table td {
+    text-align: left;
   }
 }
 
@@ -538,7 +549,7 @@
   #message[class$=-renderer],
   #name[class$=-renderer],
   #next-label[class$=-renderer],
-  #primary-links[class$=-renderer], 
+  #primary-links[class$=-renderer],
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$=-renderer],
   #subscriber-count[class$=-renderer],
