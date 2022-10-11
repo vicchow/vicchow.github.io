@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.0.0
+@version 41.0.1
 ==/UserStyle== */
 
 /*
@@ -71,7 +71,7 @@
 }
 
 /* Books.com.tw */
-@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail/") {
+@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
   .table-01 th, .table-01 td {
     padding: 5px 5px;
   }
@@ -124,6 +124,11 @@
   p,
   td {
     font-family: "Google Sans Text", var(--font-family-sans-serif);
+  }
+
+  .CvDJxb,
+  .main {
+    min-width: 1024px;
   }
 }
 
