@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.0.1
+@version 41.0.2
 ==/UserStyle== */
 
 /*
@@ -126,9 +126,11 @@
     font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
-  .CvDJxb,
-  .main {
-    min-width: 1024px;
+  @media screen and (min-width: 1024px) {
+    .CvDJxb,
+    .main {
+      min-width: 1024px;
+    }
   }
 }
 
