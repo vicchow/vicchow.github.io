@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.0.3
+@version 41.0.4
 ==/UserStyle== */
 
 /*
@@ -591,8 +591,8 @@
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
-  ytd-mini-guide-renderer.ytd-app {
-    display: none;
+  ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
+    margin-left: auto;
   }
 
   ytd-browse[mini-guide-visible] ytd-playlist-header-renderer.ytd-browse,
@@ -600,8 +600,12 @@
     left: 0;
   }
 
-  ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
-    margin-left: auto;
+  ytd-mini-guide-renderer.ytd-app {
+    display: none;
+  }
+
+  ytd-video-primary-info-renderer {
+    flex-wrap: wrap;
   }
 
   /* Playlist */
