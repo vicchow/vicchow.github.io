@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.0.5
+@version 41.1.0
 ==/UserStyle== */
 
 /*
@@ -130,6 +130,17 @@
     .CvDJxb,
     .main {
       min-width: 1010px;
+    }
+
+    .srp {
+      --center-abs-margin: 100px;
+      --center-width: 552px;
+      --rhs-margin: 30px;
+      --rhs-width: 299px;
+    }
+
+    #rhs {
+      width: var(--rhs-width);
     }
   }
 }
