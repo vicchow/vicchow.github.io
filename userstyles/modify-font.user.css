@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.7.0
+@version 41.8.0
 ==/UserStyle== */
 
 /*
@@ -147,6 +147,12 @@
       width: calc(600px - 16px) !important;
     }
 
+    .g-blk.g, 
+    .KIy09e,
+    .kno-kp.wF4fFd.g {
+      width: 600px;
+    }
+
     .Hwkikb.WY0eLb,
     .IVvPP .cLjAic.WY0eLb, 
     .IVvPP.rhstc4 .ptcLIOszQJu__wholepage-card.WY0eLb,
@@ -157,6 +163,10 @@
 
     .NtxJR {
       width: calc(516px + 84px);
+    }
+
+    .OekYye {
+      line-height: 30px;
     }
 
     .VmR9oe {
