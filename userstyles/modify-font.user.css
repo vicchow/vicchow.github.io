@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.4.3
+@version 41.4.4
 ==/UserStyle== */
 
 /*
@@ -148,7 +148,7 @@
     }
 
     #rhs, 
-    #rhs.rhstc4 .ss6qqb.u7yw9 {
+    #rhs.rhstc4 > div {
       width: 269px;
     }
   }
