@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.8.1
+@version 41.8.2
 ==/UserStyle== */
 
 /*
@@ -175,7 +175,7 @@
 
     .srp {
       --center-width: 600px;
-      --rhs-width: 319px;
+      --rhs-width: 339px;
       --rhs-margin: 24px;
     }
 
