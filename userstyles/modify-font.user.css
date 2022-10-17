@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.8.3
+@version 41.8.4
 ==/UserStyle== */
 
 /*
@@ -158,7 +158,7 @@
     .IVvPP.rhstc4 .ptcLIOszQJu__wholepage-card.WY0eLb,
     .IVvPP.rhstc4 .WY0eLb .ptcLIOszQJu__wholepage-card, 
     .IVvPP.rhstc4 .WY0eLb .s2TyX {
-      width: 306px;
+      width: 306px !important;
     }
 
     .NtxJR {
