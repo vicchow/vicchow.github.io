@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.5.0
+@version 41.5.1
 ==/UserStyle== */
 
 /*
@@ -135,7 +135,6 @@
       min-width: 1010px;
     }
 
-/*
     .Hwkikb.WY0eLb,
     .IVvPP .cLjAic.WY0eLb, 
     .IVvPP.rhstc4 .ptcLIOszQJu__wholepage-card.WY0eLb,
@@ -143,7 +142,6 @@
     .IVvPP.rhstc4 .WY0eLb .s2TyX {
       width: 256px;
     }
-*/
 
     .srp {
       --rhs-width: 289px;
