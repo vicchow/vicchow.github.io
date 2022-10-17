@@ -148,7 +148,7 @@
     }
 
     #rhs, 
-    #rhs.rhstc4 > div {
+    #rhs.rhstc4 > div[class] {
       width: 269px;
     }
   }
