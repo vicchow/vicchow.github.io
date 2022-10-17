@@ -130,7 +130,7 @@
   @media screen and (max-width: 1024px) {
     .CvDJxb,
     .main {
-      max-width: 1010px;
+      min-width: 1010px;
     }
 
     .Hwkikb.WY0eLb,
