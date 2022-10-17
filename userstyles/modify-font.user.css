@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.2.0
+@version 41.3.0
 ==/UserStyle== */
 
 /*
@@ -105,6 +105,7 @@
   }
 
   *,
+  .Dffq3b,
   .dG2XIf,
   .gb_0b,
   .gLFyf,
@@ -130,6 +131,18 @@
     .CvDJxb,
     .main {
       min-width: 1010px;
+    }
+
+    .Hwkikb.WY0eLb,
+    .IVvPP .cLjAic.WY0eLb, 
+    .IVvPP.rhstc4 .ptcLIOszQJu__wholepage-card.WY0eLb,
+    .IVvPP.rhstc4 .WY0eLb .ptcLIOszQJu__wholepage-card, 
+    .IVvPP.rhstc4 .WY0eLb .s2TyX {
+      width: 236px;
+    }
+
+    #rhs {
+      width: 269px;
     }
   }
 }
