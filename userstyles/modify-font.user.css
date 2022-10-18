@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 41.8.4
+@version 41.9.0
 ==/UserStyle== */
 
 /*
@@ -129,7 +129,7 @@
     font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
-  @media screen and (max-width: 1024px) {
+/*   @media screen and (max-width: 1024px) {
     .cegjXe {
       white-space: nowrap;
     }
@@ -184,7 +184,7 @@
     #rhs.rhstc4 > * > div[class] {
       width: 339px;
     }
-  }
+  } */
 }
 
 /* IEEE */
