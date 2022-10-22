@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name modify-hyperlink
+@name modify-link
 @namespace vicchow
-@version 8.0.0
+@version 9.0.0
 ==/UserStyle== */
 
 /* 
@@ -27,7 +27,8 @@
 }
 
 /* Medium */
-@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
+@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc")
+{
   article a {
     text-underline-offset: var(--underline-offset);
   }
@@ -36,23 +37,47 @@
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
-    .fancy-link, .article a:link, h3 a:link, h2 a:link {
+    .fancy-link,
+    .article a:link,
+    h3 a:link,
+    h2 a:link {
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: inherit;
       text-underline-offset: var(--underline-offset);
     }
-  
+
     abbr[title] {
       text-underline-offset: var(--underline-offset);
-    }  
+    }
+  }
+}
+
+/* Python */
+@-moz-document domain("pypi.org") {
+  a {
+    background-image: none;
+    background-position: inherit;
+    background-repeat: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    background-image: none;
+    text-decoration: underline;
   }
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
-    --underline-offset: .25em;
+    --underline-offset: 0.25em;
   }
-  
-  a, a *, u, *:hover { 
+
+  a,
+  a *,
+  u,
+  *:hover {
     text-underline-offset: var(--underline-offset);
   }
 }
