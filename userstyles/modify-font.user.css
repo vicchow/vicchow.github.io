@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.0.0
+@version 42.0.1
 ==/UserStyle== */
 
 /*
@@ -574,6 +574,7 @@
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$=-renderer],
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$=-renderer],
   ytd-text-header-renderer,
+  ytd-thumbnail-overlay-now-playing-renderer,
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name[class$=-renderer],
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$=-renderer] {
