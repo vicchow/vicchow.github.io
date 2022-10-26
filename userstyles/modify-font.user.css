@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.0.2
+@version 42.0.3
 ==/UserStyle== */
 
 /*
@@ -620,17 +620,16 @@
     --font-family-serif: serif;
   }
 
-  /* Safari specific */
-  @media not all and (min-resolution: .001dpcm) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-      :root {
-        --font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
-        --font-family-serif: "Source Serif 4", serif;
-      }
+  /* Safari only */
+  /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
+  @supports (-webkit-hyphens:none) {
+    :root {
+      --font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+      --font-family-serif: "Source Serif 4", serif;
+    }
 
-      body {
-        font-family: var(--font-family-sans-serif);
-      }
+    body {
+      font-family: var(--font-family-sans-serif);
     }
   }
 }
