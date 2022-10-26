@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.0.3
+@version 42.0.4
 ==/UserStyle== */
 
 /*
@@ -535,6 +535,7 @@
   .more-button[class$=-renderer],
   .promo-body-text[class$=-renderer],
   .promo-title[class$=-renderer],
+  .style-scope.ytd-thumbnail-overlay-toggle-button-renderer,
   .subheadline[class$=-renderer],
   .title[class$=-renderer],
   #aside-text[class$=-renderer],
