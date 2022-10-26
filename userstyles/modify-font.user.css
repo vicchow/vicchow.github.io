@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.0.4
+@version 42.0.5
 ==/UserStyle== */
 
 /*
@@ -535,7 +535,6 @@
   .more-button[class$=-renderer],
   .promo-body-text[class$=-renderer],
   .promo-title[class$=-renderer],
-  .style-scope.ytd-thumbnail-overlay-toggle-button-renderer,
   .subheadline[class$=-renderer],
   .title[class$=-renderer],
   #aside-text[class$=-renderer],
@@ -556,6 +555,7 @@
   #title[class$=-renderer],
   #video-title[class$=-media],
   #video-title[class$=-renderer],
+  div#label.style-scope.ytd-thumbnail-overlay-toggle-button-renderer,
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
