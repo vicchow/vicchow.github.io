@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 9.0.0
+@version 9.1.0
 ==/UserStyle== */
 
 /* 
@@ -65,6 +65,31 @@
   a:hover {
     background-image: none;
     text-decoration: underline;
+  }
+}
+
+/* The Economist */
+@-moz-document domain("www.economist.com") {
+  .ds-navigation-link span {
+    border-bottom: 0.1rem dotted transparent;
+  }
+
+  .css-13gy2f5 ul li a,
+  .css-13gy2f5 ol li a,
+  .css-13gy2f5 .article__body-text-image > ol a,
+  .css-13gy2f5 .article__body-text-image > ul a,
+  .css-13gy2f5 .article__body-text a {
+    border-bottom: 0.1rem dotted;
+  }
+
+  @media (min-width: 22.5rem) {
+    .css-13gy2f5 ul li a,
+    .css-13gy2f5 ol li a,
+    .css-13gy2f5 .article__body-text-image > ol a,
+    .css-13gy2f5 .article__body-text-image > ul a,
+    .css-13gy2f5 .article__body-text a {
+      border-width: 0.1rem;
+    }
   }
 }
 
