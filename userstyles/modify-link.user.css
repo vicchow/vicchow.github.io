@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 9.1.0
+@version 9.2.0
 ==/UserStyle== */
 
 /* 
@@ -97,6 +97,7 @@
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
     --underline-offset: 0.25em;
+    --underline-style: dotted;
   }
 
   a,
@@ -104,5 +105,6 @@
   u,
   *:hover {
     text-underline-offset: var(--underline-offset);
+    text-decoration-style: var(--underline-style);
   }
 }
