@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.2.0
+@version 42.2.1
 ==/UserStyle== */
 
 /*
@@ -134,7 +134,7 @@
   .fontBodySmall,
   .fontLabelMedium,
   .jHLihd {
-    font-family: "Google Sans", var(--font-family-sans-serif);
+    font-family: "Google Sans", var(--font-family-sans-serif) !important;
   }
 
   /*   @media screen and (max-width: 1024px) {
