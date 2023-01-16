@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.0.6
+@version 42.1.0
 ==/UserStyle== */
 
 /*
@@ -12,11 +12,11 @@
  */
 
 /* Load web fonts */
-@import url('//fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url("//fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Google+Sans&display=swap");
 /* @import url('//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
-@import url('//fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+@import url("//fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap");
 
 /* Amazon */
 @-moz-document domain("console.aws.amazon.com") {
@@ -89,7 +89,9 @@
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
-  html, body, h1 {
+  html,
+  body,
+  h1 {
     font-family: var(--font-family-sans-serif);
   }
 
@@ -121,7 +123,7 @@
     font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
-/*   @media screen and (max-width: 1024px) {
+  /*   @media screen and (max-width: 1024px) {
     .cegjXe {
       white-space: nowrap;
     }
@@ -177,6 +179,18 @@
       width: 339px;
     }
   } */
+}
+
+/* Google Map */
+@-moz-document url-prefix("https://www.google.com/maps")
+{
+  .fontBodyLarge,
+  .fontBodyMedium,
+  .fontBodySmall,
+  .fontLabelMedium,
+  .jHLihd {
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+  }
 }
 
 /* IEEE */
@@ -368,7 +382,8 @@
 }
 
 /* PTT */
-@-moz-document url-prefix("https://www.ptt.cc/bbs") {
+@-moz-document url-prefix("https://www.ptt.cc/bbs")
+{
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
@@ -533,56 +548,76 @@
 @-moz-document domain("www.youtube.com") {
   *,
   .button.ytd-text-inline-expander,
-  .grid-movie-renderer-metadata[class$=-renderer],
-  .less-button[class$=-renderer],
-  .more-button[class$=-renderer],
-  .promo-body-text[class$=-renderer],
-  .promo-title[class$=-renderer],
-  .subheadline[class$=-renderer],
-  .title[class$=-renderer],
-  #aside-text[class$=-renderer],
-  #bio[class$=-renderer],
-  #content-text[class$=-renderer],
-  #description[class$=-renderer],
-  #label[class$=-renderer],
-  #message[class$=-renderer],
-  #name[class$=-renderer],
-  #next-label[class$=-renderer],
-  #primary-links[class$=-renderer],
+  .grid-movie-renderer-metadata[class$="-renderer"],
+  .less-button[class$="-renderer"],
+  .more-button[class$="-renderer"],
+  .promo-body-text[class$="-renderer"],
+  .promo-title[class$="-renderer"],
+  .subheadline[class$="-renderer"],
+  .title[class$="-renderer"],
+  #aside-text[class$="-renderer"],
+  #bio[class$="-renderer"],
+  #content-text[class$="-renderer"],
+  #description[class$="-renderer"],
+  #label[class$="-renderer"],
+  #message[class$="-renderer"],
+  #name[class$="-renderer"],
+  #next-label[class$="-renderer"],
+  #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
-  #simplebox-placeholder[class$=-renderer],
-  #subscriber-count[class$=-renderer],
-  #subtitle[class$=-renderer],
-  #text[class$=-renderer],
-  #thumbnail-attribution[class$=-renderer],
-  #title[class$=-renderer],
-  #video-title[class$=-media],
-  #video-title[class$=-renderer],
+  #simplebox-placeholder[class$="-renderer"],
+  #subscriber-count[class$="-renderer"],
+  #subtitle[class$="-renderer"],
+  #text[class$="-renderer"],
+  #thumbnail-attribution[class$="-renderer"],
+  #title[class$="-renderer"],
+  #video-title[class$="-media"],
+  #video-title[class$="-renderer"],
   div#label.style-scope.ytd-thumbnail-overlay-toggle-button-renderer,
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
-  yt-formatted-string[class$=-renderer],
-  yt-formatted-string[class$=-renderer],
-  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$=-renderer],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$=-renderer],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$=-renderer],
-  ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$=-renderer],
-  ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$=-renderer],
-  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden] + #primary-text-container[class$=-renderer] > #label[class$=-renderer],
-  ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$=-renderer],
-  ytd-guide-entry-renderer[active] .title[class$=-renderer],
-  ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$=-renderer],
-  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$=-renderer],
-  ytd-rich-grid-media[mini-mode] #video-title[class$=-media],
-  ytd-rich-grid-slim-media[mini-mode] #video-title[class$=-media],
-  ytd-rich-list-header-renderer[is-modern-sd] #title[class$=-renderer],
-  ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$=-renderer],
+  yt-formatted-string[class$="-renderer"],
+  yt-formatted-string[class$="-renderer"],
+  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher])
+    #account-name[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
+    .promo-body-text.ytd-background-promo-renderer:not(
+      [hidden]
+    )[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
+    .promo-title.ytd-background-promo-renderer:not(
+      [hidden]
+    )[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"]
+    .promo-body-text.ytd-background-promo-renderer:not(
+      [hidden]
+    )[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"]
+    .promo-title.ytd-background-promo-renderer:not(
+      [hidden]
+    )[class$="-renderer"],
+  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"]
+    #content-icon.ytd-compact-link-renderer[hidden]
+    + #primary-text-container[class$="-renderer"]
+    > #label[class$="-renderer"],
+  ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
+  ytd-guide-entry-renderer[active] .title[class$="-renderer"],
+  ytd-guide-section-renderer[guide-refresh]
+    #guide-section-title[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"]
+    h4[class$="-renderer"],
+  ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
+  ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
+  ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
+  ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"]
+    #title[class$="-renderer"],
   ytd-text-header-renderer,
   ytd-thumbnail-overlay-now-playing-renderer,
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
-  ytd-video-owner-renderer[modern-metapanel] #channel-name[class$=-renderer],
-  ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$=-renderer] {
+  ytd-video-owner-renderer[modern-metapanel] #channel-name[class$="-renderer"],
+  ytd-video-owner-renderer[watch-metadata-refresh]
+    #owner-sub-count[class$="-renderer"] {
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 }
@@ -626,9 +661,10 @@
 
   /* Safari only */
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
-  @supports (-webkit-hyphens:none) {
+  @supports (-webkit-hyphens: none) {
     :root {
-      --font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+      --font-family-sans-serif: "Source Sans 3", system-ui, -apple-system,
+        sans-serif;
       --font-family-serif: "Source Serif 4", serif;
     }
 
