@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 3.0.0
+@version 3.0.1
 ==/UserStyle== */
 
 /*
@@ -44,8 +44,7 @@
 }
 
 /* Jenkins */
-@-moz-document url-prefix("http://hdcpcib001.talgroup.com"), domain("jenkins.talgroup.com")
-{
+@-moz-document domain("jenkins.talgroup.com") {
   body,
   table,
   form,
@@ -96,7 +95,7 @@
 }
 
 /* Salesforce */
-@-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com") {
+@-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com"), domain("talgroup--c.vf.force.com") {
   * {
     font-family: sans-serif !important;
   }
