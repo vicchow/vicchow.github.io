@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 42.4.3
+@version 43.0.0
 ==/UserStyle== */
 
 /*
  * Version number convention: <major>.<minor>.<patch>
- * <major>: new section
- * <minor>: new rule or update on section
- * <patch>: update on rule
+ * <major>: add/remove sections
+ * <minor>: add/remove rules
+ * <patch>: update rules
  */
 
 /* Web fonts */
@@ -73,21 +73,21 @@
 }
 
 /* GitHub */
-@-moz-document domain("github.com") {
+/* @-moz-document domain("github.com") {
   code,
   pre,
   tt,
   .blob-code-inner {
     font-family: var(--font-family-monospace);
   }
-}
+} */
 
 /* GitLab */
-@-moz-document domain("gitlab.com") {
+/* @-moz-document domain("gitlab.com") {
   .file-content.code pre code {
     font-family: var(--font-family-monospace);
   }
-}
+} */
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
