@@ -511,7 +511,6 @@
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
-  yt-formatted-string[class$="-renderer"],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher])
     #account-name[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
@@ -554,7 +553,7 @@
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
-  h1.ytd-watch-metadata {
+  h1.ytd-watch-metadata * {
     font-family: "YouTube Sans", "Google Sans", var(--font-family-sans-serif);
   }
 }
