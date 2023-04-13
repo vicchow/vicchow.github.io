@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 43.0.0
+@version 43.1.0
 ==/UserStyle== */
 
 /*
@@ -124,6 +124,8 @@ domain("www.google.com.hk") {
   .wx62f,
   .yGdMVd .wx62f,
   .ZwRhJd,
+  textarea.gLFyf,
+  .YacQv,
   a,
   button,
   input,
