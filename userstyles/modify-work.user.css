@@ -70,13 +70,16 @@
 } */
 
 /* Microsoft Office and SharePoint */
-@-moz-document domain("sharepoint.com"), domain("office.com") {
+@-moz-document domain("sharepoint.com"),
+domain("office.com") {
   .o365cs-topnavText {
     font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
   }
+
   .ms-DetailsRow {
     width: 100%;
   }
+
   button {
     font-family: inherit !important;
   }
@@ -95,7 +98,9 @@
 }
 
 /* Salesforce */
-@-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com"), domain("talgroup--c.vf.force.com") {
+@-moz-document domain("talgroup.my.salesforce.com"),
+domain("visual.force.com"),
+domain("talgroup--c.vf.force.com") {
   * {
     font-family: sans-serif !important;
   }
