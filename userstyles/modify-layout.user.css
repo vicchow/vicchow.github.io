@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 4.0.0
+@version 5.0.0
 ==/UserStyle== */
 
 /* 
@@ -13,28 +13,43 @@
 
 /* Books.com.tw */
 @-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
-  .table-01 th, .table-01 td {
+
+  .table-01 th,
+  .table-01 td {
     padding: 5px 5px;
   }
 
-  table th, table td {
+  table th,
+  table td {
     text-align: left;
+  }
+}
+
+/* Google */
+@-moz-document domain("www.google.com"),
+domain("www.google.com.hk") {
+
+  .iblpc,
+  .dRYYxd {
+    height: auto;
   }
 }
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
+
   .insert_ads,
-  #ct > table > tbody > tr > td:nth-child(2),
-  #nv_forum > table > tbody > tr > td:nth-child(2),
-  body > table:first-of-type,
+  #ct>table>tbody>tr>td:nth-child(2),
+  #nv_forum>table>tbody>tr>td:nth-child(2),
+  body>table:first-of-type,
   td.naclass2 {
     display: none;
   }
 }
 
 /* Martin Fowler */
-@-moz-document domain("martinfowler.com"), domain("refactoring.com") {
+@-moz-document domain("martinfowler.com"),
+domain("refactoring.com") {
   body {
     margin: 0 auto;
     max-width: 1000px;
@@ -42,7 +57,8 @@
 }
 
 /* Steam */
-@-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+@-moz-document domain("steamcommunity.com"),
+domain("steampowered.com") {
 
   div.bb_h1 {
     font-size: 12px !important;
