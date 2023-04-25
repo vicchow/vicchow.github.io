@@ -35,7 +35,9 @@ domain("awscli.amazonaws.com") {
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
-  .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18], .link-card[_ngcontent-c18]:focus .quickLinkText[_ngcontent-c18] {
+
+  .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
+  .link-card[_ngcontent-c18]:focus .quickLinkText[_ngcontent-c18] {
     text-decoration: none;
     color: darkgrey;
   }
