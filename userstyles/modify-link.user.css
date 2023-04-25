@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 10.0.1
+@version 10.0.2
 ==/UserStyle== */
 
 /* 
@@ -13,11 +13,8 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"),
-domain("smile.amazon.com"),
 domain("www.amazon.de"),
-domain("smile.amazon.de"),
 domain("www.amazon.co.uk"),
-domain("smile.amazon.co.uk"),
 domain("awscli.amazonaws.com") {
 
   .s-underline-text,
@@ -36,12 +33,15 @@ domain("awscli.amazonaws.com") {
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
 
+  .link-card[_ngcontent-c60]:focus,
+  .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
   .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
   .link-card[_ngcontent-c18]:focus .quickLinkText[_ngcontent-c18] {
     text-decoration: none;
     color: darkgrey;
   }
 
+  .quickLinkText[_ngcontent-c60],
   .quickLinkText[_ngcontent-c18] {
     line-height: 2rem;
   }
