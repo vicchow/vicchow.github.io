@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 9.3.2
+@version 10.0.0
 ==/UserStyle== */
 
 /* 
@@ -30,6 +30,18 @@ domain("awscli.amazonaws.com") {
 @-moz-document domain("docs.google.com") {
   :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
     text-underline-offset: var(--underline-offset);
+  }
+}
+
+/* HSBC HK */
+@-moz-document domain("hsbc.com.hk") {
+  .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18], .link-card[_ngcontent-c18]:focus .quickLinkText[_ngcontent-c18] {
+    text-decoration: none;
+    color: darkgrey;
+  }
+
+  .quickLinkText[_ngcontent-c18] {
+    line-height: 2rem;
   }
 }
 
