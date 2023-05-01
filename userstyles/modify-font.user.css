@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 43.1.2
+@version 44.0.0
 ==/UserStyle== */
 
 /*
@@ -175,6 +175,13 @@ domain("www.google.com.hk") {
   .toc,
   #leanpub-toc {
     font-family: var(--font-family-serif);
+  }
+}
+
+/* LIHKG */
+@-moz-document domain("lihkg.com") {
+  body {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
