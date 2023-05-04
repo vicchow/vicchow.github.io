@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.1
+@version 45.0.2
 ==/UserStyle== */
 
 /*
@@ -140,17 +140,24 @@ domain("www.google.com.hk") {
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
 
+  :not(.material-icons-extended),
+  .AjwuVe,
+  .b3-form-header .b3-form-title-content,
   .c6Hazb .SdI8Hc,
   .dIg4sc,
   .EdyHme .SClbdf,
   .Hf7K9,
   .hUZIKf,
+  .IepzPb,
   .jl3uAb,
   .JoUHxb,
+  .l10RZe,
+  .NJVBPe,
   .PJ3P5d,
   .Rx41nc,
   .ssKrAd,
   .u1mMPe,
+  .UXuBne,
   .whsOnd,
   .xY8Aqb,
   body {
