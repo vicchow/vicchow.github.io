@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 11.1.0
+@version 11.1.1
 ==/UserStyle== */
 
 /* 
@@ -28,7 +28,7 @@ domain("awscli.amazonaws.com") {
 
   .entryBody a,
   entryBody a:hover {
-    text-decoration: underline dashed;
+    text-decoration: underline dotted;
     border-bottom: unset;
   }
 }
@@ -145,6 +145,6 @@ url-prefix("https:") {
   u,
   *:hover {
     text-underline-offset: var(--underline-offset);
-    text-decoration-style: dashed;
+    text-decoration-style: dotted;
   }
 }
