@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.0
+@version 45.0.1
 ==/UserStyle== */
 
 /*
@@ -141,13 +141,17 @@ domain("www.google.com.hk") {
 @-moz-document domain("admin.google.com") {
 
   .c6Hazb .SdI8Hc,
+  .dIg4sc,
   .EdyHme .SClbdf,
   .Hf7K9,
   .hUZIKf,
+  .jl3uAb,
+  .JoUHxb,
   .PJ3P5d,
   .Rx41nc,
   .ssKrAd,
   .u1mMPe,
+  .whsOnd,
   .xY8Aqb,
   body {
     font-family: "Google Sans", var(--font-family-sans-serif);
