@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.5
+@version 45.0.6
 ==/UserStyle== */
 
 /*
@@ -550,7 +550,6 @@ domain("steampowered.com") {
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
 
-  *,
   .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
@@ -559,6 +558,7 @@ domain("steampowered.com") {
   .promo-title[class$="-renderer"],
   .subheadline[class$="-renderer"],
   .title[class$="-renderer"],
+  *,
   #aside-text[class$="-renderer"],
   #bio[class$="-renderer"],
   #byline.ytd-playlist-panel-video-renderer,
@@ -588,6 +588,7 @@ domain("steampowered.com") {
   ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-c4-tabbed-header-renderer[use-modern-style] #channel-handle.ytd-c4-tabbed-header-renderer,
   ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
   ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
