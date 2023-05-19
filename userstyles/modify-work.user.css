@@ -73,7 +73,9 @@
 @-moz-document domain("sharepoint.com"),
 domain("office.com") {
   .o365cs-topnavText {
-    font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight",
+      "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial,
+      sans-serif;
   }
 
   .ms-DetailsRow {
