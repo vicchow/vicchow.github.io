@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.6
+@version 45.0.7
 ==/UserStyle== */
 
 /*
@@ -525,7 +525,7 @@ domain("steampowered.com") {
   .jw-text-track-cue,
   .jw-video::-webkit-media-text-track-display,
   .jw-video::cue {
-    font-size: 48px !important;
+    font-size: 56px !important;
   }
 }
 
