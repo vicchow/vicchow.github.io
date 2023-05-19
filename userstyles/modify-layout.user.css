@@ -12,8 +12,8 @@
  */
 
 /* Books.com.tw */
-@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
-
+@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail")
+{
   .table-01 th,
   .table-01 td {
     padding: 5px 5px;
@@ -28,7 +28,6 @@
 /* Google */
 @-moz-document domain("www.google.com"),
 domain("www.google.com.hk") {
-
   .iblpc,
   .dRYYxd {
     height: auto;
@@ -42,11 +41,10 @@ domain("www.google.com.hk") {
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-
   .insert_ads,
-  #ct>table>tbody>tr>td:nth-child(2),
-  #nv_forum>table>tbody>tr>td:nth-child(2),
-  body>table:first-of-type,
+  #ct > table > tbody > tr > td:nth-child(2),
+  #nv_forum > table > tbody > tr > td:nth-child(2),
+  body > table:first-of-type,
   td.naclass2 {
     display: none;
   }
@@ -64,7 +62,6 @@ domain("refactoring.com") {
 /* Steam */
 @-moz-document domain("steamcommunity.com"),
 domain("steampowered.com") {
-
   div.bb_h1 {
     font-size: 12px !important;
     line-height: inherit !important;
@@ -106,7 +103,8 @@ domain("steampowered.com") {
 
   /* Playlist */
   @media (min-width: 876px) {
-    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
+    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data]
+      #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
     }
 
