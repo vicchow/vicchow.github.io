@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.8
+@version 45.0.9
 ==/UserStyle== */
 
 /*
@@ -545,6 +545,7 @@ domain("steampowered.com") {
   .promo-body-text[class$="-renderer"],
   .promo-title[class$="-renderer"],
   .subheadline[class$="-renderer"],
+  .subtitle.ytd-recognition-shelf-renderer,
   .title[class$="-renderer"],
   *,
   #aside-text[class$="-renderer"],
