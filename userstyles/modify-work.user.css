@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 4.0.0
+@version 5.0.0
 ==/UserStyle== */
 
 /*
@@ -12,8 +12,12 @@
  */
 
 /* GitLab */
-/* @-moz-document domain("git.talgroup.com") {
-  :root {
+@-moz-document domain("git.talgroup.com") {
+  .gl-line-height-normal {
+    line-height: 1.15rem;
+  }
+
+  /* :root {
     --font-family-monospace: monospace;
   }
 
@@ -40,8 +44,8 @@
   kbd,
   samp {
     font-family: monospace;
-  }
-} */
+  } */
+}
 
 /* Jenkins */
 /* @-moz-document domain("jenkins.talgroup.com") {
