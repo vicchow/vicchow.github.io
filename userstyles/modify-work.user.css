@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 5.0.0
+@version 5.0.1
 ==/UserStyle== */
 
 /*
@@ -13,7 +13,9 @@
 
 /* GitLab */
 @-moz-document domain("git.talgroup.com") {
-  .gl-line-height-normal {
+  .gl-line-height-normal,
+  .gl-search-box-by-type-input-borderless,
+  .gl-search-box-by-type-input-borderless.gl-form-input {
     line-height: 1.15rem;
   }
 
