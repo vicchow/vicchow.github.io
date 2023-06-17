@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.9
+@version 45.0.10
 ==/UserStyle== */
 
 /*
@@ -99,6 +99,7 @@ domain("awscli.amazonaws.com") {
 /* Google */
 @-moz-document domain("www.google.com"),
 domain("www.google.com.hk") {
+
   html,
   body,
   h1 {
@@ -109,6 +110,8 @@ domain("www.google.com.hk") {
   .Dffq3b,
   .dG2XIf,
   .f3LoEf,
+  .fontBodyLarge,
+  .fontBodyMedium,
   .gb_0b,
   .gLFyf,
   .gsfi,
@@ -138,6 +141,7 @@ domain("www.google.com.hk") {
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
+
   :not(.material-icons-extended),
   .AjwuVe,
   .b3-form-header .b3-form-title-content,
@@ -172,6 +176,7 @@ domain("www.google.com.hk") {
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
+
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -183,6 +188,7 @@ domain("www.google.com.hk") {
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
+
   body,
   button,
   input,
@@ -194,6 +200,7 @@ domain("www.google.com.hk") {
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
+
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -224,8 +231,8 @@ domain("www.google.com.hk") {
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"),
-url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
-{
+url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -273,6 +280,7 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
+
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -353,7 +361,7 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
     font-family: inherit !important;
   }
 
-  .content-VideoContent > .content-VideoContent-title {
+  .content-VideoContent>.content-VideoContent-title {
     font-family: inherit !important;
     font-weight: 500;
   }
@@ -367,8 +375,7 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
 }
 
 /* PTT */
-@-moz-document url-prefix("https://www.ptt.cc/bbs")
-{
+@-moz-document url-prefix("https://www.ptt.cc/bbs") {
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
@@ -380,6 +387,7 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
 @-moz-document domain("www.pypa.io"),
 domain("docs.python.org"),
 domain("packaging.python.org") {
+
   body,
   div.body h1,
   div.body h2,
@@ -396,6 +404,7 @@ domain("packaging.python.org") {
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
+
   body,
   div {
     font-family: var(--font-family-sans-serif);
@@ -407,6 +416,7 @@ domain("packaging.python.org") {
 domain("superuser.com"),
 domain("serverfault.com"),
 domain("stackexchange.com") {
+
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -434,6 +444,7 @@ domain("stackexchange.com") {
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"),
 domain("retail.sc.com") {
+
   a,
   acronym,
   body,
@@ -491,6 +502,7 @@ domain("retail.sc.com") {
 /* Steam */
 @-moz-document domain("steamcommunity.com"),
 domain("steampowered.com") {
+
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -521,6 +533,7 @@ domain("steampowered.com") {
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
+
   .jw-captions,
   .jw-text-track-cue,
   .jw-video::-webkit-media-text-track-display,
@@ -538,6 +551,7 @@ domain("steampowered.com") {
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
+
   .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
@@ -573,47 +587,26 @@ domain("steampowered.com") {
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
-  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher])
-    #account-name[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
-    .promo-body-text.ytd-background-promo-renderer:not(
-      [hidden]
-    )[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
-    .promo-title.ytd-background-promo-renderer:not(
-      [hidden]
-    )[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"]
-    .promo-body-text.ytd-background-promo-renderer:not(
-      [hidden]
-    )[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"]
-    .promo-title.ytd-background-promo-renderer:not(
-      [hidden]
-    )[class$="-renderer"],
-  ytd-c4-tabbed-header-renderer[use-modern-style]
-    #channel-handle.ytd-c4-tabbed-header-renderer,
-  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"]
-    #content-icon.ytd-compact-link-renderer[hidden]
-    + #primary-text-container[class$="-renderer"]
-    > #label[class$="-renderer"],
+  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-c4-tabbed-header-renderer[use-modern-style] #channel-handle.ytd-c4-tabbed-header-renderer,
+  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
   ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
-  ytd-guide-section-renderer[guide-refresh]
-    #guide-section-title[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"]
-    h4[class$="-renderer"],
+  ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
-  ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"]
-    #title[class$="-renderer"],
+  ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
   ytd-text-header-renderer,
   ytd-thumbnail-overlay-now-playing-renderer,
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name[class$="-renderer"],
-  ytd-video-owner-renderer[watch-metadata-refresh]
-    #owner-sub-count[class$="-renderer"] {
+  ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$="-renderer"] {
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
@@ -642,6 +635,7 @@ domain("hkitalk.net") {
 @-moz-document domain("developer.mozilla.org"),
 domain("trello.com"),
 domain("wikipedia.org") {
+
   .button,
   body,
   button,
