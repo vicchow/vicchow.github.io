@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.0.10
+@version 45.1.0
 ==/UserStyle== */
 
 /*
@@ -136,6 +136,10 @@ domain("www.google.com.hk") {
   td,
   textarea.gLFyf {
     font-family: "Google Sans", var(--font-family-sans-serif);
+  }
+
+  .s75CSd {
+    font-size: 14px;
   }
 }
 
