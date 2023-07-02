@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.1.0
+@version 45.2.0
 ==/UserStyle== */
 
 /*
@@ -616,6 +616,10 @@ domain("steampowered.com") {
 
   h1.ytd-watch-metadata * {
     font-family: "YouTube Sans", "Google Sans", var(--font-family-sans-serif);
+  }
+
+  .html5-video-player .caption-visual-line .ytp-caption-segment {
+    font-family: "Google Sans", var(--font-family-sans-serif) !important;
   }
 }
 
