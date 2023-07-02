@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.2.1
+@version 45.3.3
 ==/UserStyle== */
 
 /*
@@ -591,7 +591,8 @@ domain("steampowered.com") {
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
-  ytd-active-account-header-renderer #account-name[class$="-renderer"],
+  ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
+  ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
