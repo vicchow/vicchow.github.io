@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.3.3
+@version 45.3.4
 ==/UserStyle== */
 
 /*
@@ -79,27 +79,8 @@ domain("awscli.amazonaws.com") {
   }
 }
 
-/* GitHub */
-/* @-moz-document domain("github.com") {
-  code,
-  pre,
-  tt,
-  .blob-code-inner {
-    font-family: var(--font-family-monospace);
-  }
-} */
-
-/* GitLab */
-/* @-moz-document domain("gitlab.com") {
-  .file-content.code pre code {
-    font-family: var(--font-family-monospace);
-  }
-} */
-
 /* Google */
-@-moz-document domain("www.google.com"),
-domain("www.google.com.hk") {
-
+@-moz-document domain("www.google.com"), domain("www.google.com.hk") {
   html,
   body,
   h1 {
@@ -145,7 +126,6 @@ domain("www.google.com.hk") {
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
-
   :not(.material-icons-extended),
   .AjwuVe,
   .b3-form-header .b3-form-title-content,
@@ -180,7 +160,6 @@ domain("www.google.com.hk") {
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -192,7 +171,6 @@ domain("www.google.com.hk") {
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
-
   body,
   button,
   input,
@@ -204,7 +182,6 @@ domain("www.google.com.hk") {
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -234,9 +211,7 @@ domain("www.google.com.hk") {
 }
 
 /* NVIDIA */
-@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"),
-url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
-
+@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -284,7 +259,6 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -388,10 +362,7 @@ url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
 }
 
 /* Python */
-@-moz-document domain("www.pypa.io"),
-domain("docs.python.org"),
-domain("packaging.python.org") {
-
+@-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
   body,
   div.body h1,
   div.body h2,
@@ -416,11 +387,7 @@ domain("packaging.python.org") {
 }
 
 /* Stack Exchange */
-@-moz-document domain("stackoverflow.com"),
-domain("superuser.com"),
-domain("serverfault.com"),
-domain("stackexchange.com") {
-
+@-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -446,9 +413,7 @@ domain("stackexchange.com") {
 }
 
 /* SCB */
-@-moz-document domain("ibank.standardchartered.com.hk"),
-domain("retail.sc.com") {
-
+@-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
   a,
   acronym,
   body,
@@ -504,9 +469,7 @@ domain("retail.sc.com") {
 }
 
 /* Steam */
-@-moz-document domain("steamcommunity.com"),
-domain("steampowered.com") {
-
+@-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -537,7 +500,6 @@ domain("steampowered.com") {
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
-
   .jw-captions,
   .jw-text-track-cue,
   .jw-video::-webkit-media-text-track-display,
@@ -555,7 +517,6 @@ domain("steampowered.com") {
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
-
   .button.ytd-text-inline-expander,
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
@@ -563,12 +524,13 @@ domain("steampowered.com") {
   .promo-body-text[class$="-renderer"],
   .promo-title[class$="-renderer"],
   .subheadline[class$="-renderer"],
-  .subtitle.ytd-recognition-shelf-renderer,
+  .subtitle[class$="-renderer"],
   .title[class$="-renderer"],
   *,
   #aside-text[class$="-renderer"],
   #bio[class$="-renderer"],
-  #byline.ytd-playlist-panel-video-renderer,
+  #byline[class$="-renderer"],
+  #channel-handle[class$="-renderer"],
   #content[class$="-renderer"],
   #content-text[class$="-renderer"],
   #description[class$="-renderer"],
@@ -586,7 +548,7 @@ domain("steampowered.com") {
   #title[class$="-renderer"],
   #video-title[class$="-media"],
   #video-title[class$="-renderer"],
-  div#label.style-scope.ytd-thumbnail-overlay-toggle-button-renderer,
+  div#label.style-scope[class$="-renderer"],
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
@@ -625,13 +587,7 @@ domain("steampowered.com") {
 }
 
 /* Multiple sites */
-@-moz-document url-prefix("http://router.asus.com"),
-url-prefix("https://vicchow.asuscomm.com"),
-url-prefix("https://192.168.1.1:8443"),
-domain("asusrt.home"),
-domain("backpackers.com.tw"),
-domain("pinboard.in"),
-domain("hkitalk.net") {
+@-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), url-prefix("https://192.168.1.1:8443"), domain("asusrt.home"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -641,10 +597,7 @@ domain("hkitalk.net") {
   }
 }
 
-@-moz-document domain("developer.mozilla.org"),
-domain("trello.com"),
-domain("wikipedia.org") {
-
+@-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
   .button,
   body,
   button,
@@ -657,8 +610,7 @@ domain("wikipedia.org") {
 }
 
 /* All sites */
-@-moz-document url-prefix("http:"),
-url-prefix("https:") {
+@-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
