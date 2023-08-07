@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 5.1.0
+@version 5.1.1
 ==/UserStyle== */
 
 /* 
@@ -41,6 +41,7 @@ domain("www.google.com.hk") {
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
+  .bm.bmw:not(#threadlist),
   .insert_ads,
   #ct > table > tbody > tr > td:nth-child(2),
   #nv_forum > table > tbody > tr > td:nth-child(2),
