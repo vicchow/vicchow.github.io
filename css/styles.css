@@ -1,18 +1,14 @@
-/* @media (prefers-color-scheme: dark) {
-  body {
-    filter: invert(90%) hue-rotate(25deg);
-    background-color: #333;
-  }
-} */
-
 :root {
-  color-scheme: dark light;
+  color-scheme: light dark;
 }
 
 body {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  
+  background-color: Canvas;
+  color: CanvasText;
 }
 
 h1,
