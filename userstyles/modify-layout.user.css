@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 5.1.2
+@version 5.1.3
 ==/UserStyle== */
 
 /* 
@@ -41,10 +41,12 @@ domain("www.google.com.hk") {
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
+  .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
   #ct > table > tbody > tr > td:nth-child(2),
   #nv_forum > table > tbody > tr > td:nth-child(2),
   body > table:first-of-type,
+  table:has(+ table + br + br + br + br + div#ft, + br + br + br + br + div#ft),
   td.naclass2 {
     display: none;
   }
