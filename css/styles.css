@@ -27,8 +27,15 @@ article {
   padding: 0 10px;
 }
 
-tt, code, kbd, samp, pre, xmp, plaintext, listing {
-  font-family: var(--font-family-monospace) !important;
+tt,
+code,
+kbd,
+samp,
+pre,
+xmp,
+plaintext,
+listing {
+  font-family: var(--font-family-monospace);
 }
 
 li img {
