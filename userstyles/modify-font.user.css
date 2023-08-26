@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 45.3.6
+@version 45.3.7
 ==/UserStyle== */
 
 /*
@@ -619,7 +619,7 @@ domain("awscli.amazonaws.com") {
 
   /* Safari only */
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
-  @supports (-webkit-hyphens:none) {
+  @supports (-webkit-hyphens: none) {
     :root {
       --font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
       --font-family-serif: "Source Serif 4", serif;
