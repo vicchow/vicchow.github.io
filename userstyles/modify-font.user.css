@@ -516,11 +516,13 @@
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
   .button.ytd-text-inline-expander,
+  .flex-column[class$="-renderer"],
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
   .more-button[class$="-renderer"],
   .promo-body-text[class$="-renderer"],
   .promo-title[class$="-renderer"],
+  .secondary-flex-columns[class$="-renderer"],
   .subheadline[class$="-renderer"],
   .subtitle[class$="-renderer"],
   .title[class$="-renderer"],
