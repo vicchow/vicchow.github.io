@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.2.3
+@version 46.2.4
 ==/UserStyle== */
 
 /*
@@ -515,7 +515,9 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
-  .button.ytd-text-inline-expander,
+  .button[class$="-expander"],
+  .factoid-label[class$="-renderer"],
+  .factoid-value[class$="-renderer"],
   .flex-column[class$="-renderer"],
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
@@ -527,6 +529,7 @@
   .subtitle[class$="-renderer"],
   .text[class$="-renderer"],
   .title[class$="-renderer"],
+  .yt-channel-external-link-view-model-wiz__title--title-small-font,
   *,
   #aside-text[class$="-renderer"],
   #bio[class$="-renderer"],
@@ -534,6 +537,7 @@
   #channel-handle[class$="-renderer"],
   #content[class$="-renderer"],
   #content-text[class$="-renderer"],
+  #contextual-info[class$="-renderer"],
   #description[class$="-renderer"],
   #description-text[class$="-renderer"],
   #guide-section-title[class$="-renderer"],
@@ -550,6 +554,7 @@
   #text[class$="-renderer"],
   #thumbnail-attribution[class$="-renderer"],
   #title[class$="-renderer"],
+  #video-count-text[class$="-renderer"],
   #video-title[class$="-media"],
   #video-title[class$="-renderer"],
   div#label.style-scope[class$="-renderer"],
