@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.0.0
+@version 46.1.0
 ==/UserStyle== */
 
 /*
@@ -563,6 +563,7 @@
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
   ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$="-renderer"],
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
+  ytmusic-guide-entry-renderer,
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
