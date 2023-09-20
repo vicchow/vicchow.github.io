@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.2.0
+@version 46.2.1
 ==/UserStyle== */
 
 /*
@@ -539,6 +539,7 @@
   #message[class$="-renderer"],
   #name[class$="-renderer"],
   #next-label[class$="-renderer"],
+  #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$="-renderer"],
@@ -552,6 +553,7 @@
   div#label.style-scope[class$="-renderer"],
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
+  input.ytmusic-search-box,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
