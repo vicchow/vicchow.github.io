@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.1.0
+@version 46.1.1
 ==/UserStyle== */
 
 /*
@@ -525,6 +525,7 @@
   .secondary-flex-columns[class$="-renderer"],
   .subheadline[class$="-renderer"],
   .subtitle[class$="-renderer"],
+  .text[class$="-renderer"],
   .title[class$="-renderer"],
   *,
   #aside-text[class$="-renderer"],
