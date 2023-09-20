@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name modify-stylus
+@namespace vicchow
+@version 1.0.0
+==/UserStyle== */
+
+/*
+ * Version number convention: <major>.<minor>.<patch>
+ * <major>: add/remove sections
+ * <minor>: add/remove rules
+ * <patch>: update rules
+ */
+
+@-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
+  body {
+    font-family: var(--font-family-sans-serif);
+  }
+
+  :root {
+    --font-family-monospace: monospace;
+    --font-family-sans-serif: sans-serif;
+    --font-family-serif: serif;
+  }
+}
