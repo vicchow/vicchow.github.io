@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.1.1
+@version 46.2.0
 ==/UserStyle== */
 
 /*
@@ -514,7 +514,7 @@
 }
 
 /* YouTube */
-@-moz-document domain("www.youtube.com") {
+@-moz-document domain("youtube.com") {
   .button.ytd-text-inline-expander,
   .flex-column[class$="-renderer"],
   .grid-movie-renderer-metadata[class$="-renderer"],
