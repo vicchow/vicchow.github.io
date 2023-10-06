@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.3.2
+@version 46.3.3
 ==/UserStyle== */
 
 /*
@@ -80,7 +80,7 @@
 }
 
 /* Google */
-@-moz-document domain("calendar.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
+@-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
   html,
   body,
   h1 {
@@ -106,6 +106,7 @@
   .tNxQIb,
   .wHYlTd,
   .wx62f,
+  .VXO03d,
   .YacQv,
   .yGdMVd .wx62f,
   .ZwRhJd,
