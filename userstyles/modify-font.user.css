@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.3.6
+@version 46.3.7
 ==/UserStyle== */
 
 /*
@@ -640,7 +640,7 @@
   @supports (-webkit-hyphens: none) {
     :root {
       --font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
-      --font-family-serif: "Yrsa", "Source Serif 4", serif;
+      --font-family-serif: "Source Serif 4", "Yrsa", serif;
       --font-family-monospace: "JetBrains Mono", monospace;
     }
 
