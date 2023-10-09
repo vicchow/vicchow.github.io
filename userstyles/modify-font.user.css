@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.11
+@version 46.4.12
 ==/UserStyle== */
 
 /*
@@ -83,7 +83,6 @@
     font-family: var(--font-family-sans-serif);
   }
 
-  *,
   .agOyMd div.AzuXid,
   .ARSUIf,
   .AxOyFc,
@@ -112,6 +111,7 @@
   .j9SSAf,
   .JRRmBc,
   .L0L2wd,
+  .lcCric,
   .lJ9FBc input[type],
   .LzExud,
   .MBeuO,
@@ -123,25 +123,19 @@
   .P0eWkf,
   .paD5uf,
   .PbnGhe,
-  .pdqVLc .toUqff,
   .pdqVLc .AzuXid,
+  .pdqVLc .toUqff,
   .Pqkn2e,
   .QOd5jd,
   .QXzCSe,
   .R9U8ab,
   .Rq5Gcb,
   .rvEjke,
+  .s49Hac,
   .s8kOBc,
   .tNxQIb,
   .TTlRAe .MrqLTc,
   .TYKfpe .IGdgBf,
-  .w9XJYd.nhiZfc,
-  .weSwo,
-  .whsOnd,
-  .wHYlTd,
-  .wiOkb,
-  .WmnPA .VfPpkd-fmcmS-wGMbrd,
-  .wx62f,
   .UKzvpf .ASWyTc,
   .UKzvpf .YvjW7c,
   .uqcjDb,
@@ -151,11 +145,20 @@
   .VfPpkd-rymPhb-fpDzbe-fmcmS,
   .VfPpkd-uusGie-fmcmS,
   .VXO03d,
+  .w9XJYd.nhiZfc,
+  .weSwo,
+  .whsOnd,
+  .wHYlTd,
+  .wiOkb,
+  .WmnPA .VfPpkd-fmcmS-wGMbrd,
+  .WmnPA .VfPpkd-NLUYnc-V67aGc,
+  .wx62f,
   .xA0gfb,
   .YacQv,
   .yGdMVd .wx62f,
   .ZEmz6b,
   .ZwRhJd,
+  *,
   a,
   button,
   input,
