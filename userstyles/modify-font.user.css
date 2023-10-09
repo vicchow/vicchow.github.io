@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.2
+@version 46.4.3
 ==/UserStyle== */
 
 /*
@@ -83,6 +83,7 @@
   }
 
   *,
+  .agOyMd div.AzuXid,
   .AxOyFc,
   .cS4Vcb-pGL6qe-ysgGef,
   .Dffq3b,
@@ -99,12 +100,16 @@
   .MBeuO,
   .mfsgsd,
   .paD5uf,
+  .pdqVLc .toUqff,
+  .pdqVLc .AzuXid,
   .Pqkn2e,
   .QXzCSe,
   .Rq5Gcb,
+  .s8kOBc,
   .tNxQIb,
   .whsOnd,
   .wHYlTd,
+  .WmnPA .VfPpkd-fmcmS-wGMbrd,
   .wx62f,
   .VXO03d,
   .YacQv,
@@ -122,6 +127,10 @@
 
   .s75CSd {
     font-size: 14px;
+  }
+
+  .google-material-icons * {
+    font-family: 'Google Material Icons';
   }
 }
 
