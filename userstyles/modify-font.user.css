@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.15
+@version 46.4.16
 ==/UserStyle== */
 
 /*
@@ -584,6 +584,7 @@
   .flex-column[class$="-renderer"],
   .grid-movie-renderer-metadata[class$="-renderer"],
   .less-button[class$="-renderer"],
+  .miniplayer-title.ytd-miniplayer,
   .more-button[class$="-renderer"],
   .promo-body-text[class$="-renderer"],
   .promo-title[class$="-renderer"],
@@ -638,9 +639,11 @@
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
   ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$="-renderer"],
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
+  ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytmusic-guide-entry-renderer,
   ytmusic-guide-entry-renderer:not([is-primary]) .subtitle[class$="-renderer"],
   ytmusic-guide-entry-renderer:not([is-primary]) .title[class$="-renderer"],
+  ytd-playlist-panel-video-renderer[show-action-buttons] #video-title.ytd-playlist-panel-video-renderer,
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
