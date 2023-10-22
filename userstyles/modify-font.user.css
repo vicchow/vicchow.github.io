@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.16
+@version 46.4.17
 ==/UserStyle== */
 
 /*
@@ -627,6 +627,7 @@
   input.ytmusic-search-box,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
+  yt-formatted-string[class$="-renderer"][secondary],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
   ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name[class$="-renderer"],
   ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
