@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.20
+@version 46.4.21
 ==/UserStyle== */
 
 /*
@@ -23,10 +23,10 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"),
-  domain("www.amazon.de"),
-  domain("www.amazon.co.uk"),
-  domain("awscli.amazonaws.com"),
-  domain("console.aws.amazon.com") {
+domain("www.amazon.de"),
+domain("www.amazon.co.uk"),
+domain("awscli.amazonaws.com"),
+domain("console.aws.amazon.com") {
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
@@ -72,11 +72,12 @@
 }
 
 /* Google */
-@-moz-document domain("accounts.google.com"), 
-  domain("calendar.google.com"), 
-  domain("photos.google.com"), 
-  domain("www.google.com"), 
-  domain("www.google.com.hk") {
+@-moz-document domain("accounts.google.com"),
+domain("calendar.google.com"),
+domain("photos.google.com"),
+domain("www.google.com"),
+domain("www.google.com.hk") {
+
   html,
   body,
   h1 {
@@ -147,7 +148,7 @@
   .UKzvpf .ASWyTc,
   .UKzvpf .YvjW7c,
   .uqcjDb,
-  .V7i3mf .r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS, 
+  .V7i3mf .r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS,
   .V7i3mf .ReCbLb .VfPpkd-uusGie-fmcmS,
   .VfPpkd-NLUYnc-V67aGc,
   .VfPpkd-rymPhb-fpDzbe-fmcmS,
@@ -188,6 +189,7 @@
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
+
   :not(.material-icons-extended),
   .AjwuVe,
   .b3-form-header .b3-form-title-content,
@@ -222,6 +224,7 @@
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
+
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -233,6 +236,7 @@
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
+
   body,
   button,
   input,
@@ -244,6 +248,7 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
+
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -274,6 +279,7 @@
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -321,6 +327,7 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
+
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -425,6 +432,7 @@
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
+
   body,
   div.body h1,
   div.body h2,
@@ -441,6 +449,7 @@
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
+
   body,
   div {
     font-family: var(--font-family-sans-serif);
@@ -449,6 +458,7 @@
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
+
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -475,6 +485,7 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
+
   a,
   acronym,
   body,
@@ -531,6 +542,7 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -561,6 +573,7 @@
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
+
   .jw-captions,
   .jw-text-track-cue,
   .jw-video::-webkit-media-text-track-display,
@@ -578,6 +591,7 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
+
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
@@ -594,17 +608,18 @@
   .text[class$="-renderer"],
   .title[class$="-renderer"],
   .yt-channel-external-link-view-model-wiz__title--title-small-font,
+  .yt-content-metadata-view-model-wiz__metadata-text,
   .yt-tab-shape-wiz__tab,
   *,
   #aside-text[class$="-renderer"],
   #bio[class$="-renderer"],
   #byline[class$="-renderer"],
   #channel-handle[class$="-renderer"],
-  #content[class$="-renderer"],
   #content-text[class$="-renderer"],
+  #content[class$="-renderer"],
   #contextual-info[class$="-renderer"],
-  #description[class$="-renderer"],
   #description-text[class$="-renderer"],
+  #description[class$="-renderer"],
   #guide-section-title[class$="-renderer"],
   #label[class$="-renderer"],
   #message[class$="-renderer"],
@@ -637,26 +652,30 @@
   ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-c4-tabbed-header-renderer[use-modern-style] #channel-handle.ytd-c4-tabbed-header-renderer,
   ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
+  ytd-compact-station-renderer[collections] h3[class$="-renderer"],
   ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
   ytd-guide-entry-renderer[is-header] .title[class$="-renderer"],
   ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$="-renderer"],
   ytd-guide-section-renderer[modern-typography] #guide-section-title[class$="-renderer"],
+  ytd-item-section-header-renderer[modern-typography] #title[class$="-renderer"],
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
-  ytmusic-guide-entry-renderer,
-  ytmusic-guide-entry-renderer:not([is-primary]) .subtitle[class$="-renderer"],
-  ytmusic-guide-entry-renderer:not([is-primary]) .title[class$="-renderer"],
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
+  ytd-rich-shelf-renderer[modern-typography] #title[class$="-renderer"],
+  ytd-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-text-header-renderer,
   ytd-thumbnail-overlay-now-playing-renderer,
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name[class$="-renderer"],
-  ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$="-renderer"] {
+  ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$="-renderer"],
+  ytmusic-guide-entry-renderer,
+  ytmusic-guide-entry-renderer:not([is-primary]) .subtitle[class$="-renderer"],
+  ytmusic-guide-entry-renderer:not([is-primary]) .title[class$="-renderer"] {
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
@@ -671,9 +690,9 @@
 
 /* Multiple sites */
 @-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), url-prefix("https://192.168.1.1:8443"), domain("asusrt.home"),
-  domain("backpackers.com.tw"),
-  domain("pinboard.in"),
-  domain("hkitalk.net") {
+domain("backpackers.com.tw"),
+domain("pinboard.in"),
+domain("hkitalk.net") {
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -684,8 +703,9 @@
 }
 
 @-moz-document domain("developer.mozilla.org"),
-  domain("trello.com"),
-  domain("wikipedia.org") {
+domain("trello.com"),
+domain("wikipedia.org") {
+
   .button,
   body,
   button,
