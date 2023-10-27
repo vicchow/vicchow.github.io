@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.21
+@version 46.4.22
 ==/UserStyle== */
 
 /*
@@ -75,6 +75,7 @@ domain("console.aws.amazon.com") {
 @-moz-document domain("accounts.google.com"),
 domain("calendar.google.com"),
 domain("photos.google.com"),
+domain("translate.google.com"),
 domain("www.google.com"),
 domain("www.google.com.hk") {
 
@@ -127,6 +128,7 @@ domain("www.google.com.hk") {
   .NqLrnb,
   .nZC2Ae,
   .obNJBf,
+  .Ose4Jf,
   .P0eWkf,
   .paD5uf,
   .PbnGhe,
