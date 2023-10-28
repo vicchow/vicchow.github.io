@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.23
+@version 46.4.24
 ==/UserStyle== */
 
 /*
@@ -737,7 +737,7 @@ domain("wikipedia.org") {
       --font-family-monospace: "JetBrains Mono", monospace;
     }
 
-    body {
+    html {
       font-family: var(--font-family-sans-serif);
     }
   }
