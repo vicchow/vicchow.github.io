@@ -16,6 +16,7 @@
 
 /* GitLab */
 @-moz-document domain("git.talgroup.com") {
+
   .gl-line-height-normal,
   .gl-search-box-by-type-input-borderless,
   .gl-search-box-by-type-input-borderless.gl-form-input {

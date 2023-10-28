@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 12.0.1
+@version 13.0.0
 ==/UserStyle== */
 
 /* 
@@ -13,6 +13,7 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
+
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
@@ -21,6 +22,7 @@
 
 /* Feedly */
 @-moz-document domain("feedly.com") {
+
   .entryBody a,
   entryBody a:hover {
     text-decoration: underline dotted;
@@ -37,6 +39,7 @@
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
+
   .link-card[_ngcontent-c60]:focus,
   .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
   .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
@@ -52,14 +55,7 @@
 }
 
 /* Medium */
-@-moz-document domain("medium.com"),
-  url-prefix("https://500ish.com"),
-  url-prefix("https://blog.bitsrc.io"),
-  url-prefix("https://codeburst.io"),
-  url-prefix("https://levelup.gitconnected.com"),
-  url-prefix("https://itnext.io"),
-  url-prefix("https://towardsdatascience.com"),
-  url-prefix("https://uxdesign.cc") {
+@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
   article a {
     text-underline-offset: var(--underline-offset);
   }
@@ -68,6 +64,7 @@
 /* Mozilla */
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
+
     .fancy-link,
     .article a:link,
     h3 a:link,
@@ -82,6 +79,14 @@
     abbr[title] {
       text-underline-offset: var(--underline-offset);
     }
+  }
+}
+
+@-moz-document domain("openrice.com") {
+
+  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
+  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
+    vertical-align: inherit;
   }
 }
 
@@ -115,6 +120,7 @@
   }
 
   @media (min-width: 22.5rem) {
+
     .css-13gy2f5 ul li a,
     .css-13gy2f5 ol li a,
     .css-13gy2f5 .article__body-text-image>ol a,
