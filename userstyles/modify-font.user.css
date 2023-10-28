@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.4.24
+@version 46.4.25
 ==/UserStyle== */
 
 /*
@@ -613,6 +613,8 @@ domain("www.google.com.hk") {
   .yt-channel-external-link-view-model-wiz__title--title-small-font,
   .yt-content-metadata-view-model-wiz__metadata-text,
   .yt-tab-shape-wiz__tab,
+  .yt-video-attribute-view-model__subtitle,
+  .yt-video-attribute-view-model__title,
   *,
   #aside-text[class$="-renderer"],
   #bio[class$="-renderer"],
@@ -632,6 +634,7 @@ domain("www.google.com.hk") {
   #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$="-renderer"],
+  #sub-header-text[class$="-renderer"],
   #subscriber-count[class$="-renderer"],
   #subtitle[class$="-renderer"],
   #text[class$="-renderer"],
@@ -668,6 +671,7 @@ domain("www.google.com.hk") {
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
+  ytd-rich-list-header-renderer[modern-typography] #title[class$="-renderer"],
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
   ytd-rich-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-shelf-renderer[modern-typography] #title[class$="-renderer"],
