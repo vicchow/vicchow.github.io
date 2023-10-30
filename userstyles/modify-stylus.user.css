@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 1.1.0
+@version 1.1.1
 ==/UserStyle== */
 
 /*
@@ -16,7 +16,8 @@
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
     --font-family-serif: serif;
-    --underline-offset: 20%;
+    /* --underline-offset: 10%; */
+    --underline-offset: -10%;
   }
 
   .style-name:hover .style-name-link {
@@ -31,6 +32,9 @@
   a *,
   u,
   *:hover {
+    text-underline-offset: var(--underline-offset);
+    text-underline-position: under;
+    text-decoration-skip-ink: all;
     text-decoration-thickness: from-font;
   }
 }
