@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 1.0.1
+@version 1.0.2
 ==/UserStyle== */
 
 /*
@@ -14,13 +14,13 @@
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
   body {
     font-family: var(--font-family-sans-serif);
-    text-underline-offset: var(--underline-offset);
+    text-underline-position: below;
+    text-decoration-thickness: from-font;
   }
 
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
     --font-family-serif: serif;
-    --underline-offset: 0.16em;
   }
 }
