@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 1.0.3
+@version 1.0.4
 ==/UserStyle== */
 
 /*
@@ -20,7 +20,7 @@
   a *,
   u,
   *:hover {
-    text-underline-position: below;
+    text-underline-position: under;
     text-decoration-thickness: from-font;
   }
 
