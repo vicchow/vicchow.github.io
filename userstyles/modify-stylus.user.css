@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 1.0.7
+@version 1.0.8
 ==/UserStyle== */
 
 /*
@@ -13,7 +13,7 @@
 
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
   .style-name:hover .style-name-link {
-    text-decoration-style: none;
+    text-decoration: none;
   }
 
   body {
