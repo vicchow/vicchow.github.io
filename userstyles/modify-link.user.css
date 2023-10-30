@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 13.0.8
+@version 13.1.0
 ==/UserStyle== */
 
 /* 
  * Version number convention: <major>.<minor>.<patch>
- * <major>: new section
- * <minor>: new rule or update on section
- * <patch>: update on rule
+ * <major>: add or remove section
+ * <minor>: add or remove statement/rule
+ * <patch>: update selector or declaration of statement/rule
  */
 
 /* Amazon */
@@ -62,6 +62,16 @@
 }
 
 /* Mozilla */
+@-moz-document domain("developer.mozilla.org") {
+
+  .about-container a:link,
+  .about-container a:visited,
+  .main-page-content a:link,
+  .main-page-content a:visited {
+    text-decoration: none;
+  }
+}
+
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
 

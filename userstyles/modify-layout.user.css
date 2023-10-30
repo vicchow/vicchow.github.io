@@ -1,18 +1,19 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 6.0.0
+@version 6.1.0
 ==/UserStyle== */
 
 /* 
  * Version number convention: <major>.<minor>.<patch>
- * <major>: new section
- * <minor>: new rule or update on section
- * <patch>: update on rule
+ * <major>: add or remove section
+ * <minor>: add or remove statement/rule
+ * <patch>: update selector or declaration of statement/rule
  */
 
 /* Books.com.tw */
 @-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
+
   .table-01 th,
   .table-01 td {
     padding: 5px 5px;
@@ -26,6 +27,7 @@
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
+
   .iblpc,
   .dRYYxd {
     height: auto;
@@ -39,6 +41,7 @@
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
+
   .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
   #ct>table>tbody>tr>td:nth-child(2),

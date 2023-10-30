@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 1.0.9
+@version 1.1.0
 ==/UserStyle== */
 
 /*
  * Version number convention: <major>.<minor>.<patch>
- * <major>: add/remove sections
- * <minor>: add/remove rules
- * <patch>: update rules
+ * <major>: add or remove section
+ * <minor>: add or remove statement/rule
+ * <patch>: update selector or declaration of statement/rule
  */
 
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
