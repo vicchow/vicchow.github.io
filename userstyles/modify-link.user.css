@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 13.0.1
+@version 13.0.2
 ==/UserStyle== */
 
 /* 
@@ -142,7 +142,7 @@
   u,
   *:hover {
     /* text-underline-offset: var(--underline-offset); */
-    text-underline-position: below;
+    text-underline-position: under;
     /* text-decoration-style: dotted; */
     text-decoration-thickness: from-font;
   }
