@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 13.0.5
+@version 13.0.6
 ==/UserStyle== */
 
 /* 
@@ -133,17 +133,15 @@
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
-  /* :root {
+  :root {
     --underline-offset: 20%;
-  } */
+  }
 
   a,
   a *,
   u,
   *:hover {
-    /* text-underline-offset: var(--underline-offset); */
-    /* text-underline-position: under; */
-    text-decoration-style: dashed;
+    text-underline-offset: var(--underline-offset);
     text-decoration-thickness: from-font;
   }
 }
