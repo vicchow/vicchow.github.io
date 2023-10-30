@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 13.0.7
+@version 13.0.8
 ==/UserStyle== */
 
 /* 
@@ -21,14 +21,14 @@
 }
 
 /* Feedly */
-@-moz-document domain("feedly.com") {
+/* @-moz-document domain("feedly.com") {
 
   .entryBody a,
   entryBody a:hover {
     text-decoration: underline dotted;
     border-bottom: unset;
   }
-}
+} */
 
 /* Google */
 @-moz-document domain("docs.google.com") {
