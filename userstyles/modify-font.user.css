@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.5.1
+@version 46.5.2
 ==/UserStyle== */
 
 /*
@@ -643,6 +643,8 @@
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
   input.ytmusic-search-box,
+  p[class$="-renderer"],
+  td[class$="-renderer"],
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
   yt-formatted-string[class$="-renderer"][secondary],
