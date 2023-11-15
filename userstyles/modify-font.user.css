@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 47.0.0
+@version 47.0.1
 ==/UserStyle== */
 
 /*
@@ -274,7 +274,10 @@
 
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
-  .mectrl_root div {
+  .mectrl_root div,
+  .mectrl_resetStyle,
+  a.mectrl_resetStyle,
+  button.mectrl_resetStyle {
     font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
   }
 }
