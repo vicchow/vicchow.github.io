@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 46.5.2
+@version 47.0.0
 ==/UserStyle== */
 
 /*
@@ -266,6 +266,16 @@
 @-moz-document domain("lihkg.com") {
   body {
     font-family: var(--font-family-sans-serif);
+  }
+}
+
+/* Microsoft */
+@-moz-document domain("www.microsoft.com") {
+
+  .mectrl_topHeader .mectrl_header_text,
+  .mectrl_root,
+  .mectrl_root div {
+    font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
   }
 }
 
