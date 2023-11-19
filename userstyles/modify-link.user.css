@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 14.0.1
+@version 15.0.0
 ==/UserStyle== */
 
 /* 
@@ -10,6 +10,23 @@
  * <minor>: add or remove statement/rule
  * <patch>: update selector or declaration of statement/rule
  */
+
+/* All sites */
+@-moz-document url-prefix("http:"), url-prefix("https:") {
+  :root {
+    --underline-offset: 0%;
+  }
+
+  a,
+  a *,
+  u,
+  *:hover {
+    text-underline-offset: var(--underline-offset);
+    text-underline-position: under;
+    text-decoration-skip-ink: all;
+    text-decoration-thickness: from-font;
+  }
+}
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
@@ -146,22 +163,5 @@
     .css-13gy2f5 .article__body-text a {
       border-width: 0.1rem;
     }
-  }
-}
-
-/* All sites */
-@-moz-document url-prefix("http:"), url-prefix("https:") {
-  :root {
-    --underline-offset: 0%;
-  }
-
-  a,
-  a *,
-  u,
-  *:hover {
-    text-underline-offset: var(--underline-offset);
-    text-underline-position: under;
-    text-decoration-skip-ink: all;
-    text-decoration-thickness: from-font;
   }
 }
