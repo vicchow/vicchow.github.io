@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 13.1.7
+@version 14.0.0
 ==/UserStyle== */
 
 /* 
@@ -17,6 +17,14 @@
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
+  }
+}
+
+/* BBC */
+@-moz-document domain("bbc.com") {
+  a, a *, u, :hover {
+    text-underline-offset: inherit;
+    text-underline-position: inherit;
   }
 }
 
@@ -144,7 +152,7 @@
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
-    --underline-offset: -5%;
+    --underline-offset: 0%;
   }
 
   a,
