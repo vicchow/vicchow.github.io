@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 14.0.0
+@version 14.0.1
 ==/UserStyle== */
 
 /* 
@@ -21,7 +21,7 @@
 }
 
 /* BBC */
-@-moz-document domain("bbc.com") {
+@-moz-document domain("www.bbc.com") {
   a, a *, u, :hover {
     text-underline-offset: inherit;
     text-underline-position: inherit;
