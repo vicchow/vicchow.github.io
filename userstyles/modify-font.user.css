@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 48.0.4
+@version 48.0.5
 ==/UserStyle== */
 
 /*
@@ -647,6 +647,7 @@
   .subtitle[class$="-renderer"],
   .text[class$="-renderer"],
   .title[class$="-renderer"],
+  .yt-channel-external-link-view-model-wiz__title, 
   .yt-channel-external-link-view-model-wiz__title--title-small-font,
   .yt-content-metadata-view-model-wiz__metadata-text,
   .yt-tab-shape-wiz__tab,
