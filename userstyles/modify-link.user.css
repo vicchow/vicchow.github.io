@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 15.0.0
+@version 15.0.1
 ==/UserStyle== */
 
 /* 
@@ -14,9 +14,10 @@
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
-    --underline-offset: 0%;
+    --underline-offset: .2rem;
   }
 
+  /*
   a,
   a *,
   u,
@@ -25,7 +26,7 @@
     text-underline-position: under;
     text-decoration-skip-ink: all;
     text-decoration-thickness: from-font;
-  }
+  } */
 }
 
 /* Amazon */
@@ -48,16 +49,6 @@
     text-underline-position: inherit;
   }
 }
-
-/* Feedly */
-/* @-moz-document domain("feedly.com") {
-
-  .entryBody a,
-  entryBody a:hover {
-    text-decoration: underline dotted;
-    border-bottom: unset;
-  }
-} */
 
 /* Google */
 @-moz-document domain("docs.google.com") {
