@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 48.1.2
+@version 48.1.3
 ==/UserStyle== */
 
 /*
@@ -716,6 +716,9 @@
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],
+  ytd-post-renderer[uses-compact-lockup][attachment="image"] #home-content-text[class$="-renderer"], 
+  ytd-post-renderer[uses-compact-lockup][attachment="none"] #home-content-text[class$="-renderer"],
+  ytd-post-renderer[uses-compact-lockup][attachment="uploaded-videos"] #home-content-text[class$="-renderer"], 
   ytd-reel-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
