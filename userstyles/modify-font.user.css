@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 48.1.8
+@version 48.1.9
 ==/UserStyle== */
 
 /*
@@ -725,7 +725,8 @@
   ytd-rich-grid-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-grid-slim-media[mini-mode] #video-title[class$="-media"],
   ytd-rich-list-header-renderer[is-modern-sd] #title[class$="-renderer"],
-  ytd-rich-list-header-renderer[modern-typography] #title[class$="-renderer"],
+  ytd-rich-list-header-renderer[modern-typography] [id][class$="-renderer"],
+  ytd-rich-list-header-renderer[modern-typography] [id][class$="-renderer"],
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
   ytd-rich-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-shelf-renderer[modern-typography] #title[class$="-renderer"],
