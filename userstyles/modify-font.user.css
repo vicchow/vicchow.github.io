@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 48.1.13
+@version 48.2.0
 ==/UserStyle== */
 
 /*
@@ -756,7 +756,7 @@
 }
 
 /* Multiple sites */
-@-moz-document url-prefix("http://router.asus.com"), url-prefix("https://vicchow.asuscomm.com"), url-prefix("https://192.168.1.1:8443"), domain("asusrt.home"), domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
+@-moz-document domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -766,7 +766,7 @@
   }
 }
 
-@-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
+/* @-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
 
   .button,
   body,
@@ -777,4 +777,4 @@
   textarea {
     font-family: var(--font-family-sans-serif);
   }
-}
+} */
