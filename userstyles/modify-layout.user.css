@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 6.1.0
+@version 6.2.0
 ==/UserStyle== */
 
 /* 
@@ -28,9 +28,13 @@
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
 
-  .iblpc,
-  .dRYYxd {
+  .dRYYxd,
+  .iblpc {
     height: auto;
+  }
+
+  .eKPi4 {
+    padding-bottom: inherit;
   }
 
   textarea.gLFyf,
