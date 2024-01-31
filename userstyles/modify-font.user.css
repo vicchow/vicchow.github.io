@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 48.2.0
+@version 49.0.0
 ==/UserStyle== */
 
 /*
@@ -256,6 +256,13 @@
 
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
+  }
+}
+
+/* Google Play */
+@-moz-document domain("play.google.com") {
+  .gmat-body-2 {
+    font-family: var(--font-family-sans-serif);
   }
 }
 
