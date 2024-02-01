@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.1
+@version 49.0.2
 ==/UserStyle== */
 
 /*
@@ -695,6 +695,7 @@
   #subtitle[class$="-renderer"],
   #text[class$="-renderer"],
   #thumbnail-attribution[class$="-renderer"],
+  #time[class$="-renderer"],
   #title[class$="-renderer"],
   #video-count-text[class$="-renderer"],
   #video-title[class$="-media"],
