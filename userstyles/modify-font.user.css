@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.0
+@version 49.0.1
 ==/UserStyle== */
 
 /*
@@ -648,7 +648,6 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
-
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
@@ -728,6 +727,7 @@
   ytd-guide-section-renderer[modern-typography] #guide-section-title[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #title[class$="-renderer"],
   ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"]) h4[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],
   ytd-post-renderer[uses-compact-lockup][attachment="image"] #home-content-text[class$="-renderer"], 
@@ -772,16 +772,3 @@
     font-family: var(--font-family-monospace) !important;
   }
 }
-
-/* @-moz-document domain("developer.mozilla.org"), domain("trello.com"), domain("wikipedia.org") {
-
-  .button,
-  body,
-  button,
-  html,
-  input,
-  select,
-  textarea {
-    font-family: var(--font-family-sans-serif);
-  }
-} */
