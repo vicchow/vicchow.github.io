@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.4
+@version 49.0.5
 ==/UserStyle== */
 
 /*
@@ -666,8 +666,8 @@
   .subtitle[class$="-renderer"],
   .text[class$="-renderer"],
   .title[class$="-renderer"],
-  .yt-channel-external-link-view-model-wiz__title,
   .yt-channel-external-link-view-model-wiz__title--title-small-font,
+  .yt-channel-external-link-view-model-wiz__title,
   .yt-content-metadata-view-model-wiz__metadata-text,
   .yt-tab-shape-wiz__tab,
   .yt-video-attribute-view-model__subtitle,
@@ -694,6 +694,7 @@
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$="-renderer"],
   #sub-header-text[class$="-renderer"],
+  #sub-title[class$="-renderer"],
   #subscriber-count[class$="-renderer"],
   #subtitle[class$="-renderer"],
   #text[class$="-renderer"],
@@ -729,9 +730,10 @@
   ytd-guide-entry-renderer[is-header] .title[class$="-renderer"],
   ytd-guide-section-renderer[guide-refresh] #guide-section-title[class$="-renderer"],
   ytd-guide-section-renderer[modern-typography] #guide-section-title[class$="-renderer"],
+  ytd-item-section-header-renderer[modern-typography] #subtitle[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #title[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"]) h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-merch-shelf-item-renderer[item-style$="-item"] .product-item-description[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],
