@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.5
+@version 49.0.6
 ==/UserStyle== */
 
 /*
@@ -677,6 +677,7 @@
   #bio[class$="-renderer"],
   #byline[class$="-renderer"],
   #channel-handle[class$="-renderer"],
+  #channel-title[class$="-renderer"],
   #content-text[class$="-renderer"],
   #content[class$="-renderer"],
   #contextual-info[class$="-renderer"],
@@ -723,6 +724,8 @@
   ytd-c4-tabbed-header-renderer[use-page-header-style] #channel-handle[class$="-renderer"],
   ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
   ytd-compact-station-renderer[collections] h3[class$="-renderer"],
+  ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #body-text[class$="-renderer"],
+  ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #secondary-text[class$="-renderer"],
   ytd-feed-nudge-renderer[nudge-style="modernized-nudge"] #subtitle[class$="-renderer"],
   ytd-feed-nudge-renderer[nudge-style="modernized-nudge"] #title[class$="-renderer"],
   ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
