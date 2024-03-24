@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 15.0.4
+@version 15.0.5
 ==/UserStyle== */
 
 /*
@@ -14,7 +14,7 @@
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
   :root {
-    --underline-offset: .1lh;
+    --underline-offset: .2lh;
   }
 
   a,
