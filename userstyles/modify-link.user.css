@@ -39,18 +39,6 @@
   }
 }
 
-/* BBC */
-/* @-moz-document domain("www.bbc.com") {
-
-  a,
-  a *,
-  u,
-  :hover {
-    text-underline-offset: inherit;
-    text-underline-position: inherit;
-  }
-} */
-
 /* Google */
 @-moz-document domain("docs.google.com") {
   :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
