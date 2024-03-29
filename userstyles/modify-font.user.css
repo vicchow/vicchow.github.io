@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.7
+@version 49.0.8
 ==/UserStyle== */
 
 /*
@@ -690,6 +690,7 @@
   #content-text[class$="-renderer"],
   #content[class$="-renderer"],
   #contextual-info[class$="-renderer"],
+  #corrected.yt-search-query-correction,
   #description-text[class$="-renderer"],
   #description[class$="-renderer"],
   #guide-section-title[class$="-renderer"],
@@ -699,6 +700,7 @@
   #message[class$="-renderer"],
   #name[class$="-renderer"],
   #next-label[class$="-renderer"],
+  #original.yt-search-query-correction,
   #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
