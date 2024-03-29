@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 15.0.6
+@version 16.0.0
 ==/UserStyle== */
 
 /*
@@ -17,12 +17,12 @@
     --underline-offset: .2lh;
   }
 
-  a,
-  a *,
-  u,
-  u:hover,
   *,
-  *:hover {
+  *:hover,
+  a *,
+  a,
+  u,
+  u:hover {
     text-underline-offset: var(--underline-offset);
     /* text-underline-position: under;
     text-decoration-skip-ink: all;
@@ -40,7 +40,7 @@
 }
 
 /* BBC */
-@-moz-document domain("www.bbc.com") {
+/* @-moz-document domain("www.bbc.com") {
 
   a,
   a *,
@@ -49,7 +49,7 @@
     text-underline-offset: inherit;
     text-underline-position: inherit;
   }
-}
+} */
 
 /* Google */
 @-moz-document domain("docs.google.com") {
