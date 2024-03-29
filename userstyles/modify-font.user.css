@@ -189,7 +189,7 @@
   .UKzvpf .ASWyTc,
   .UKzvpf .YvjW7c,
   .uqcjDb,
-  .VOEIyf, 
+  .VOEIyf,
   .VOEIyf .jBmls,
   .V7i3mf .r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS,
   .V7i3mf .ReCbLb .VfPpkd-uusGie-fmcmS,
@@ -657,6 +657,7 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
+
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
