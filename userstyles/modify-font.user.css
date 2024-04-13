@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.11
+@version 49.0.12
 ==/UserStyle== */
 
 /*
@@ -768,8 +768,11 @@
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
   ytd-rich-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-shelf-renderer[modern-typography] #title[class$="-renderer"],
+  ytd-structured-description-playlist-lockup-renderer[two-line-title] #title[class$="-renderer"],
   ytd-text-header-renderer,
   ytd-thumbnail-overlay-now-playing-renderer,
+  ytd-video-description-course-section-renderer[modern-typography] #title[class$="-renderer"],
+  ytd-video-description-infocards-section-renderer[show-creator-custom-url-buttons] #subtitle[class$="-renderer"],
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name[class$="-renderer"],
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$="-renderer"],
