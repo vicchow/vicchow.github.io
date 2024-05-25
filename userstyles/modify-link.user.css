@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 16.0.0
+@version 16.0.1
 ==/UserStyle== */
 
 /*
@@ -23,6 +23,7 @@
   a,
   u,
   u:hover {
+    text-decoration-style: dotted;
     text-underline-offset: var(--underline-offset);
     /* text-underline-position: under;
     text-decoration-skip-ink: all;
