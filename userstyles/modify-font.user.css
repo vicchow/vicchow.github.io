@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 49.0.15
+@version 49.0.16
 ==/UserStyle== */
 
 /*
@@ -702,6 +702,7 @@
   #description-text[class$="-renderer"],
   #description[class$="-renderer"],
   #guide-section-title[class$="-renderer"],
+  #item-title[class$="-renderer"],
   #label[class$="-renderer"],
   #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
   #labelAndInputContainer.tp-yt-paper-input-container>label,
