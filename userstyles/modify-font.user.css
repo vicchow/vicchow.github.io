@@ -72,7 +72,7 @@
 }
 
 /* Google */
-@-moz-document domain("accounts.google.com"), domain("admin.google.com"), domain("calendar.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
+@-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
   @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 
   html,
@@ -208,6 +208,21 @@
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
+  .gmat-body-2 {
+    font-family: var(--font-family-sans-serif);
+  }
+
+  .google-material-icons * {
+    font-family: 'Google Material Icons';
+  }
+
+  .s75CSd {
+    font-size: 14px;
+  }
+}
+
+/* Google Workspaces */
+@-moz-document domain("admin.google.com") {
   :not(.material-icons-extended),
   :not(.google-material-icons),
   .AjwuVe,
@@ -231,29 +246,19 @@
   .u1mMPe,
   .UXuBne,
   .whsOnd,
-  .xY8Aqb {
+  .xY8Aqb,
+  body {
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
   }
-
-  .gmat-body-2 {
-    font-family: var(--font-family-sans-serif);
-  }
-
-  .google-material-icons * {
-    font-family: 'Google Material Icons';
-  }
-
-  .s75CSd {
-    font-size: 14px;
-  }
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
+
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -265,6 +270,7 @@
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
+
   body,
   button,
   input,
@@ -276,6 +282,7 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
+
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -299,6 +306,7 @@
 
 /* Microsoft */
 @-moz-document domain("www.microsoft.com") {
+
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
   .mectrl_root div,
@@ -318,6 +326,7 @@
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -365,6 +374,7 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
+
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -469,6 +479,7 @@
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
+
   body,
   div.body h1,
   div.body h2,
@@ -485,6 +496,7 @@
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
+
   body,
   div {
     font-family: var(--font-family-sans-serif);
@@ -493,6 +505,7 @@
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
+
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -519,6 +532,7 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
+
   a,
   acronym,
   body,
@@ -575,6 +589,7 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -605,6 +620,7 @@
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
+
   .jw-captions,
   .jw-text-track-cue,
   .jw-video::-webkit-media-text-track-display,
