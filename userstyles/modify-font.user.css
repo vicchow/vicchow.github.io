@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 50.0.1
+@version 50.0.2
 ==/UserStyle== */
 
 /*
@@ -16,17 +16,10 @@
 @import url('//fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
 
-/* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
-/* @import url('//fonts.googleapis.com/css?family=Google+Sans+Text:200,400,500,700,200i,400i,500i,700i&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
-/* @import url('//fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap'); */
-
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com"), domain("console.aws.amazon.com") {
+  /* */
+
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
@@ -223,6 +216,8 @@
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
+  @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
+
   :not(.material-icons-extended),
   :not(.google-material-icons),
   .AjwuVe,
@@ -258,6 +253,7 @@
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
+  /* */
 
   .rsp h1,
   .rsp h3,
@@ -270,6 +266,7 @@
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
+  /* */
 
   body,
   button,
@@ -282,6 +279,7 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
+  /* */
 
   .about-book__copy,
   .about-bundle__blurb,
@@ -299,6 +297,8 @@
 
 /* LIHKG */
 @-moz-document domain("lihkg.com") {
+  /* */
+
   body {
     font-family: var(--font-family-sans-serif);
   }
@@ -306,6 +306,7 @@
 
 /* Microsoft */
 @-moz-document domain("www.microsoft.com") {
+  /* */
 
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
@@ -319,6 +320,8 @@
 
 /* Now E */
 @-moz-document domain("nowe.com") {
+  /* */
+
   .sqp-subtitle-element {
     font-size: 48px !important;
   }
@@ -326,6 +329,7 @@
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+  /* */
 
   .ww_skin_toc_entry,
   abbreviation.Strong a,
@@ -367,6 +371,8 @@
 
 /* OpenSearch */
 @-moz-document domain("opensearch.org") {
+  /* */
+
   body {
     font-family: var(--font-family-serif);
   }
@@ -374,6 +380,7 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
+  /* */
 
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
@@ -463,6 +470,8 @@
 
 /* Pinboard */
 @-moz-document domain("pinboard.in") {
+  /* */
+
   textarea {
     font-size: 12px;
   }
@@ -470,6 +479,8 @@
 
 /* PTT */
 @-moz-document url-prefix("https://www.ptt.cc/bbs") {
+  /* */
+
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
@@ -479,6 +490,7 @@
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
+  /* */
 
   body,
   div.body h1,
@@ -496,6 +508,7 @@
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
+  /* */
 
   body,
   div {
@@ -505,6 +518,7 @@
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
+  /* */
 
   .comment-copy,
   .comment-copy,
@@ -532,6 +546,7 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
+  /* */
 
   a,
   acronym,
@@ -582,6 +597,8 @@
 
 /* Stanford Encyclopedia of Philosophy */
 @-moz-document domain("plato.stanford.edu") {
+  /* */
+
   body {
     line-height: 1.8em;
   }
@@ -589,6 +606,7 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+  /* */
 
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
@@ -606,6 +624,8 @@
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
+  /* */
+
   body {
     font-family: var(--font-family-sans-serif);
   }
@@ -613,6 +633,8 @@
 
 /* TMTP */
 @-moz-document domain("www.tmtp.com.hk") {
+  /* */
+
   body {
     font-family: var(--font-family-sans-serif);
   }
@@ -620,6 +642,7 @@
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
+  /* */
 
   .jw-captions,
   .jw-text-track-cue,
@@ -631,6 +654,8 @@
 
 /* Wikia */
 @-moz-document domain("wikia.com") {
+  /* */
+
   body {
     font-family: var(--font-family-sans-serif);
   }
@@ -776,6 +801,8 @@
 
 /* Multiple sites */
 @-moz-document domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
+  /* */
+
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -787,6 +814,8 @@
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
+  /* */
+
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
@@ -806,4 +835,5 @@
       font-family: var(--font-family-sans-serif);
     }
   }
+
 }

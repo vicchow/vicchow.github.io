@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 7.0.0
+@version 7.0.1
 ==/UserStyle== */
 
 /*
@@ -13,6 +13,8 @@
 
 /* Microsoft Office and SharePoint */
 @-moz-document domain("sharepoint.com"), domain("office.com") {
+  /* */
+
   .o365cs-topnavText {
     font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight",
       "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma, Helvetica, Arial,
@@ -34,7 +36,9 @@
 }
 
 /* Nexus */
-@-moz-document domain("repo.talgroup.com") {
+@-moz-document domain("registry.talgroup.com"), domain("repo.talgroup.com") {
+  /* */
+
   body {
     font-family: sans-serif !important;
   }
@@ -42,7 +46,10 @@
 
 /* Salesforce */
 @-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com"), domain("talgroup--c.vf.force.com") {
+  /* */
+
   * {
     font-family: sans-serif !important;
   }
+
 }
