@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 16.0.1
+@version 17.0.0
 ==/UserStyle== */
 
 /*
@@ -33,7 +33,6 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
-
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
@@ -49,7 +48,6 @@
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
-
   .link-card[_ngcontent-c60]:focus,
   .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
   .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
@@ -73,7 +71,6 @@
 
 /* Mozilla */
 @-moz-document domain("developer.mozilla.org") {
-
   .about-container a:link,
   .about-container a:visited,
   .main-page-content a:link,
@@ -84,7 +81,6 @@
 
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
-
     .fancy-link,
     .article a:link,
     h3 a:link,
@@ -103,7 +99,6 @@
 }
 
 @-moz-document domain("openrice.com") {
-
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
     vertical-align: inherit;
@@ -140,7 +135,6 @@
   }
 
   @media (min-width: 22.5rem) {
-
     .css-13gy2f5 ul li a,
     .css-13gy2f5 ol li a,
     .css-13gy2f5 .article__body-text-image>ol a,

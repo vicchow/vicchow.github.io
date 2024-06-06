@@ -21,7 +21,6 @@
 
 /* Books.com.tw */
 @-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
-
   .table-01 th,
   .table-01 td {
     padding: 5px 5px;
@@ -35,7 +34,6 @@
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
-
   .dRYYxd,
   .iblpc {
     height: auto;
@@ -53,7 +51,6 @@
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-
   .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
   #ct>table>tbody>tr>td:nth-child(2),

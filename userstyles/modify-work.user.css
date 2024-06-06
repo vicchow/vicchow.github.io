@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-work
 @namespace vicchow
-@version 6.1.2
+@version 7.0.0
 ==/UserStyle== */
 
 /*
@@ -10,19 +10,6 @@
  * <minor>: new rule or update on section
  * <patch>: update on rule
  */
-
-/* Web fonts */
-/* @import url("//fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic"); */
-
-/* GitLab */
-/* @-moz-document domain("git.talgroup.com") {
-
-  .gl-line-height-normal,
-  .gl-search-box-by-type-input-borderless,
-  .gl-search-box-by-type-input-borderless.gl-form-input {
-    line-height: 1.15rem;
-  }
-} */
 
 /* Microsoft Office and SharePoint */
 @-moz-document domain("sharepoint.com"), domain("office.com") {
