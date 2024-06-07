@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-stylus
 @namespace vicchow
-@version 2.0.1
+@version 2.0.2
 ==/UserStyle== */
 
 /*
@@ -38,5 +38,4 @@
     text-decoration-skip-ink: all;
     text-decoration-thickness: from-font;
   }
-
 }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 50.0.2
+@version 50.0.3
 ==/UserStyle== */
 
 /*
@@ -835,5 +835,4 @@
       font-family: var(--font-family-sans-serif);
     }
   }
-
 }

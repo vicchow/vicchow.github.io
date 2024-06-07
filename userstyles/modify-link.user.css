@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 17.0.1
+@version 17.0.2
 ==/UserStyle== */
 
 /*
@@ -143,27 +143,26 @@
       border-width: 0.1rem;
     }
   }
+}
 
-  /* All sites */
-  @-moz-document url-prefix("http:"), url-prefix("https:") {
-    /* */
+/* All sites */
+@-moz-document url-prefix("http:"), url-prefix("https:") {
+  /* */
 
-    :root {
-      --underline-offset: .2lh;
-    }
-
-    *,
-    *:hover,
-    a *,
-    a,
-    u,
-    u:hover {
-      text-decoration-style: dotted;
-      text-underline-offset: var(--underline-offset);
-      /* text-underline-position: under;
-    text-decoration-skip-ink: all;
-    text-decoration-thickness: from-font; */
-    }
+  :root {
+    --underline-offset: .2lh;
   }
 
+  *,
+  *:hover,
+  a *,
+  a,
+  u,
+  u:hover {
+    text-decoration-style: dotted;
+    text-underline-offset: var(--underline-offset);
+    /* text-underline-position: under;
+    text-decoration-skip-ink: all;
+    text-decoration-thickness: from-font; */
+  }
 }
