@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 7.0.2
+@version 7.0.3
 ==/UserStyle== */
 
 /*
@@ -13,7 +13,6 @@
 
 /* Bitwarden */
 @-moz-document url-prefix("https://vault.bitwarden.com") {
-  /* */
 
   button.no-btn,
   .filter-buttons button,
@@ -21,11 +20,11 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
 }
 
 /* Books.com.tw */
 @-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
-  /* */
 
   .table-01 th,
   .table-01 td {
@@ -36,11 +35,11 @@
   table td {
     text-align: left;
   }
+
 }
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
-  /* */
 
   .dRYYxd,
   .iblpc {
@@ -55,11 +54,11 @@
   .YacQv {
     margin-bottom: auto;
   }
+
 }
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-  /* */
 
   .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
@@ -70,21 +69,21 @@
   td.naclass2 {
     display: none;
   }
+
 }
 
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com"), domain("refactoring.com") {
-  /* */
 
   body {
     margin: 0 auto;
     max-width: 1000px;
   }
+
 }
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-  /* */
 
   div.bb_h1 {
     font-size: 12px !important;
@@ -104,11 +103,11 @@
   .wishlist_row .tag {
     line-height: 13px;
   }
+
 }
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
-  /* */
 
   ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
     margin-left: auto;
@@ -137,4 +136,5 @@
       width: 275px;
     }
   }
+
 }

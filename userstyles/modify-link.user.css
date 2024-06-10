@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-link
 @namespace vicchow
-@version 17.0.2
+@version 17.0.3
 ==/UserStyle== */
 
 /*
@@ -13,26 +13,25 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
-  /* */
 
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
   }
+
 }
 
 /* Google */
 @-moz-document domain("docs.google.com") {
-  /* */
 
   :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
     text-underline-offset: var(--underline-offset);
   }
+
 }
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
-  /* */
 
   .link-card[_ngcontent-c60]:focus,
   .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
@@ -46,20 +45,20 @@
   .quickLinkText[_ngcontent-c18] {
     line-height: 2rem;
   }
+
 }
 
 /* Medium */
 @-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
-  /* */
 
   article a {
     text-underline-offset: var(--underline-offset);
   }
+
 }
 
 /* Mozilla */
 @-moz-document domain("developer.mozilla.org") {
-  /* */
 
   .about-container a:link,
   .about-container a:visited,
@@ -67,11 +66,11 @@
   .main-page-content a:visited {
     text-decoration: none;
   }
+
 }
 
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
-    /* */
 
     .fancy-link,
     .article a:link,
@@ -88,20 +87,20 @@
       text-underline-offset: var(--underline-offset);
     }
   }
+
 }
 
 @-moz-document domain("openrice.com") {
-  /* */
 
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
     vertical-align: inherit;
   }
+
 }
 
 /* Python */
 @-moz-document domain("pypi.org") {
-  /* */
 
   a {
     background-image: none;
@@ -114,11 +113,11 @@
     background-image: none;
     text-decoration: underline;
   }
+
 }
 
 /* The Economist */
 @-moz-document domain("www.economist.com") {
-  /* */
 
   .ds-navigation-link span {
     border-bottom: 0.1rem dotted transparent;
@@ -133,7 +132,6 @@
   }
 
   @media (min-width: 22.5rem) {
-    /* */
 
     .css-13gy2f5 ul li a,
     .css-13gy2f5 ol li a,
@@ -142,12 +140,13 @@
     .css-13gy2f5 .article__body-text a {
       border-width: 0.1rem;
     }
+
   }
+
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
-  /* */
 
   :root {
     --underline-offset: .2lh;
@@ -165,4 +164,5 @@
     text-decoration-skip-ink: all;
     text-decoration-thickness: from-font; */
   }
+
 }
