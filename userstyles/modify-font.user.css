@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 50.0.3
+@version 50.0.4
 ==/UserStyle== */
 
 /*
@@ -18,7 +18,6 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com"), domain("console.aws.amazon.com") {
-  /* */
 
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
@@ -62,10 +61,12 @@
   div.body h6 {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Google */
 @-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
+
   @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 
   html,
@@ -165,8 +166,6 @@
   .UKzvpf .ASWyTc,
   .UKzvpf .YvjW7c,
   .uqcjDb,
-  .VOEIyf,
-  .VOEIyf .jBmls,
   .V7i3mf .r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS,
   .V7i3mf .ReCbLb .VfPpkd-uusGie-fmcmS,
   .VfPpkd-NLUYnc-V67aGc,
@@ -174,6 +173,9 @@
   .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS,
   .VfPpkd-uusGie-fmcmS,
   .vlYdle,
+  .VOEIyf .jBmls,
+  .VOEIyf,
+  .VwiC3b,
   .VXO03d,
   .w9XJYd.nhiZfc,
   .weSwo,
@@ -212,10 +214,12 @@
   .s75CSd {
     font-size: 14px;
   }
+
 }
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
+
   @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 
   :not(.material-icons-extended),
@@ -249,11 +253,11 @@
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
   }
+
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-  /* */
 
   .rsp h1,
   .rsp h3,
@@ -262,11 +266,11 @@
   html {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
-  /* */
 
   body,
   button,
@@ -275,11 +279,11 @@
   textarea {
     font-family: var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-  /* */
 
   .about-book__copy,
   .about-bundle__blurb,
@@ -293,20 +297,20 @@
   #leanpub-toc {
     font-family: var(--font-family-serif);
   }
+
 }
 
 /* LIHKG */
 @-moz-document domain("lihkg.com") {
-  /* */
 
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Microsoft */
 @-moz-document domain("www.microsoft.com") {
-  /* */
 
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
@@ -316,20 +320,20 @@
   button.mectrl_resetStyle {
     font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
   }
+
 }
 
 /* Now E */
 @-moz-document domain("nowe.com") {
-  /* */
 
   .sqp-subtitle-element {
     font-size: 48px !important;
   }
+
 }
 
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
-  /* */
 
   .ww_skin_toc_entry,
   abbreviation.Strong a,
@@ -367,20 +371,20 @@
   span.Strong {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* OpenSearch */
 @-moz-document domain("opensearch.org") {
-  /* */
 
   body {
     font-family: var(--font-family-serif);
   }
+
 }
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-  /* */
 
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
@@ -466,31 +470,31 @@
     font-family: inherit !important;
     font-weight: 500;
   }
+
 }
 
 /* Pinboard */
 @-moz-document domain("pinboard.in") {
-  /* */
 
   textarea {
     font-size: 12px;
   }
+
 }
 
 /* PTT */
 @-moz-document url-prefix("https://www.ptt.cc/bbs") {
-  /* */
 
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
     width: 95%;
   }
+
 }
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
-  /* */
 
   body,
   div.body h1,
@@ -504,21 +508,21 @@
   form.inline-search input {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
-  /* */
 
   body,
   div {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-  /* */
 
   .comment-copy,
   .comment-copy,
@@ -542,11 +546,11 @@
   code {
     font-family: var(--font-family-monospace);
   }
+
 }
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
-  /* */
 
   a,
   acronym,
@@ -593,20 +597,20 @@
   .tbl_content_right {
     font-variant-numeric: tabular-nums;
   }
+
 }
 
 /* Stanford Encyclopedia of Philosophy */
 @-moz-document domain("plato.stanford.edu") {
-  /* */
 
   body {
     line-height: 1.8em;
   }
+
 }
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-  /* */
 
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
@@ -620,29 +624,29 @@
   textarea {
     font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
+
 }
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
-  /* */
 
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* TMTP */
 @-moz-document domain("www.tmtp.com.hk") {
-  /* */
 
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* ViuTV */
 @-moz-document domain("viu.tv") {
-  /* */
 
   .jw-captions,
   .jw-text-track-cue,
@@ -650,19 +654,21 @@
   .jw-video::cue {
     font-size: 56px !important;
   }
+
 }
 
 /* Wikia */
 @-moz-document domain("wikia.com") {
-  /* */
 
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
+
   @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 
   .button[class$="-expander"],
@@ -797,11 +803,11 @@
   .html5-video-player .caption-visual-line .ytp-caption-segment {
     font-family: "Google Sans", var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Multiple sites */
 @-moz-document domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
-  /* */
 
   * {
     font-family: var(--font-family-sans-serif) !important;
@@ -810,11 +816,11 @@
   textarea {
     font-family: var(--font-family-monospace) !important;
   }
+
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
-  /* */
 
   :root {
     --font-family-monospace: monospace;
@@ -835,4 +841,5 @@
       font-family: var(--font-family-sans-serif);
     }
   }
+
 }
