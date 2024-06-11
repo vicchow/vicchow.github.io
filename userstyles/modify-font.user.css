@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 51.1.2
+@version 51.1.3
 ==/UserStyle== */
 
 /*
@@ -751,6 +751,7 @@
   input.ytmusic-search-box,
   p[class$="-renderer"],
   td[class$="-renderer"],
+  tp-yt-paper-button,
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
   yt-formatted-string[class$="-renderer"][secondary],
