@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 51.1.7
+@version 51.2.0
 ==/UserStyle== */
 
 /*
@@ -155,9 +155,9 @@
   .obNJBf,
   .oKubKe,
   .Ose4Jf,
-  .Ou5fBb, 
+  .Ou5fBb,
   .OXlB7d,
-  .Oxnkef, 
+  .Oxnkef,
   .P0eWkf,
   .p6iile,
   .paD5uf,
@@ -194,7 +194,7 @@
   .VfPpkd-uusGie-fmcmS,
   .vlYdle,
   .VOEIyf .jBmls,
-  .VOEIyf, 
+  .VOEIyf,
   .VwiC3b,
   .VXO03d,
   .w9XJYd.nhiZfc,
@@ -228,11 +228,16 @@
   }
 
   .google-material-icons * {
-    font-family: 'Google Material Icons';
+    font-family: "Google Material Icons";
   }
 
   .s75CSd {
     font-size: 14px;
+  }
+
+  .docs-grille-gm3 .formula-content,
+  .docs-grille-gm3 .formula-suggestion-in-cell {
+    font-family: "Google Sans Mono", "Google Sans", Roboto, sans-serif;
   }
 
 }
