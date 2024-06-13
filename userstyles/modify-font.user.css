@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 51.1.6
+@version 51.1.7
 ==/UserStyle== */
 
 /*
@@ -67,7 +67,7 @@
 }
 
 /* Google */
-@-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("docs.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
+@-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("contacts.google.com"), domain("docs.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
 
   /* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
