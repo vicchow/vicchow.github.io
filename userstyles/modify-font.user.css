@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 52.0.0
+@version 53.0.0
 ==/UserStyle== */
 
 /*
@@ -274,6 +274,16 @@
 
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
+  }
+
+}
+
+/* Google Docs */
+@-moz-document domain("docs.google.com") {
+
+  .eizQhe-ObfsIf-r4nke,
+  body {
+    font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
 }
