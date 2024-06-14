@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 51.3.0
+@version 52.0.0
 ==/UserStyle== */
 
 /*
@@ -345,15 +345,6 @@
 
 }
 
-/* Now E */
-@-moz-document domain("nowe.com") {
-
-  .sqp-subtitle-element {
-    font-size: 48px !important;
-  }
-
-}
-
 /* NVIDIA */
 @-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
 
@@ -663,18 +654,6 @@
 
   body {
     font-family: var(--font-family-sans-serif);
-  }
-
-}
-
-/* ViuTV */
-@-moz-document domain("viu.tv") {
-
-  .jw-captions,
-  .jw-text-track-cue,
-  .jw-video::-webkit-media-text-track-display,
-  .jw-video::cue {
-    font-size: 56px !important;
   }
 
 }
