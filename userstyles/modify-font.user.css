@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 53.0.0
+@version 53.0.1
 ==/UserStyle== */
 
 /*
@@ -281,8 +281,11 @@
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
 
+  .EIlDfe,
   .eizQhe-ObfsIf-r4nke,
-  body {
+  .KkxPLb,
+  .XV0XSd,
+  .yYWAMb {
     font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
