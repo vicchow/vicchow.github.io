@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 53.0.7
+@version 53.0.8
 ==/UserStyle== */
 
 /*
@@ -281,6 +281,7 @@
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
 
+  .bSz6zd,
   .CcGgbd,
   .EeNpqb,
   .eizQhe-ObfsIf-r4nke,
