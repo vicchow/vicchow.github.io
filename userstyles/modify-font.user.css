@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 53.0.8
+@version 53.0.9
 ==/UserStyle== */
 
 /*
@@ -780,6 +780,7 @@
   ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #secondary-text[class$="-renderer"],
   ytd-feed-nudge-renderer[nudge-style="modernized-nudge"] #subtitle[class$="-renderer"],
   ytd-feed-nudge-renderer[nudge-style="modernized-nudge"] #title[class$="-renderer"],
+  ytd-feed-nudge-renderer[nudge-style="modernized-nudge"][no-shadow] #title[class$="-renderer"],
   ytd-game-details-renderer[is-rich-grid]:not([mini-mode]) #title[class$="-renderer"],
   ytd-grid-video-renderer #video-title.yt-simple-endpoint[class$="-renderer"],
   ytd-guide-entry-renderer[active] .title[class$="-renderer"],
