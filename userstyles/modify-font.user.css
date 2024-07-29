@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 53.0.26
+@version 53.0.27
 ==/UserStyle== */
 
 /*
@@ -239,7 +239,7 @@
   p,
   td,
   textarea.gLFyf {
-    font-family: "Google Sans", var(--font-family-sans-serif) !important;
+    font-family: "Google Sans", var(--font-family-sans-serif);
   }
 
   .gmat-body-2 {
