@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 54.0.4
+@version 54.0.5
 ==/UserStyle== */
 
 /*
@@ -75,6 +75,7 @@
   body,
   h1 {
     font-family: var(--font-family-sans-serif);
+    --mat-menu-item-label-text-font: var(--font-family-sans-serif);
   }
 
   .agJ.aFB .agM,
