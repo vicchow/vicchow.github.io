@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 54.0.11
+@version 54.0.12
 ==/UserStyle== */
 
 /*
@@ -791,6 +791,7 @@
   #simplebox-placeholder[class$="-renderer"],
   #sub-header-text[class$="-renderer"],
   #sub-title[class$="-renderer"],
+  #submessage[class$="-renderer"],
   #subscriber-count[class$="-renderer"],
   #subtitle[class$="-renderer"],
   #text[class$="-renderer"],
