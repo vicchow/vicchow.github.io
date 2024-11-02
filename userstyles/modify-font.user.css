@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 55.0.0
+@version 55.0.1
 ==/UserStyle== */
 
 /*
@@ -67,7 +67,7 @@
 }
 
 /* Apple */
-@-moz-document domain("www.apple.com") {
+@-moz-document domain("www.apple.com"), domain("support.apple.com") {
 
   /* Safari only */
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
