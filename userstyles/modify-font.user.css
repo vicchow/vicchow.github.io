@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 55.1.2
+@version 55.1.3
 ==/UserStyle== */
 
 /*
@@ -114,6 +114,7 @@
   .cfWmIb .VfPpkd-fmcmS-wGMbrd,
   .cHQvTb,
   .CJxxTe,
+  [class^="clm-ob-"],
   .cPrmpd,
   .CQYfx,
   .cs3SAb,
