@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 55.1.1
+@version 55.1.2
 ==/UserStyle== */
 
 /*
@@ -83,8 +83,6 @@
 /* Google */
 @-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("contacts.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myaccount.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
 
-  /* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
-
   html,
   body,
   h1 {
@@ -143,6 +141,7 @@
   .fontLabelMedium,
   .FtYymb,
   .fYwTV,
+  .gAl3jd,
   .gb_0b,
   .GB6BTc,
   .gJkaS,
@@ -180,6 +179,7 @@
   .L0L2wd,
   .L5KuY,
   .lcCric,
+  [class^="liveresults-"],
   .lJ9FBc input[type],
   .LLotyc,
   .LzExud,
@@ -248,6 +248,7 @@
   .UKzvpf .ASWyTc,
   .UKzvpf .YvjW7c,
   .uqcjDb,
+  .USSdsd,
   .Uzx4se,
   .V7i3mf .r6B9Fd .VfPpkd-rymPhb-fpDzbe-fmcmS,
   .V7i3mf .ReCbLb .VfPpkd-uusGie-fmcmS,
@@ -340,7 +341,7 @@
   .whsOnd,
   .xY8Aqb,
   body {
-    font-family: "Google Sans", var(--font-family-sans-serif);
+    font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
   .DPvwYc {
@@ -361,11 +362,11 @@
   .iXlbzd,
   .JcDdO,
   .ZxXaId {
-    font-family: "Google Sans", var(--font-family-sans-serif);
+    font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
   body {
-    font-family: "Google Sans", var(--font-family-sans-serif) !important;
+    font-family: "Google Sans Text", var(--font-family-sans-serif) !important;
   }
 
 }
@@ -906,7 +907,7 @@
   }
 
   h1.ytd-watch-metadata * {
-    font-family: "YouTube Sans", "Google Sans", var(--font-family-sans-serif);
+    font-family: "YouTube Sans", "Google Sans Text", var(--font-family-sans-serif);
   }
 
   .html5-video-player .caption-visual-line .ytp-caption-segment {
