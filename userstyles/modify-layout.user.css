@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 8.0.2
+@version 8.0.3
 ==/UserStyle== */
 
 /*
@@ -63,6 +63,10 @@
   .dRYYxd,
   .iblpc {
     height: auto;
+  }
+
+  .ISATce {
+    line-height: 4vh;
   }
 
   .eKPi4 {
