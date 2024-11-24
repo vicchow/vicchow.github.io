@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.5
+@version 56.0.6
 ==/UserStyle== */
 
 /*
@@ -681,6 +681,8 @@
   .ratings-and-reviews .review-title,
   .ratings-and-reviews,
   .rich-header-language-selector,
+  .search-bar-wrap ul.search-autocomplete li.header,
+  .search-bar-wrap ul.search-autocomplete li.more-in a,
   .ShoppingCartWidget .cart-content .inner-cart.isRecommendations .cart-recommendations li button.outline-button,
   .SpotlightWidget .SpotlightWidgetV2 .teaser a,
   .subscriptions-manage .title,
@@ -696,9 +698,19 @@
   }
 
   .item-synopsis .synopsis-description,
+  .kobo input:not([type]),
+  .kobo input[type="date"],
+  .kobo input[type="email"],
+  .kobo input[type="number"],
+  .kobo input[type="password"],
+  .kobo input[type="search"],
+  .kobo input[type="tel"],
+  .kobo input[type="text"],
+  .kobo input[type="url"],
   .ratings-and-reviews .rating-review-summary-header .write-review-container .title,
   .ratings-and-reviews .review-helpful .helpful-statement,
   .ratings-and-reviews .review-item,
+  .search-bar-wrap ul.search-autocomplete li.result a .ellipsis-100,
   .SpotlightWidget .SpotlightWidgetV2 .spotlight-content .description-column .item-details-wrapper .synopsis,
   .subscriptions-manage .subscription-item-header .message,
   .wishlist-page .wishlist-item .synopsis-field {
