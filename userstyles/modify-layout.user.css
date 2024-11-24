@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 9.0.0
+@version 9.0.1
 ==/UserStyle== */
 
 /*
@@ -201,6 +201,10 @@
 
   .wishlist-page .wishlist-header .title {
     margin-top: 20px;
+  }
+
+  .wishlist-page .wishlist-item .image-and-info-container .title {
+    line-height: 3rem;
   }
 
 }
