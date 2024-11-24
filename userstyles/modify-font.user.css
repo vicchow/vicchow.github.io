@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.1
+@version 56.0.2
 ==/UserStyle== */
 
 /*
@@ -631,12 +631,19 @@
 @-moz-document domain("kobo.com") {
 
   .AccountSettingsWidget,
+  .billing-address-display .no-billing-address-container .message-content .no-billing-address-add-button-container .no-billing-address-add-button,
   .BookItemDetailSecondaryMetadataWidget,
   .carousel-treatment .book-details .price,
   .carousel-treatment .book-details,
   .carousel-treatment .carousel-header .view-all-link,
   .carousel-treatment .cta-container a,
   .carousel-treatment .cta-container button,
+  .cart-content .cart-tally,
+  .cart-content .summary-bar .gizmo-pricesummary ul li span,
+  .cart-content .summary-bar .gizmo-pricesummary ul li span:first-child,
+  .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-metadata .cart-item-subtitle .subtitle-text,
+  .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-purchase-details .price,
+  .cart-item-card .cart-item .cart-item-content .cart-item-extras .cart-item-actions .secondary-link,
   .facet-list-container .facet-list,
   .groupLinkWidget .groupLinkFooter a,
   .HeaderTopCategories .viewAllCategories,
@@ -649,6 +656,7 @@
   .kobo-footer .primary-footer .toggle,
   .kobo-footer .primary-footer h3,
   .kobo-footer a,
+  .payment-methods-display .no-payment-methods-container .message-content .no-payment-methods-add-button-container .no-payment-methods-add-button,
   .pricing-details .library-action:first-of-type,
   .pricing-details .library-action:nth-of-type(n+2),
   .pricing-details .pricing-details-magazine,
@@ -658,8 +666,11 @@
   .pricing-details .purchase-action:nth-of-type(n+2),
   .pricing-details .subscription-action:first-of-type,
   .pricing-details .subscription-action:nth-of-type(n+2),
+  .primary-action,
   .primary-button,
+  .primary-button, 
   .primary-heading,
+  .product-features li,
   .ratings-and-reviews .button,
   .ratings-and-reviews .header,
   .ratings-and-reviews .rating-histogram-wrapper,
@@ -670,20 +681,28 @@
   .ratings-and-reviews .review-title,
   .ratings-and-reviews,
   .rich-header-language-selector,
+  .subscriptions-manage .title,
+  .wishlist-page .wishlist-header .title,
   #about-this-book-widget .book-stats .stat-desc span,
   #about-this-book-widget .book-stats .stat-desc strong,
   a.primary-button,
   body,
-  input[type="button"].primary-button,
-  input[type="submit"].primary-button,
+  input[type="button"].primary-button, 
+  input[type="submit"].primary-button, 
   span.primary-button {
     font-family: "Rakuten Sans UI", "Trebuchet MS", Trebuchet, Arial, Helvetica, sans-serif;
   }
 
   .item-synopsis .synopsis-description,
   .ratings-and-reviews .review-helpful .helpful-statement,
-  .ratings-and-reviews .review-item {
+  .ratings-and-reviews .review-item,
+  .subscriptions-manage .subscription-item-header .message,
+  .wishlist-page .wishlist-item .synopsis-field {
     font-family: "Rakuten Serif", Georgia, Times, times, serif;
+  }
+
+  .synopsis {
+    line-height: 2.0rem;
   }
 
 }
