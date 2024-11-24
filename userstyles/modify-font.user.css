@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.2
+@version 56.0.3
 ==/UserStyle== */
 
 /*
@@ -694,15 +694,12 @@
   }
 
   .item-synopsis .synopsis-description,
+  .ratings-and-reviews .rating-review-summary-header .write-review-container .title,
   .ratings-and-reviews .review-helpful .helpful-statement,
   .ratings-and-reviews .review-item,
   .subscriptions-manage .subscription-item-header .message,
   .wishlist-page .wishlist-item .synopsis-field {
     font-family: "Rakuten Serif", Georgia, Times, times, serif;
-  }
-
-  .synopsis {
-    line-height: 2.0rem;
   }
 
 }
