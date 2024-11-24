@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.3
+@version 56.0.4
 ==/UserStyle== */
 
 /*
@@ -681,6 +681,7 @@
   .ratings-and-reviews .review-title,
   .ratings-and-reviews,
   .rich-header-language-selector,
+  .ShoppingCartWidget .cart-content .inner-cart.isRecommendations .cart-recommendations li button.outline-button,
   .subscriptions-manage .title,
   .wishlist-page .wishlist-header .title,
   #about-this-book-widget .book-stats .stat-desc span,
