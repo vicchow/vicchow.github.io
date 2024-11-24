@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 8.0.4
+@version 9.0.0
 ==/UserStyle== */
 
 /*
@@ -11,7 +11,7 @@
  * <patch>: update selector or declaration of statement/rule
  */
 
- /* Amazon */
+/* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
 
   .s-underline-text,
@@ -49,15 +49,6 @@
 }
 
 /* Google */
-@-moz-document domain("docs.google.com") {
-
-  :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
-    text-underline-offset: var(--underline-offset);
-  }
-
-}
-
-/* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
 
   .dRYYxd,
@@ -76,6 +67,15 @@
   textarea.gLFyf,
   .YacQv {
     margin-bottom: auto;
+  }
+
+}
+
+/* Google Docs */
+@-moz-document domain("docs.google.com") {
+
+  :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
+    text-underline-offset: var(--underline-offset);
   }
 
 }
@@ -112,9 +112,6 @@
   }
 
 }
-
-
-
 
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com"), domain("refactoring.com") {
@@ -168,6 +165,7 @@
 
 }
 
+/* OpenRice */
 @-moz-document domain("openrice.com") {
 
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
@@ -194,6 +192,18 @@
 
 }
 
+/* Rakuten Kobo */
+@-moz-document domain("kobo.com") {
+
+  .synopsis {
+    line-height: 2.0rem;
+  }
+
+  .wishlist-page .wishlist-header .title {
+    margin-top: 20px;
+  }
+
+}
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
