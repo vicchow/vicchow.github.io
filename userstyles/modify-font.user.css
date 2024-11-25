@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.8
+@version 56.0.9
 ==/UserStyle== */
 
 /*
@@ -656,6 +656,7 @@
   .kobo-footer .primary-footer .toggle,
   .kobo-footer .primary-footer h3,
   .kobo-footer a,
+  .landing-page-header,
   .payment-methods-display .no-payment-methods-container .message-content .no-payment-methods-add-button-container .no-payment-methods-add-button,
   .pricing-details .library-action:first-of-type,
   .pricing-details .library-action:nth-of-type(n+2),
