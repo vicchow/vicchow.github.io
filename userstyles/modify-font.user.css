@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.6
+@version 56.0.7
 ==/UserStyle== */
 
 /*
@@ -683,6 +683,17 @@
   .rich-header-language-selector,
   .search-bar-wrap ul.search-autocomplete li.header,
   .search-bar-wrap ul.search-autocomplete li.more-in a,
+  .search-results-display .issue-number, 
+  .search-results-display .item-info .contributor-list, 
+  .search-results-display .item-info .duration, 
+  .search-results-display .item-info .is-abridged, 
+  .search-results-display .item-info .publication-date, 
+  .search-results-display .item-info .publisher, 
+  .search-results-display .item-info .series,
+  .search-results-display .item-wrapper .price,
+  .search-results-display .pagination .pagination-container,
+  .search-results-display .secondary-field, 
+  .search-results-display .subtitle,
   .ShoppingCartWidget .cart-content .inner-cart.isRecommendations .cart-recommendations li button.outline-button,
   .SpotlightWidget .SpotlightWidgetV2 .teaser a,
   .subscriptions-manage .title,
@@ -711,6 +722,7 @@
   .ratings-and-reviews .review-helpful .helpful-statement,
   .ratings-and-reviews .review-item,
   .search-bar-wrap ul.search-autocomplete li.result a .ellipsis-100,
+  .search-results-display .item-info .synopsis,
   .SpotlightWidget .SpotlightWidgetV2 .spotlight-content .description-column .item-details-wrapper .synopsis,
   .subscriptions-manage .subscription-item-header .message,
   .wishlist-page .wishlist-item .synopsis-field {
