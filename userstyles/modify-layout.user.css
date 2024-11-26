@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.6
+@version 10.0.7
 ==/UserStyle== */
 
 /*
@@ -64,6 +64,7 @@
   .NM_radius,
   .NM_table,
   .statusTitle,
+  .tab-block,
   .tab,
   .tabClicked,
   .titlebtn,
