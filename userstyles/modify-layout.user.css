@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.1
+@version 10.0.2
 ==/UserStyle== */
 
 /*
@@ -44,7 +44,9 @@
   .NM_radius_bottom_container,
   .NM_radius_left,
   .NM_radius_right,
+  .NM_radius,
   .statusTitle {
+    border-radius: 0;
     box-shadow: none;
   }
 
