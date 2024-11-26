@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.11
+@version 57.0.0
 ==/UserStyle== */
 
 /*
@@ -76,6 +76,23 @@
     .globalnav-link-text-container svg {
       font-size: 72px;
     }
+  }
+
+}
+
+/* ASUS router */
+@-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
+
+  body {
+    font-family: var(--font-family-sans-serif) !important;
+  }
+
+  .formfonttitle, 
+  .index_status,
+  .modelName_top,
+  .statusTitle #helpname,
+  [class^="menu"] {
+    text-shadow: none;
   }
 
 }
@@ -315,8 +332,6 @@
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
-
-  /* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
   :not(.material-icons-extended),
   :not(.google-material-icons),
@@ -1050,7 +1065,7 @@
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
   @supports (-webkit-hyphens: none) {
     :root {
-      --font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif;
+      --font-family-sans-serif: "InterVariable", system-ui, -apple-system, sans-serif;
       --font-family-serif: "Source Serif 4", serif;
       --font-family-monospace: "JetBrains Mono", monospace;
     }
