@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.7
+@version 10.0.8
 ==/UserStyle== */
 
 /*
@@ -24,10 +24,13 @@
 /* ASUS router */
 @-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
 
+  /* Table header */
+  .aimesh_node_category_bg,
   .FormTable thead td {
     background: #66757C;;
   }
 
+  /* Left menu */
   .menu {
     height: auto;
     margin-top: auto;
@@ -45,6 +48,7 @@
     background: #434343;
   }
 
+  /* Button */
   .button_gen,
   .navigation li dt,
   .navigation li dt:hover,
@@ -52,6 +56,7 @@
     background: #121C1E;
   }
 
+  /* Tab */
   #tabs a {
     background: #92A0A5;
   }
