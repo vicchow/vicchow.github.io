@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.4
+@version 10.0.5
 ==/UserStyle== */
 
 /*
@@ -64,6 +64,12 @@
   #QIS_wizard_menu {
     border-radius: 0;
     box-shadow: none;
+  }
+
+  #ddnsHostName::before,
+  #index_status::before {
+    content: ' ';
+    display: block;
   }
 
 }
