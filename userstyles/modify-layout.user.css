@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.0
+@version 10.0.1
 ==/UserStyle== */
 
 /*
@@ -32,9 +32,20 @@
   .menuClicked {
     background: #376C9B;
   }
-  
+
+  .menu_QIS_title {
+    background: #262626;
+  }
+
   #tabs a {
     background: #92A0A5;
+  }
+
+  .NM_radius_bottom_container,
+  .NM_radius_left,
+  .NM_radius_right,
+  .statusTitle {
+    box-shadow: none;
   }
 
 }
