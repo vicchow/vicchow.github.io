@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.0.0
+@version 57.0.1
 ==/UserStyle== */
 
 /*
@@ -87,6 +87,7 @@
     font-family: var(--font-family-sans-serif) !important;
   }
 
+  *,
   .formfonttitle, 
   .index_status,
   .modelName_top,
