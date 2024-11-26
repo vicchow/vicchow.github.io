@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.0.2
+@version 57.0.3
 ==/UserStyle== */
 
 /*
@@ -92,18 +92,22 @@
   .formfonttitle,
   .FormTable_table th,
   .index_status,
+  .menu_Desc,
   .modelName_top,
+  .navigation li dt,
   .statusTitle #helpname,
+  .titlebtn span,
   .usb_text,
   [class^="menu"],
   * {
     font-family: var(--font-family-sans-serif);
+    font-weight: normal;
     text-shadow: none;
   }
 
-  .button_gen,
-  .menu_Desc {
-    font-weight: normal;
+  .menu {
+    height: auto;
+    margin-top: auto;
   }
 
 }
