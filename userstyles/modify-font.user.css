@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.0.1
+@version 57.0.2
 ==/UserStyle== */
 
 /*
@@ -87,14 +87,23 @@
     font-family: var(--font-family-sans-serif) !important;
   }
 
-  *,
-  .formfonttitle, 
+  .button_gen,
+  .clients,
+  .formfonttitle,
+  .FormTable_table th,
   .index_status,
   .modelName_top,
   .statusTitle #helpname,
-  [class^="menu"] {
+  .usb_text,
+  [class^="menu"],
+  * {
     font-family: var(--font-family-sans-serif);
     text-shadow: none;
+  }
+
+  .button_gen,
+  .menu_Desc {
+    font-weight: normal;
   }
 
 }
