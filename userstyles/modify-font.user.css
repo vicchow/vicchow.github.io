@@ -92,6 +92,7 @@
   .modelName_top,
   .statusTitle #helpname,
   [class^="menu"] {
+    font-family: var(--font-family-sans-serif);
     text-shadow: none;
   }
 
