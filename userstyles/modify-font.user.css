@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 56.0.10
+@version 56.0.11
 ==/UserStyle== */
 
 /*
@@ -316,7 +316,7 @@
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
 
-  @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
+  /* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
   :not(.material-icons-extended),
   :not(.google-material-icons),
@@ -703,6 +703,7 @@
   #about-this-book-widget .book-stats .stat-desc span,
   #about-this-book-widget .book-stats .stat-desc strong,
   #kwp-SEO-LP-textBlock h2, #kwp-SEO-LP-textBlock h3,
+  #top-banner-slim,
   a.primary-button,
   body,
   input[type="button"].primary-button,
@@ -880,8 +881,6 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
-
-  @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
