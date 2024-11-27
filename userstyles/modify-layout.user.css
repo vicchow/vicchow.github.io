@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.20
+@version 10.1.0
 ==/UserStyle== */
 
 /*
@@ -60,6 +60,18 @@
   .navigation li dt:hover,
   .titlebtn {
     background: #121C1E;
+  }
+
+  /* Filter */
+  .block_filter {
+    background: #758084;
+    border-radius: 0px !important;
+    border-style: none;
+  }
+
+  .block_filter_pressed {
+    border-radius: 0px !important;
+    border-style: none;
   }
 
   /* Tab */
