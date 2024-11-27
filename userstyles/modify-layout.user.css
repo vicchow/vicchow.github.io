@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.13
+@version 10.0.14
 ==/UserStyle== */
 
 /*
@@ -103,6 +103,12 @@
   .FormTable_table thead td,
   .FormTable_table,
   .FormTable,
+  .list_table td,
+  .list_table th,
+  .list_table,
+  .tableApi_table th,
+  .tableApi_table td,
+  .tableApi_table,
   .m0_r,
   .menu_clicked,
   .menu_Split,
