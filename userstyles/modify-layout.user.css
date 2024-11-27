@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.14
+@version 10.0.15
 ==/UserStyle== */
 
 /*
@@ -106,13 +106,15 @@
   .list_table td,
   .list_table th,
   .list_table,
-  .tableApi_table th,
-  .tableApi_table td,
-  .tableApi_table,
   .m0_r,
   .menu_clicked,
   .menu_Split,
-  .menu {
+  .menu, 
+  .table-content-first,
+  .table-content, 
+  .tableApi_table td,
+  .tableApi_table th,
+  .tableApi_table {
     border: none;
   }
 
