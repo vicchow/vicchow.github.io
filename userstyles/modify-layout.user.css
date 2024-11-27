@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.11
+@version 10.0.12
 ==/UserStyle== */
 
 /*
@@ -95,8 +95,10 @@
   }
 
   /* No border */
+  .FormTable,
   .FormTable td,
   .FormTable th,
+  .FormTable thead td,
   .m0_r,
   .menu_clicked,
   .menu_Split,
