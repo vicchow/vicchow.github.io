@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.19
+@version 10.0.20
 ==/UserStyle== */
 
 /*
@@ -63,6 +63,7 @@
   }
 
   /* Tab */
+  .FormTable_NWM th,
   #tabs a {
     background: #92A0A5;
   }
