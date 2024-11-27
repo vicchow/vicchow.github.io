@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.1.0
+@version 10.2.0
 ==/UserStyle== */
 
 /*
@@ -92,6 +92,12 @@
   .tab, 
   .tabClicked {
     padding-top: 2px;
+  }
+
+  /* No border for label */
+  span.catrow {
+    border: none;
+    border-radius: 16px;
   }
 
   /* No round corner and shadow */
