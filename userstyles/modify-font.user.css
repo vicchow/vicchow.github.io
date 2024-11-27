@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.1.1
+@version 57.1.2
 ==/UserStyle== */
 
 /*
@@ -90,15 +90,18 @@
   .button_gen,
   .clients span,
   .clients,
+  .devicepin,
   .formfonttitle,
   .FormTable th,
   .FormTable thead td,
   .FormTable_table th,
+  .FormTable_table thead td,
   .index_status,
   .menu_Desc,
   .modelName_top,
   .navigation li dt,
   .statusTitle #helpname,
+  .tableApi_table thead td,
   .titlebtn span,
   .usb_text,
   #tabs a,

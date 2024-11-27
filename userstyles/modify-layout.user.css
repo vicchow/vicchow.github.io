@@ -89,7 +89,8 @@
   .banner1,
   .bottom-image,
   .content,
-  .minup_bg {
+  .minup_bg,
+  .tableApi_table thead td {
     background: none;
   }
 
