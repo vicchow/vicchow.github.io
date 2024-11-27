@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.9
+@version 10.0.10
 ==/UserStyle== */
 
 /*
@@ -28,7 +28,8 @@
   .aimesh_node_category_bg,
   .FormTable thead td,
   .FormTable_table thead td {
-    background: #66757C;;
+    background: #66757C;
+    ;
   }
 
   /* Left menu */
@@ -43,6 +44,10 @@
 
   .menu_QIS_title {
     background: #262626;
+  }
+
+  .menu_QIS_title:hover {
+    background: #699BBF;
   }
 
   .statusTitle {
@@ -62,6 +67,7 @@
     background: #92A0A5;
   }
 
+  /* No round corner and shadow */
   .button_gen,
   .menu_Split,
   .NM_radius_bottom_container,
@@ -77,6 +83,22 @@
   #QIS_wizard_menu {
     border-radius: 0;
     box-shadow: none;
+  }
+
+  /* No background */
+  .banner1,
+  .bottom-image,
+  .content,
+  .minup_bg {
+    background: none;
+  }
+
+  /* No border */
+  .m0_r,
+  .menu_clicked,
+  .menu_Split,
+  .menu {
+    border: none;
   }
 
   #ddnsHostName::before,
