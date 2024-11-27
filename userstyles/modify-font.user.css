@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.1.5
+@version 57.1.6
 ==/UserStyle== */
 
 /*
@@ -92,6 +92,7 @@
   .clients,
   .copyright,
   .devicepin,
+  .formfontcontent,
   .formfonttitle,
   .FormTable th,
   .FormTable thead td,
