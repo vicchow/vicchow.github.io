@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.1.4
+@version 57.1.5
 ==/UserStyle== */
 
 /*
@@ -95,6 +95,8 @@
   .formfonttitle,
   .FormTable th,
   .FormTable thead td,
+  .FormTable_NWM,
+  .FormTable_NWM th,
   .FormTable_table th,
   .FormTable_table thead td,
   .index_status,
