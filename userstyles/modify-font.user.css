@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.0.5
+@version 57.1.0
 ==/UserStyle== */
 
 /*
@@ -88,10 +88,11 @@
   }
 
   .button_gen,
-  .clients,
   .clients span,
+  .clients,
   .formfonttitle,
   .FormTable th,
+  .FormTable thead td,
   .FormTable_table th,
   .index_status,
   .menu_Desc,
@@ -106,6 +107,12 @@
     font-family: var(--font-family-sans-serif);
     font-weight: normal;
     text-shadow: none;
+  }
+
+  #ddnsHostName_div span,
+  #NM_connect_title,
+  #wanIP_div span {
+    font-family: var(--font-family-sans-serif) !important;
   }
 
 }
@@ -730,7 +737,8 @@
   .wishlist-page .wishlist-header .title,
   #about-this-book-widget .book-stats .stat-desc span,
   #about-this-book-widget .book-stats .stat-desc strong,
-  #kwp-SEO-LP-textBlock h2, #kwp-SEO-LP-textBlock h3,
+  #kwp-SEO-LP-textBlock h2,
+  #kwp-SEO-LP-textBlock h3,
   #top-banner-slim,
   a.primary-button,
   body,
