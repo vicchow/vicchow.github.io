@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.0.15
+@version 10.0.16
 ==/UserStyle== */
 
 /*
@@ -67,6 +67,10 @@
     background: #92A0A5;
   }
 
+  #tabs li:hover > a {
+    background: #1F2D35;
+  }
+
   /* No round corner and shadow */
   .button_gen,
   .menu_Split,
@@ -90,7 +94,9 @@
   .bottom-image,
   .content,
   .minup_bg,
-  .tableApi_table thead td {
+  .tableApi_table thead td,
+  #tabs a:hover,
+  #tabs li {
     background: none;
   }
 
