@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.2.0
+@version 10.3.0
 ==/UserStyle== */
 
 /*
@@ -29,7 +29,6 @@
   .FormTable thead td,
   .FormTable_table thead td {
     background: #66757C;
-    ;
   }
 
   /* Left menu */
@@ -62,6 +61,11 @@
     background: #121C1E;
   }
 
+  .button_gen:hover,
+  .titlebtn:hover {
+    background: #085F96;
+  }
+
   /* Filter */
   .block_filter {
     background: #758084;
@@ -89,7 +93,7 @@
     color: #FFFFFF !important;
   }
 
-  .tab, 
+  .tab,
   .tabClicked {
     padding-top: 2px;
   }
@@ -144,9 +148,9 @@
   .m0_r,
   .menu_clicked,
   .menu_Split,
-  .menu, 
+  .menu,
   .table-content-first,
-  .table-content, 
+  .table-content,
   .tableApi_table td,
   .tableApi_table th,
   .tableApi_table {
