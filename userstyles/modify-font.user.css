@@ -638,7 +638,9 @@
 @-moz-document domain("patreon.com") {
 
   @media (min-width: 36.75rem) {
-    :root {
+
+    :root,
+    .hqIYWd {
       --global-fontWeights-body-default: 400;
     }
   }
