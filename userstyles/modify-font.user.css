@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 57.1.6
+@version 58.0.0
 ==/UserStyle== */
 
 /*
@@ -630,6 +630,17 @@
   .content-VideoContent>.content-VideoContent-title {
     font-family: inherit !important;
     font-weight: 500;
+  }
+
+}
+
+/* Patreon */
+@-moz-document domain("patreon.com") {
+
+  @media (min-width: 36.75rem) {
+    :root {
+      --global-fontWeights-body-default: 200;
+    }
   }
 
 }
