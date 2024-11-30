@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 58.0.7
+@version 58.1.0
 ==/UserStyle== */
 
 /*
@@ -129,13 +129,6 @@
 /* Google */
 @-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("contacts.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myaccount.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
 
-  html,
-  body,
-  h1 {
-    font-family: var(--font-family-sans-serif);
-    --mat-menu-item-label-text-font: var(--font-family-sans-serif);
-  }
-
   .agJ.aFB .agM,
   .agJ.aFB,
   .agOyMd div.AzuXid,
@@ -161,7 +154,6 @@
   .cfWmIb .VfPpkd-fmcmS-wGMbrd,
   .cHQvTb,
   .CJxxTe,
-  [class^="clm-ob-"],
   .cPrmpd,
   .CQYfx,
   .cs3SAb,
@@ -230,7 +222,6 @@
   .L0L2wd,
   .L5KuY,
   .lcCric,
-  [class^="liveresults-"],
   .lJ9FBc input[type],
   .LLotyc,
   .LzExud,
@@ -339,20 +330,26 @@
   .zsRT0d,
   .ZwRhJd,
   .ZyhgJf,
+  [class^="clm-ob-"],
+  [class^="liveresults-"],
   *,
   a,
+  body,
   button,
   div.p4wth,
+  h1,
+  html,
   input,
   input.gLFyf,
   p,
   td,
   textarea.gLFyf {
     font-family: "Google Sans Text", var(--font-family-sans-serif);
+    --mat-menu-item-label-text-font: "Google Sans Text", var(--font-family-sans-serif);
   }
 
   .gmat-body-2 {
-    font-family: var(--font-family-sans-serif);
+    font-family: "Google Sans Text", var(--font-family-sans-serif);
   }
 
   .google-material-icons * {
