@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.3.4
+@version 10.3.5
 ==/UserStyle== */
 
 /*
@@ -444,6 +444,7 @@
 
   :root {
     --underline-offset: .15lh;
+    --underline-thickness: .02lh;
   }
 
   *,
@@ -465,11 +466,11 @@
   u *,
   u,
   u:hover {
-    text-decoration-style: inherit;
-    text-underline-offset: var(--underline-offset);
-    /* text-underline-position: under;
     text-decoration-skip-ink: all;
-    text-decoration-thickness: from-font; */
+    text-decoration-style: inherit;
+    text-decoration-thickness: var(--underline-thickness);
+    text-underline-offset: var(--underline-offset);
+    text-underline-position: under;
   }
 
 }
