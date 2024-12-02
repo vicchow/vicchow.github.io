@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.3.3
+@version 10.3.4
 ==/UserStyle== */
 
 /*
@@ -465,7 +465,7 @@
   u *,
   u,
   u:hover {
-    text-decoration-style: dashed;
+    text-decoration-style: inherit;
     text-underline-offset: var(--underline-offset);
     /* text-underline-position: under;
     text-decoration-skip-ink: all;
