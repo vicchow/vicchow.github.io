@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.3.5
+@version 10.3.6
 ==/UserStyle== */
 
 /*
@@ -470,7 +470,7 @@
     text-decoration-style: inherit;
     text-decoration-thickness: var(--underline-thickness);
     text-underline-offset: var(--underline-offset);
-    text-underline-position: under;
+    /* text-underline-position: under; */
   }
 
 }
