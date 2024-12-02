@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.3.2
+@version 10.3.3
 ==/UserStyle== */
 
 /*
@@ -85,11 +85,11 @@
   }
 
   #tabs a.active,
-  #tabs li:hover > a {
+  #tabs li:hover>a {
     background: #1F2D35;
   }
 
-  #tabs li:hover > a {
+  #tabs li:hover>a {
     color: #FFFFFF !important;
   }
 
@@ -450,14 +450,22 @@
   *:hover,
   a *,
   a,
+  a:active *,
+  a:active,
+  a:hover *,
   a:hover,
+  a:hover,
+  a:link *,
+  a:link,
+  a:visited *,
+  a:visited,
   code *,
   code,
   code:hover,
   u *,
   u,
   u:hover {
-    text-decoration-style: dotted;
+    text-decoration-style: dashed;
     text-underline-offset: var(--underline-offset);
     /* text-underline-position: under;
     text-decoration-skip-ink: all;
