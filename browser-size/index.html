@@ -29,25 +29,29 @@
     />
     <link rel="manifest" href="../site.webmanifest" />
     <script>
-      function updateBrowserSizeOutput() {
+      function updateOutput() {
         const heightOutput = document.querySelector("#height");
         const widthOutput = document.querySelector("#width");
+        const devicePxRatio = document.querySelector("devicePxRatio");
 
         heightOutput.textContent = window.innerHeight;
         widthOutput.textContent = window.innerWidth;
+        devicePxRatio.textContent = window.devicePixelRatio;
+
       }
 
       window.addEventListener("resize", (event) => {
-        updateBrowserSizeOutput();
+        updateOutput();
       });
       window.addEventListener("DOMContentLoaded", (event) => {
-        updateBrowserSizeOutput();
+        updateOutput();
       });
     </script>
   </head>
 
   <body>
-    Browser content size (w x h): <span id="width"></span> px x
-    <span id="height"></span> px.
+    <p>Browser content size (w x h): <span id="width"></span> px x
+    <span id="height"></span> px.</p>
+    <p>Browser device pixel ratio: <span id="devicePxRatio"></span></p>
   </body>
 </html>
