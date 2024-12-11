@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.4.1
+@version 10.4.2
 ==/UserStyle== */
 
 /*
@@ -200,12 +200,16 @@
     height: auto;
   }
 
+  .eKPi4 {
+    padding-bottom: inherit;
+  }
+
   .ISATce {
     line-height: 21px;
   }
 
-  .eKPi4 {
-    padding-bottom: inherit;
+  a:hover:has(h3.LC20lb) {
+    text-decoration: none;
   }
 
   textarea.gLFyf,
