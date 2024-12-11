@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.3.6
+@version 10.4.0
 ==/UserStyle== */
 
 /*
@@ -211,6 +211,10 @@
   textarea.gLFyf,
   .YacQv {
     margin-bottom: auto;
+  }
+
+  a:hover h3.LC20lb {
+    text-underl
   }
 
 }
@@ -444,7 +448,7 @@
 
   :root {
     --underline-offset: .15lh;
-    --underline-thickness: .02lh;
+    --underline-thickness: auto;
   }
 
   *,
@@ -470,7 +474,7 @@
     text-decoration-style: inherit;
     text-decoration-thickness: var(--underline-thickness);
     text-underline-offset: var(--underline-offset);
-    /* text-underline-position: under; */
+    text-underline-position: auto;
   }
 
 }
