@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-ext
 @namespace vicchow
-@version 1.0.0
+@version 1.0.1
 ==/UserStyle== */
 
 /*
@@ -11,7 +11,7 @@
  * <patch>: update selector or declaration of statement/rule
  */
 
-@-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
+@-moz-document regexp("chrome-extension://.*"), regexp("edge-extension://.*"), regexp("moz-extension://.*") {
 
   :root {
     --font-family-monospace: monospace;
