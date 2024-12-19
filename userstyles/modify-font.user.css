@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 58.1.2
+@version 58.1.3
 ==/UserStyle== */
 
 /*
@@ -951,11 +951,11 @@
   .factoid-value[class$="-renderer"],
   .flex-column[class$="-renderer"],
   .grid-movie-renderer-metadata[class$="-renderer"],
-  .less-button[class$="-renderer"],
   .less-button.ytd-comment-view-model,
+  .less-button[class$="-renderer"],
   .miniplayer-title.ytd-miniplayer,
-  .more-button[class$="-renderer"],
   .more-button.ytd-comment-view-model,
+  .more-button[class$="-renderer"],
   .product-item-description[class$="-renderer"],
   .product-item-price[class$="-renderer"],
   .product-item-title[class$="-renderer"],
@@ -994,9 +994,12 @@
   #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
   #labelAndInputContainer.tp-yt-paper-input-container>label,
   #message[class$="-renderer"],
+  #modern-card-owner-name.ytd-miniplayer,
+  #modern-owner-name.ytd-miniplayer, 
   #name[class$="-renderer"],
   #next-label[class$="-renderer"],
   #original.yt-search-query-correction,
+  #owner-name.ytd-miniplayer, 
   #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
