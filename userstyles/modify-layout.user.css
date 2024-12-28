@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.4.2
+@version 10.5.0
 ==/UserStyle== */
 
 /*
@@ -367,6 +367,15 @@
 
   .collectionItem .workshopItemTitle {
     padding-top: 6px !important;
+  }
+
+  .jHvUCZyctAM- {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .LSY1zV2DJSM- {
+    height: 180px;
   }
 
   .workshopItemShortDesc {
