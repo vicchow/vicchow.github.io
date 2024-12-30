@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 10.6.0
+@version 11.0.0
 ==/UserStyle== */
 
 /*
@@ -336,6 +336,15 @@
   a:hover {
     background-image: none;
     text-decoration: underline;
+  }
+
+}
+
+/* Quartz */
+@-moz-document domain("qz.com") {
+
+  .hSgSrT .sc-1qoge05-0 {
+    margin-bottom: 9px;
   }
 
 }
