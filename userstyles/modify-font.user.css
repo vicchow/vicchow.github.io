@@ -67,6 +67,7 @@
 
 /* Apple */
 @-moz-document domain("www.apple.com"), domain("support.apple.com") {
+
   /* Safari only */
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
   @supports (-webkit-hyphens: none) {
@@ -122,6 +123,7 @@
 
 /* Google */
 @-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("contacts.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myaccount.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
+
   .agJ.aFB .agM,
   .agJ.aFB,
   .agOyMd div.AzuXid,
@@ -365,6 +367,7 @@
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
+
   :not(.material-icons-extended),
   :not(.google-material-icons),
   .AjwuVe,
@@ -400,6 +403,7 @@
 
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
+
   .bSz6zd,
   .CcGgbd,
   .EeNpqb,
@@ -419,6 +423,7 @@
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
+
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -437,6 +442,7 @@
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
+
   body,
   button,
   input,
@@ -448,6 +454,7 @@
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
+
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -471,6 +478,7 @@
 
 /* Microsoft */
 @-moz-document domain("www.microsoft.com") {
+
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
   .mectrl_root div,
@@ -483,8 +491,8 @@
 }
 
 /* NVIDIA */
-@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
-{
+@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
+
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -532,6 +540,7 @@
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
+
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -612,7 +621,7 @@
     font-family: inherit !important;
   }
 
-  .content-VideoContent > .content-VideoContent-title {
+  .content-VideoContent>.content-VideoContent-title {
     font-family: inherit !important;
     font-weight: 500;
   }
@@ -621,6 +630,7 @@
 /* Patreon */
 @-moz-document domain("patreon.com") {
   @media (min-width: 36.75rem) {
+
     :root,
     .hqIYWd {
       --global-fontWeights-body-default: 400;
@@ -636,8 +646,7 @@
 }
 
 /* PTT */
-@-moz-document url-prefix("https://www.ptt.cc/bbs")
-{
+@-moz-document url-prefix("https://www.ptt.cc/bbs") {
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
@@ -647,6 +656,7 @@
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
+
   body,
   div.body h1,
   div.body h2,
@@ -663,6 +673,7 @@
 
 /* Quartz */
 @-moz-document domain("qz.com") {
+
   .cYEEMy .sc-14wnao6-0 .sc-1ltrdwy-0,
   .cYyCmI,
   .fQtbXI,
@@ -696,7 +707,7 @@
     font-family: var(--font-family-sans-serif);
   }
 
-  body, 
+  body,
   button {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -704,12 +715,9 @@
 
 /* Rakuten Kobo */
 @-moz-document domain("kobo.com") {
+
   .AccountSettingsWidget,
-  .billing-address-display
-    .no-billing-address-container
-    .message-content
-    .no-billing-address-add-button-container
-    .no-billing-address-add-button,
+  .billing-address-display .no-billing-address-container .message-content .no-billing-address-add-button-container .no-billing-address-add-button,
   .BookItemDetailSecondaryMetadataWidget,
   .carousel-treatment .book-details .price,
   .carousel-treatment .book-details,
@@ -719,13 +727,7 @@
   .cart-content .cart-tally,
   .cart-content .summary-bar .gizmo-pricesummary ul li span,
   .cart-content .summary-bar .gizmo-pricesummary ul li span:first-child,
-  .cart-item-card
-    .cart-item
-    .cart-item-content
-    .cart-item-details
-    .cart-item-metadata
-    .cart-item-subtitle
-    .subtitle-text,
+  .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-metadata .cart-item-subtitle .subtitle-text,
   .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-purchase-details .price,
   .cart-item-card .cart-item .cart-item-content .cart-item-extras .cart-item-actions .secondary-link,
   .facet-list-container .facet-list,
@@ -741,11 +743,7 @@
   .kobo-footer .primary-footer h3,
   .kobo-footer a,
   .landing-page-header,
-  .payment-methods-display
-    .no-payment-methods-container
-    .message-content
-    .no-payment-methods-add-button-container
-    .no-payment-methods-add-button,
+  .payment-methods-display .no-payment-methods-container .message-content .no-payment-methods-add-button-container .no-payment-methods-add-button,
   .pricing-details .library-action:first-of-type,
   .pricing-details .library-action:nth-of-type(n + 2),
   .pricing-details .pricing-details-magazine,
@@ -825,6 +823,7 @@
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
+
   body,
   div {
     font-family: var(--font-family-sans-serif);
@@ -833,6 +832,7 @@
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
+
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -859,6 +859,7 @@
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
+
   a,
   acronym,
   body,
@@ -915,6 +916,7 @@
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -952,6 +954,7 @@
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
+
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
@@ -998,8 +1001,8 @@
   #guide-section-title[class$="-renderer"],
   #item-title[class$="-renderer"],
   #label[class$="-renderer"],
-  #labelAndInputContainer.tp-yt-paper-input-container > .paper-input-label,
-  #labelAndInputContainer.tp-yt-paper-input-container > label,
+  #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
+  #labelAndInputContainer.tp-yt-paper-input-container>label,
   #message[class$="-renderer"],
   #modern-card-owner-name.ytd-miniplayer,
   #modern-owner-name.ytd-miniplayer,
@@ -1035,20 +1038,13 @@
   yt-formatted-string[class$="-renderer"][secondary],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
   ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
-    .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
-    .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"]
-    .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"]
-    .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-c4-tabbed-header-renderer[use-modern-style] #channel-handle[class$="-renderer"],
   ytd-c4-tabbed-header-renderer[use-page-header-style] #channel-handle[class$="-renderer"],
-  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"]
-    #content-icon.ytd-compact-link-renderer[hidden]
-    + #primary-text-container[class$="-renderer"]
-    > #label[class$="-renderer"],
+  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
   ytd-compact-station-renderer[collections] h3[class$="-renderer"],
   ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #body-text[class$="-renderer"],
   ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #secondary-text[class$="-renderer"],
@@ -1063,10 +1059,8 @@
   ytd-guide-section-renderer[modern-typography] #guide-section-title[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #subtitle[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #title[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"])
-    h4[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"]
-    h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"]) h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
   ytd-merch-shelf-item-renderer[item-style$="-item"] .product-item-description[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],

@@ -13,6 +13,7 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
+
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
@@ -21,6 +22,7 @@
 
 /* ASUS router */
 @-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
+
   /* Table header */
   .aimesh_node_category_bg,
   .FormTable thead td,
@@ -82,11 +84,11 @@
   }
 
   #tabs a.active,
-  #tabs li:hover > a {
+  #tabs li:hover>a {
     background: #1f2d35;
   }
 
-  #tabs li:hover > a {
+  #tabs li:hover>a {
     color: #ffffff !important;
   }
 
@@ -162,8 +164,8 @@
 }
 
 /* Bitwarden */
-@-moz-document url-prefix("https://vault.bitwarden.com")
-{
+@-moz-document url-prefix("https://vault.bitwarden.com") {
+
   button.no-btn,
   .filter-buttons button,
   .filter-heading button {
@@ -173,8 +175,8 @@
 }
 
 /* Books.com.tw */
-@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail")
-{
+@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
+
   .table-01 th,
   .table-01 td {
     padding: 5px 5px;
@@ -188,6 +190,7 @@
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
+
   .dRYYxd,
   .iblpc {
     height: auto;
@@ -213,18 +216,19 @@
 
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
-  :not(.docs-title-save-label-disabled) > .docs-title-save-label-text-link {
+  :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
     text-underline-offset: var(--underline-offset);
   }
 }
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
+
   .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
-  #ct > table > tbody > tr > td:nth-child(2),
-  #nv_forum > table > tbody > tr > td:nth-child(2),
-  body > table:first-of-type,
+  #ct>table>tbody>tr>td:nth-child(2),
+  #nv_forum>table>tbody>tr>td:nth-child(2),
+  body>table:first-of-type,
   table:has(+ table + br + br + br + br + div#ft, + br + br + br + br + div#ft),
   td.naclass2 {
     display: none;
@@ -233,6 +237,7 @@
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
+
   .link-card[_ngcontent-c60]:focus,
   .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
   .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
@@ -256,8 +261,7 @@
 }
 
 /* Medium */
-@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc")
-{
+@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
   article a {
     text-underline-offset: var(--underline-offset);
   }
@@ -265,6 +269,7 @@
 
 /* Mozilla */
 @-moz-document domain("developer.mozilla.org") {
+
   .about-container a:link,
   .about-container a:visited,
   .main-page-content a:link,
@@ -275,6 +280,7 @@
 
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
+
     .fancy-link,
     .article a:link,
     h3 a:link,
@@ -294,8 +300,9 @@
 
 /* OpenRice */
 @-moz-document domain("openrice.com") {
-  .sr2-rms-container > .middle-col .normal-review-section > .content > .profile > .info > .review-sub-title a,
-  .sr2-rms-container > .middle-col .normal-review-section > .content > .profile > .info > .review-sub-title span {
+
+  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
+  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
     vertical-align: inherit;
   }
 }
@@ -376,17 +383,18 @@
 
   .css-13gy2f5 ul li a,
   .css-13gy2f5 ol li a,
-  .css-13gy2f5 .article__body-text-image > ol a,
-  .css-13gy2f5 .article__body-text-image > ul a,
+  .css-13gy2f5 .article__body-text-image>ol a,
+  .css-13gy2f5 .article__body-text-image>ul a,
   .css-13gy2f5 .article__body-text a {
     border-bottom: 0.1rem dotted;
   }
 
   @media (min-width: 22.5rem) {
+
     .css-13gy2f5 ul li a,
     .css-13gy2f5 ol li a,
-    .css-13gy2f5 .article__body-text-image > ol a,
-    .css-13gy2f5 .article__body-text-image > ul a,
+    .css-13gy2f5 .article__body-text-image>ol a,
+    .css-13gy2f5 .article__body-text-image>ul a,
     .css-13gy2f5 .article__body-text a {
       border-width: 0.1rem;
     }
@@ -414,8 +422,7 @@
 
   /* Playlist */
   @media (min-width: 876px) {
-    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data]
-      #primary.ytd-two-column-browse-results-renderer {
+    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
     }
 
