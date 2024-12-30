@@ -13,22 +13,19 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com") {
-
   .s-underline-text,
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
   }
-
 }
 
 /* ASUS router */
 @-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
-
   /* Table header */
   .aimesh_node_category_bg,
   .FormTable thead td,
   .FormTable_table thead td {
-    background: #66757C;
+    background: #66757c;
   }
 
   /* Left menu */
@@ -38,7 +35,7 @@
   }
 
   .menuClicked {
-    background: #376C9B;
+    background: #376c9b;
   }
 
   .menu_QIS_title {
@@ -46,7 +43,7 @@
   }
 
   .menu_QIS_title:hover {
-    background: #699BBF;
+    background: #699bbf;
   }
 
   .statusTitle {
@@ -58,12 +55,12 @@
   .navigation li dt,
   .navigation li dt:hover,
   .titlebtn {
-    background: #121C1E;
+    background: #121c1e;
   }
 
   .button_gen:hover,
   .titlebtn:hover {
-    background: #085F96;
+    background: #085f96;
   }
 
   /* Filter */
@@ -81,16 +78,16 @@
   /* Tab */
   .FormTable_NWM th,
   #tabs a {
-    background: #92A0A5;
+    background: #92a0a5;
   }
 
   #tabs a.active,
-  #tabs li:hover>a {
-    background: #1F2D35;
+  #tabs li:hover > a {
+    background: #1f2d35;
   }
 
-  #tabs li:hover>a {
-    color: #FFFFFF !important;
+  #tabs li:hover > a {
+    color: #ffffff !important;
   }
 
   .tab,
@@ -159,27 +156,25 @@
 
   #ddnsHostName::before,
   #index_status::before {
-    content: ' ';
+    content: " ";
     display: block;
   }
-
 }
 
 /* Bitwarden */
-@-moz-document url-prefix("https://vault.bitwarden.com") {
-
+@-moz-document url-prefix("https://vault.bitwarden.com")
+{
   button.no-btn,
   .filter-buttons button,
   .filter-heading button {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-
 }
 
 /* Books.com.tw */
-@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail") {
-
+@-moz-document url-prefix("https://myaccount.books.com.tw/myaccount/myaccount/getSystemMail")
+{
   .table-01 th,
   .table-01 td {
     padding: 5px 5px;
@@ -189,12 +184,10 @@
   table td {
     text-align: left;
   }
-
 }
 
 /* Google */
 @-moz-document domain("www.google.com"), domain("www.google.com.hk") {
-
   .dRYYxd,
   .iblpc {
     height: auto;
@@ -216,36 +209,30 @@
   .YacQv {
     margin-bottom: auto;
   }
-
 }
 
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
-
-  :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
+  :not(.docs-title-save-label-disabled) > .docs-title-save-label-text-link {
     text-underline-offset: var(--underline-offset);
   }
-
 }
 
 /* HKiTalk */
 @-moz-document domain("hkitalk.net") {
-
   .bm.bmw:not(#threadlist, .cl, .pl),
   .insert_ads,
-  #ct>table>tbody>tr>td:nth-child(2),
-  #nv_forum>table>tbody>tr>td:nth-child(2),
-  body>table:first-of-type,
+  #ct > table > tbody > tr > td:nth-child(2),
+  #nv_forum > table > tbody > tr > td:nth-child(2),
+  body > table:first-of-type,
   table:has(+ table + br + br + br + br + div#ft, + br + br + br + br + div#ft),
   td.naclass2 {
     display: none;
   }
-
 }
 
 /* HSBC HK */
 @-moz-document domain("www.hsbc.com.hk") {
-
   .link-card[_ngcontent-c60]:focus,
   .link-card[_ngcontent-c60]:hover .quickLinkText[_ngcontent-c60],
   .link-card[_ngcontent-c18]:hover .quickLinkText[_ngcontent-c18],
@@ -258,43 +245,36 @@
   .quickLinkText[_ngcontent-c18] {
     line-height: 2rem;
   }
-
 }
 
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com"), domain("refactoring.com") {
-
   body {
     margin: 0 auto;
     max-width: 1000px;
   }
-
 }
 
 /* Medium */
-@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
-
+@-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc")
+{
   article a {
     text-underline-offset: var(--underline-offset);
   }
-
 }
 
 /* Mozilla */
 @-moz-document domain("developer.mozilla.org") {
-
   .about-container a:link,
   .about-container a:visited,
   .main-page-content a:link,
   .main-page-content a:visited {
     text-decoration: none;
   }
-
 }
 
 @-moz-document domain("hacks.mozilla.org") {
   @media all {
-
     .fancy-link,
     .article a:link,
     h3 a:link,
@@ -310,22 +290,18 @@
       text-underline-offset: var(--underline-offset);
     }
   }
-
 }
 
 /* OpenRice */
 @-moz-document domain("openrice.com") {
-
-  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
-  .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
+  .sr2-rms-container > .middle-col .normal-review-section > .content > .profile > .info > .review-sub-title a,
+  .sr2-rms-container > .middle-col .normal-review-section > .content > .profile > .info > .review-sub-title span {
     vertical-align: inherit;
   }
-
 }
 
 /* Python */
 @-moz-document domain("pypi.org") {
-
   a {
     background-image: none;
     background-position: inherit;
@@ -337,23 +313,19 @@
     background-image: none;
     text-decoration: underline;
   }
-
 }
 
 /* Quartz */
 @-moz-document domain("qz.com") {
-
   .hSgSrT .sc-1qoge05-0 {
     margin-bottom: 9px;
   }
-
 }
 
 /* Rakuten Kobo */
 @-moz-document domain("kobo.com") {
-
   .synopsis {
-    line-height: 2.0rem;
+    line-height: 2rem;
   }
 
   .wishlist-page .wishlist-header .title {
@@ -363,12 +335,10 @@
   .wishlist-page .wishlist-item .image-and-info-container .title {
     line-height: 3rem;
   }
-
 }
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-
   div.bb_h1 {
     font-size: 12px !important;
     line-height: inherit !important;
@@ -396,41 +366,35 @@
   .wishlist_row .tag {
     line-height: 13px;
   }
-
 }
 
 /* The Economist */
 @-moz-document domain("www.economist.com") {
-
   .ds-navigation-link span {
     border-bottom: 0.1rem dotted transparent;
   }
 
   .css-13gy2f5 ul li a,
   .css-13gy2f5 ol li a,
-  .css-13gy2f5 .article__body-text-image>ol a,
-  .css-13gy2f5 .article__body-text-image>ul a,
+  .css-13gy2f5 .article__body-text-image > ol a,
+  .css-13gy2f5 .article__body-text-image > ul a,
   .css-13gy2f5 .article__body-text a {
     border-bottom: 0.1rem dotted;
   }
 
   @media (min-width: 22.5rem) {
-
     .css-13gy2f5 ul li a,
     .css-13gy2f5 ol li a,
-    .css-13gy2f5 .article__body-text-image>ol a,
-    .css-13gy2f5 .article__body-text-image>ul a,
+    .css-13gy2f5 .article__body-text-image > ol a,
+    .css-13gy2f5 .article__body-text-image > ul a,
     .css-13gy2f5 .article__body-text a {
       border-width: 0.1rem;
     }
-
   }
-
 }
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
-
   ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
     margin-left: auto;
   }
@@ -450,7 +414,8 @@
 
   /* Playlist */
   @media (min-width: 876px) {
-    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
+    ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data]
+      #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
     }
 
@@ -458,14 +423,12 @@
       width: 275px;
     }
   }
-
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
-
   :root {
-    --underline-offset: .15lh;
+    --underline-offset: 0.15lh;
     --underline-thickness: auto;
   }
 
@@ -494,5 +457,4 @@
     text-underline-offset: var(--underline-offset);
     text-underline-position: auto;
   }
-
 }

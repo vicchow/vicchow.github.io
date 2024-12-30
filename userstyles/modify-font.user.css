@@ -12,16 +12,15 @@
  */
 
 /* Web fonts */
-@import url('//rsms.me/inter/inter.css');
-@import url('//fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+@import url("//rsms.me/inter/inter.css");
+@import url("//fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("//fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap");
 
 /* @import url('//fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap'); */
-@import url('//fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("//fonts.googleapis.com/css2?family=Google+Sans+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com"), domain("console.aws.amazon.com") {
-
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
@@ -64,12 +63,10 @@
   div.body h6 {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Apple */
 @-moz-document domain("www.apple.com"), domain("support.apple.com") {
-
   /* Safari only */
   /* From https://browserstrangeness.bitbucket.io/css_hacks.html */
   @supports (-webkit-hyphens: none) {
@@ -77,12 +74,10 @@
       font-size: 72px;
     }
   }
-
 }
 
 /* ASUS router */
 @-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
-
   body {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -123,12 +118,10 @@
   #wlSecurityContext span {
     font-family: var(--font-family-sans-serif) !important;
   }
-
 }
 
 /* Google */
 @-moz-document domain("accounts.google.com"), domain("calendar.google.com"), domain("contacts.google.com"), domain("drive.google.com"), domain("mail.google.com"), domain("myaccount.google.com"), domain("myactivity.google.com"), domain("photos.google.com"), domain("play.google.com"), domain("translate.google.com"), domain("www.google.com"), domain("www.google.com.hk") {
-
   .agJ.aFB .agM,
   .agJ.aFB,
   .agOyMd div.AzuXid,
@@ -368,12 +361,10 @@
   .s75CSd {
     font-size: 14px;
   }
-
 }
 
 /* Google Workspaces */
 @-moz-document domain("admin.google.com") {
-
   :not(.material-icons-extended),
   :not(.google-material-icons),
   .AjwuVe,
@@ -405,12 +396,10 @@
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
   }
-
 }
 
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
-
   .bSz6zd,
   .CcGgbd,
   .EeNpqb,
@@ -426,12 +415,10 @@
   body {
     font-family: "Google Sans Text", var(--font-family-sans-serif) !important;
   }
-
 }
 
 /* IEEE */
 @-moz-document domain("ieee.org") {
-
   .rsp h1,
   .rsp h3,
   #meta-nav,
@@ -439,21 +426,17 @@
   html {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Infor */
 @-moz-document domain("docs.infor.com") {
-
   html body {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* KKBox */
 @-moz-document domain("kkbox.com") {
-
   body,
   button,
   input,
@@ -461,12 +444,10 @@
   textarea {
     font-family: var(--font-family-sans-serif) !important;
   }
-
 }
 
 /* Leanpub */
 @-moz-document domain("leanpub.com") {
-
   .about-book__copy,
   .about-bundle__blurb,
   .book-hero__blurb,
@@ -479,35 +460,31 @@
   #leanpub-toc {
     font-family: var(--font-family-serif);
   }
-
 }
 
 /* LIHKG */
 @-moz-document domain("lihkg.com") {
-
   body {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Microsoft */
 @-moz-document domain("www.microsoft.com") {
-
   .mectrl_topHeader .mectrl_header_text,
   .mectrl_root,
   .mectrl_root div,
   .mectrl_resetStyle,
   a.mectrl_resetStyle,
   button.mectrl_resetStyle {
-    font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+    font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans",
+      "S60 Sans", Arial, sans-serif;
   }
-
 }
 
 /* NVIDIA */
-@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/") {
-
+@-moz-document url-prefix("https://docs.nvidia.com/jetson/l4t/"), url-prefix("https://docs.nvidia.com/ngc/ngc-ready-systems/")
+{
   .ww_skin_toc_entry,
   abbreviation.Strong a,
   abbreviation.Strong a:active,
@@ -544,21 +521,17 @@
   span.Strong {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* OpenSearch */
 @-moz-document domain("opensearch.org") {
-
   body {
     font-family: var(--font-family-serif);
   }
-
 }
 
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
-
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -639,49 +612,41 @@
     font-family: inherit !important;
   }
 
-  .content-VideoContent>.content-VideoContent-title {
+  .content-VideoContent > .content-VideoContent-title {
     font-family: inherit !important;
     font-weight: 500;
   }
-
 }
 
 /* Patreon */
 @-moz-document domain("patreon.com") {
-
   @media (min-width: 36.75rem) {
-
     :root,
     .hqIYWd {
       --global-fontWeights-body-default: 400;
     }
   }
-
 }
 
 /* Pinboard */
 @-moz-document domain("pinboard.in") {
-
   textarea {
     font-size: 12px;
   }
-
 }
 
 /* PTT */
-@-moz-document url-prefix("https://www.ptt.cc/bbs") {
-
+@-moz-document url-prefix("https://www.ptt.cc/bbs")
+{
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
     width: 95%;
   }
-
 }
 
 /* Python */
 @-moz-document domain("www.pypa.io"), domain("docs.python.org"), domain("packaging.python.org") {
-
   body,
   div.body h1,
   div.body h2,
@@ -694,12 +659,10 @@
   form.inline-search input {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Quartz */
 @-moz-document domain("qz.com") {
-
   .cYEEMy .sc-14wnao6-0 .sc-1ltrdwy-0,
   .cYyCmI,
   .fQtbXI,
@@ -735,14 +698,16 @@
   body {
     font-family: var(--font-family-sans-serif) !important;
   }
-
 }
 
 /* Rakuten Kobo */
 @-moz-document domain("kobo.com") {
-
   .AccountSettingsWidget,
-  .billing-address-display .no-billing-address-container .message-content .no-billing-address-add-button-container .no-billing-address-add-button,
+  .billing-address-display
+    .no-billing-address-container
+    .message-content
+    .no-billing-address-add-button-container
+    .no-billing-address-add-button,
   .BookItemDetailSecondaryMetadataWidget,
   .carousel-treatment .book-details .price,
   .carousel-treatment .book-details,
@@ -752,7 +717,13 @@
   .cart-content .cart-tally,
   .cart-content .summary-bar .gizmo-pricesummary ul li span,
   .cart-content .summary-bar .gizmo-pricesummary ul li span:first-child,
-  .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-metadata .cart-item-subtitle .subtitle-text,
+  .cart-item-card
+    .cart-item
+    .cart-item-content
+    .cart-item-details
+    .cart-item-metadata
+    .cart-item-subtitle
+    .subtitle-text,
   .cart-item-card .cart-item .cart-item-content .cart-item-details .cart-item-purchase-details .price,
   .cart-item-card .cart-item .cart-item-content .cart-item-extras .cart-item-actions .secondary-link,
   .facet-list-container .facet-list,
@@ -768,16 +739,20 @@
   .kobo-footer .primary-footer h3,
   .kobo-footer a,
   .landing-page-header,
-  .payment-methods-display .no-payment-methods-container .message-content .no-payment-methods-add-button-container .no-payment-methods-add-button,
+  .payment-methods-display
+    .no-payment-methods-container
+    .message-content
+    .no-payment-methods-add-button-container
+    .no-payment-methods-add-button,
   .pricing-details .library-action:first-of-type,
-  .pricing-details .library-action:nth-of-type(n+2),
+  .pricing-details .library-action:nth-of-type(n + 2),
   .pricing-details .pricing-details-magazine,
   .pricing-details .pricing-figures,
   .pricing-details .pricing-title,
   .pricing-details .purchase-action:first-of-type,
-  .pricing-details .purchase-action:nth-of-type(n+2),
+  .pricing-details .purchase-action:nth-of-type(n + 2),
   .pricing-details .subscription-action:first-of-type,
-  .pricing-details .subscription-action:nth-of-type(n+2),
+  .pricing-details .subscription-action:nth-of-type(n + 2),
   .primary-action,
   .primary-button,
   .primary-button,
@@ -844,22 +819,18 @@
   #kwp-SEO-LP-textBlock p {
     font-family: "Rakuten Serif", Georgia, Times, times, serif;
   }
-
 }
 
 /* Sensibo */
 @-moz-document domain("home.sensibo.com") {
-
   body,
   div {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Stack Exchange */
 @-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("stackexchange.com") {
-
   .comment-copy,
   .comment-copy,
   .excerpt,
@@ -882,12 +853,10 @@
   code {
     font-family: var(--font-family-monospace);
   }
-
 }
 
 /* SCB */
 @-moz-document domain("ibank.standardchartered.com.hk"), domain("retail.sc.com") {
-
   a,
   acronym,
   body,
@@ -933,21 +902,17 @@
   .tbl_content_right {
     font-variant-numeric: tabular-nums;
   }
-
 }
 
 /* Stanford Encyclopedia of Philosophy */
 @-moz-document domain("plato.stanford.edu") {
-
   body {
     line-height: 1.8em;
   }
-
 }
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
-
   .apphub_CardContentDiscussionTitle,
   .community_home_subtitle,
   .dynamiclink_box,
@@ -960,39 +925,31 @@
   textarea {
     font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
-
 }
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
-
   body {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* TMTP */
 @-moz-document domain("www.tmtp.com.hk") {
-
   body {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* Wikia */
 @-moz-document domain("wikia.com") {
-
   body {
     font-family: var(--font-family-sans-serif);
   }
-
 }
 
 /* YouTube */
 @-moz-document domain("youtube.com") {
-
   .button[class$="-expander"],
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
@@ -1039,8 +996,8 @@
   #guide-section-title[class$="-renderer"],
   #item-title[class$="-renderer"],
   #label[class$="-renderer"],
-  #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
-  #labelAndInputContainer.tp-yt-paper-input-container>label,
+  #labelAndInputContainer.tp-yt-paper-input-container > .paper-input-label,
+  #labelAndInputContainer.tp-yt-paper-input-container > label,
   #message[class$="-renderer"],
   #modern-card-owner-name.ytd-miniplayer,
   #modern-owner-name.ytd-miniplayer,
@@ -1076,13 +1033,20 @@
   yt-formatted-string[class$="-renderer"][secondary],
   ytd-active-account-header-renderer:not([enable-handles-account-menu-switcher]) #account-name[class$="-renderer"],
   ytd-active-account-header-renderer[enable-handles-account-menu-switcher] #account-name[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"] .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
-  ytd-background-promo-renderer[renderer-style="full-height"] .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
+    .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="adaptive-full-height"]
+    .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"]
+    .promo-body-text.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
+  ytd-background-promo-renderer[renderer-style="full-height"]
+    .promo-title.ytd-background-promo-renderer:not([hidden])[class$="-renderer"],
   ytd-c4-tabbed-header-renderer[use-modern-style] #channel-handle[class$="-renderer"],
   ytd-c4-tabbed-header-renderer[use-page-header-style] #channel-handle[class$="-renderer"],
-  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"] #content-icon.ytd-compact-link-renderer[hidden]+#primary-text-container[class$="-renderer"]>#label[class$="-renderer"],
+  ytd-compact-link-renderer[compact-link-style="compact-link-style-type-history-my-activity-link"]
+    #content-icon.ytd-compact-link-renderer[hidden]
+    + #primary-text-container[class$="-renderer"]
+    > #label[class$="-renderer"],
   ytd-compact-station-renderer[collections] h3[class$="-renderer"],
   ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #body-text[class$="-renderer"],
   ytd-display-ad-renderer[layout="display-ad-layout-top-landscape-image"] #secondary-text[class$="-renderer"],
@@ -1097,8 +1061,10 @@
   ytd-guide-section-renderer[modern-typography] #guide-section-title[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #subtitle[class$="-renderer"],
   ytd-item-section-header-renderer[modern-typography] #title[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"]) h4[class$="-renderer"],
-  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"] h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer:not([carousel-type="MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_TEXT_ONLY"])
+    h4[class$="-renderer"],
+  ytd-macro-markers-list-item-renderer[modern][layout="MACRO_MARKERS_LIST_ITEM_RENDERER_LAYOUT_VERTICAL"]
+    h4[class$="-renderer"],
   ytd-merch-shelf-item-renderer[item-style$="-item"] .product-item-description[class$="-renderer"],
   ytd-miniplayer[split-subtitle] #owner-name.ytd-miniplayer,
   ytd-playlist-panel-video-renderer[show-action-buttons] #video-title[class$="-renderer"],
@@ -1136,12 +1102,10 @@
   .html5-video-player .caption-visual-line .ytp-caption-segment {
     font-family: "Google Sans Text", var(--font-family-sans-serif) !important;
   }
-
 }
 
 /* Multiple sites */
 @-moz-document domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
-
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -1149,12 +1113,10 @@
   textarea {
     font-family: var(--font-family-monospace) !important;
   }
-
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
-
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
@@ -1174,5 +1136,4 @@
       font-family: var(--font-family-sans-serif);
     }
   }
-
 }
