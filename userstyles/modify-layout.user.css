@@ -18,6 +18,7 @@
   .s-underline-text.s-underline-link-text {
     text-decoration: none;
   }
+
 }
 
 /* ASUS router */
@@ -161,6 +162,7 @@
     content: " ";
     display: block;
   }
+
 }
 
 /* Bitwarden */
@@ -172,6 +174,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
 }
 
 /* Books.com.tw */
@@ -186,6 +189,7 @@
   table td {
     text-align: left;
   }
+
 }
 
 /* Google */
@@ -212,13 +216,16 @@
   .YacQv {
     margin-bottom: auto;
   }
+
 }
 
 /* Google Docs */
 @-moz-document domain("docs.google.com") {
+
   :not(.docs-title-save-label-disabled)>.docs-title-save-label-text-link {
     text-underline-offset: var(--underline-offset);
   }
+
 }
 
 /* HKiTalk */
@@ -233,6 +240,7 @@
   td.naclass2 {
     display: none;
   }
+
 }
 
 /* HSBC HK */
@@ -250,21 +258,26 @@
   .quickLinkText[_ngcontent-c18] {
     line-height: 2rem;
   }
+
 }
 
 /* Martin Fowler */
 @-moz-document domain("martinfowler.com"), domain("refactoring.com") {
+
   body {
     margin: 0 auto;
     max-width: 1000px;
   }
+
 }
 
 /* Medium */
 @-moz-document domain("medium.com"), url-prefix("https://500ish.com"), url-prefix("https://blog.bitsrc.io"), url-prefix("https://codeburst.io"), url-prefix("https://levelup.gitconnected.com"), url-prefix("https://itnext.io"), url-prefix("https://towardsdatascience.com"), url-prefix("https://uxdesign.cc") {
+
   article a {
     text-underline-offset: var(--underline-offset);
   }
+
 }
 
 /* Mozilla */
@@ -276,9 +289,11 @@
   .main-page-content a:visited {
     text-decoration: none;
   }
+
 }
 
 @-moz-document domain("hacks.mozilla.org") {
+
   @media all {
 
     .fancy-link,
@@ -295,7 +310,9 @@
     abbr[title] {
       text-underline-offset: var(--underline-offset);
     }
+
   }
+
 }
 
 /* OpenRice */
@@ -305,10 +322,12 @@
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
     vertical-align: inherit;
   }
+
 }
 
 /* Python */
 @-moz-document domain("pypi.org") {
+
   a {
     background-image: none;
     background-position: inherit;
@@ -320,17 +339,21 @@
     background-image: none;
     text-decoration: underline;
   }
+
 }
 
 /* Quartz */
 @-moz-document domain("qz.com") {
+
   .hSgSrT .sc-1qoge05-0 {
     margin-bottom: 9px;
   }
+
 }
 
 /* Rakuten Kobo */
 @-moz-document domain("kobo.com") {
+
   .synopsis {
     line-height: 2rem;
   }
@@ -342,10 +365,12 @@
   .wishlist-page .wishlist-item .image-and-info-container .title {
     line-height: 3rem;
   }
+
 }
 
 /* Steam */
 @-moz-document domain("steamcommunity.com"), domain("steampowered.com") {
+
   div.bb_h1 {
     font-size: 12px !important;
     line-height: inherit !important;
@@ -373,10 +398,12 @@
   .wishlist_row .tag {
     line-height: 13px;
   }
+
 }
 
 /* The Economist */
 @-moz-document domain("www.economist.com") {
+
   .ds-navigation-link span {
     border-bottom: 0.1rem dotted transparent;
   }
@@ -398,11 +425,14 @@
     .css-13gy2f5 .article__body-text a {
       border-width: 0.1rem;
     }
+
   }
+
 }
 
 /* YouTube */
 @-moz-document domain("www.youtube.com") {
+
   ytd-app[mini-guide-visible] ytd-page-manager.ytd-app {
     margin-left: auto;
   }
@@ -422,6 +452,7 @@
 
   /* Playlist */
   @media (min-width: 876px) {
+
     ytd-two-column-browse-results-renderer[page-subtype="history"][has-secondary-column-data] #primary.ytd-two-column-browse-results-renderer {
       padding-right: 332px;
     }
@@ -429,11 +460,14 @@
     ytd-browse-feed-actions-renderer.ytd-two-column-browse-results-renderer {
       width: 275px;
     }
+
   }
+
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
+
   :root {
     --underline-offset: 0.15lh;
     --underline-thickness: auto;
@@ -464,4 +498,5 @@
     text-underline-offset: var(--underline-offset);
     text-underline-position: auto;
   }
+
 }

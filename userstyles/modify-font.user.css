@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 59.0.4
+@version 59.0.5
 ==/UserStyle== */
 
 /*
@@ -21,6 +21,7 @@
 
 /* Amazon */
 @-moz-document domain("www.amazon.com"), domain("www.amazon.de"), domain("www.amazon.co.uk"), domain("awscli.amazonaws.com"), domain("console.aws.amazon.com") {
+
   * {
     font-family: "Amazon Ember", var(--font-family-sans-serif);
   }
@@ -63,6 +64,7 @@
   div.body h6 {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Apple */
@@ -75,10 +77,12 @@
       font-size: 72px;
     }
   }
+
 }
 
 /* ASUS router */
 @-moz-document domain("asuscomm.com"), domain("asusrt.home.arpa") {
+
   body {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -119,6 +123,7 @@
   #wlSecurityContext span {
     font-family: var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Google */
@@ -363,6 +368,7 @@
   .s75CSd {
     font-size: 14px;
   }
+
 }
 
 /* Google Workspaces */
@@ -399,6 +405,7 @@
   .DPvwYc {
     font-family: "Material Icons Extended" !important;
   }
+
 }
 
 /* Google Docs */
@@ -419,6 +426,7 @@
   body {
     font-family: "Google Sans Text", var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* IEEE */
@@ -431,13 +439,16 @@
   html {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Infor */
 @-moz-document domain("docs.infor.com") {
+
   html body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* KKBox */
@@ -450,6 +461,7 @@
   textarea {
     font-family: var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Leanpub */
@@ -467,13 +479,16 @@
   #leanpub-toc {
     font-family: var(--font-family-serif);
   }
+
 }
 
 /* LIHKG */
 @-moz-document domain("lihkg.com") {
+
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Microsoft */
@@ -488,6 +503,7 @@
     font-family: "SegoeUI", "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans",
       "S60 Sans", Arial, sans-serif;
   }
+
 }
 
 /* NVIDIA */
@@ -529,13 +545,16 @@
   span.Strong {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* OpenSearch */
 @-moz-document domain("opensearch.org") {
+
   body {
     font-family: var(--font-family-serif);
   }
+
 }
 
 /* O'Reilly Learning */
@@ -625,33 +644,41 @@
     font-family: inherit !important;
     font-weight: 500;
   }
+
 }
 
 /* Patreon */
 @-moz-document domain("patreon.com") {
+
   @media (min-width: 36.75rem) {
 
     :root,
     .hqIYWd {
       --global-fontWeights-body-default: 400;
     }
+
   }
+
 }
 
 /* Pinboard */
 @-moz-document domain("pinboard.in") {
+
   textarea {
     font-size: 12px;
   }
+
 }
 
 /* PTT */
 @-moz-document url-prefix("https://www.ptt.cc/bbs") {
+
   .bbs-content {
     font-family: var(--font-family-monospace);
     line-height: 150%;
     width: 95%;
   }
+
 }
 
 /* Python */
@@ -669,6 +696,7 @@
   form.inline-search input {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Quartz */
@@ -711,6 +739,7 @@
   button {
     font-family: var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Rakuten Kobo */
@@ -819,6 +848,7 @@
   #kwp-SEO-LP-textBlock p {
     font-family: "Rakuten Serif", Georgia, Times, times, serif;
   }
+
 }
 
 /* Sensibo */
@@ -828,6 +858,7 @@
   div {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Stack Exchange */
@@ -855,6 +886,7 @@
   code {
     font-family: var(--font-family-monospace);
   }
+
 }
 
 /* SCB */
@@ -905,13 +937,16 @@
   .tbl_content_right {
     font-variant-numeric: tabular-nums;
   }
+
 }
 
 /* Stanford Encyclopedia of Philosophy */
 @-moz-document domain("plato.stanford.edu") {
+
   body {
     line-height: 1.8em;
   }
+
 }
 
 /* Steam */
@@ -929,27 +964,34 @@
   textarea {
     font-family: "Motiva Sans", var(--font-family-sans-serif);
   }
+
 }
 
 /* Telegram */
 @-moz-document domain("telegram.org") {
+
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* TMTP */
 @-moz-document domain("www.tmtp.com.hk") {
+
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* Wikia */
 @-moz-document domain("wikia.com") {
+
   body {
     font-family: var(--font-family-sans-serif);
   }
+
 }
 
 /* YouTube */
@@ -1098,10 +1140,12 @@
   .html5-video-player .caption-visual-line .ytp-caption-segment {
     font-family: "Google Sans Text", var(--font-family-sans-serif) !important;
   }
+
 }
 
 /* Multiple sites */
 @-moz-document domain("backpackers.com.tw"), domain("pinboard.in"), domain("hkitalk.net") {
+
   * {
     font-family: var(--font-family-sans-serif) !important;
   }
@@ -1109,10 +1153,12 @@
   textarea {
     font-family: var(--font-family-monospace) !important;
   }
+
 }
 
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
+
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
@@ -1132,4 +1178,5 @@
       font-family: var(--font-family-sans-serif);
     }
   }
+
 }

@@ -12,6 +12,7 @@
  */
 
 @-moz-document regexp("chrome-extension://.*"), regexp("edge-extension://.*"), regexp("moz-extension://.*") {
+
   :root {
     --font-family-monospace: monospace;
     --font-family-sans-serif: sans-serif;
@@ -36,4 +37,5 @@
     text-decoration-skip-ink: all;
     text-decoration-thickness: from-font;
   }
+
 }

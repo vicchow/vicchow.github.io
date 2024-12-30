@@ -13,6 +13,7 @@
 
 /* Microsoft Office and SharePoint */
 @-moz-document domain("sharepoint.com"), domain("office.com") {
+
   .o365cs-topnavText {
     font-family: "SegoeUI-SemiLight-final", "Segoe UI SemiLight", "Segoe UI WPC Semilight", "Segoe UI", Segoe, Tahoma,
       Helvetica, Arial, sans-serif;
@@ -30,18 +31,23 @@
   div[data-automation-key^="modifiedByColumn"] {
     width: 200px !important;
   }
+
 }
 
 /* Nexus */
 @-moz-document domain("registry.talgroup.com"), domain("repo.talgroup.com") {
+
   body {
     font-family: sans-serif !important;
   }
+
 }
 
 /* Salesforce */
 @-moz-document domain("talgroup.my.salesforce.com"), domain("visual.force.com"), domain("talgroup--c.vf.force.com") {
+
   * {
     font-family: sans-serif !important;
   }
+
 }
