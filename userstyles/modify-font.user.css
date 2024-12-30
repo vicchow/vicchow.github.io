@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 58.1.6
+@version 59.0.0
 ==/UserStyle== */
 
 /*
@@ -133,10 +133,10 @@
   .agJ.aFB,
   .agOyMd div.AzuXid,
   .agP.aFB,
-  .agP.aFw, 
-  .agP.aFx, 
+  .agP.aFw,
+  .agP.aFx,
   .aIa.aFB,
-  .aIa.aFw, 
+  .aIa.aFw,
   .aIa.aFx,
   .aJPqP .cGRe9e,
   .aL8,
@@ -697,6 +697,26 @@
 
 }
 
+/* Quartz */
+@-moz-document domain("qz.com") {
+
+  .cYEEMy .sc-14wnao6-0 .sc-1ltrdwy-0,
+  .gZhYIk {
+    font-family: var(--font-family-serif);
+  }
+
+  .cYOzem .sc-1ixdk2y-0,
+  .cYOzem .sc-1ixdk2y-2,
+  .cYOzem .sc-1pw4fyi-0,
+  .cYOzem .sc-ysh9pk-1,
+  .dxjlEo,
+  .iVjjgT,
+  body {
+    font-family: var(--font-family-sans-serif);
+  }
+
+}
+
 /* Rakuten Kobo */
 @-moz-document domain("kobo.com") {
 
@@ -1002,11 +1022,11 @@
   #labelAndInputContainer.tp-yt-paper-input-container>label,
   #message[class$="-renderer"],
   #modern-card-owner-name.ytd-miniplayer,
-  #modern-owner-name.ytd-miniplayer, 
+  #modern-owner-name.ytd-miniplayer,
   #name[class$="-renderer"],
   #next-label[class$="-renderer"],
   #original.yt-search-query-correction,
-  #owner-name.ytd-miniplayer, 
+  #owner-name.ytd-miniplayer,
   #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
