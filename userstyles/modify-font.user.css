@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 59.0.3
+@version 59.0.4
 ==/UserStyle== */
 
 /*
@@ -672,7 +672,8 @@
   .hKyVvC .sc-8hxd3p-0,
   .hKyVvC p,
   .hKyVvC ul,
-  .kodNAQ {
+  .kodNAQ,
+  .kpCBfs p {
     font-family: var(--font-family-serif);
   }
 
@@ -695,7 +696,8 @@
     font-family: var(--font-family-sans-serif);
   }
 
-  body {
+  body, 
+  button {
     font-family: var(--font-family-sans-serif) !important;
   }
 }
