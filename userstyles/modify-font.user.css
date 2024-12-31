@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 60.0.0
+@version 61.0.0
 ==/UserStyle== */
 
 /*
@@ -1177,6 +1177,14 @@
 
 }
 
+@-moz-document url-prefix("moz-extension://a7a1144e-d908-44c0-b201-fce9d5d96439") {
+
+  .orbit-fab-tooltip {
+    font-family: sans-serif !important;
+  }
+
+}
+
 /* All sites */
 @-moz-document url-prefix("http:"), url-prefix("https:") {
 
@@ -1198,10 +1206,6 @@
     html {
       font-family: var(--font-family-sans-serif);
     }
-  }
-
-  .orbit-fab-tooltip {
-    font-family: sans-serif !important;
   }
 
 }
