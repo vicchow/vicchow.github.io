@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 59.1.0
+@version 60.0.0
 ==/UserStyle== */
 
 /*
@@ -1198,6 +1198,10 @@
     html {
       font-family: var(--font-family-sans-serif);
     }
+  }
+
+  .orbit-fab-tooltip {
+    font-family: sans-serif !important;
   }
 
 }
