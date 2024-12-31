@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 59.0.7
+@version 59.0.8
 ==/UserStyle== */
 
 /*
@@ -723,17 +723,19 @@
   }
 
   .AVNwg,
+  .bUfLwJ,
   .cKJgXr,
   .cYOzem .sc-1ixdk2y-0,
   .cYOzem .sc-1ixdk2y-2,
   .cYOzem .sc-1pw4fyi-0,
   .cYOzem .sc-ysh9pk-1,
+  .djsdWN,
   .dxjlEo,
-  .eJfuia .sc-1lmbno3-0, 
-  .eJfuia .sc-1lmbno3-1, 
-  .eJfuia .sc-8hxd3p-0, 
+  .eJfuia .sc-1lmbno3-0,
+  .eJfuia .sc-1lmbno3-1,
+  .eJfuia .sc-8hxd3p-0,
   .eJfuia p,
-  .eJfuia ul, 
+  .eJfuia ul,
   .fbSaxz,
   .fCEKlY,
   .fgKDuz .sc-peggds-2 .sc-peggds-1,
@@ -742,7 +744,13 @@
   .gLhRST,
   .hHUrUU,
   .hzsltP,
-  .iVjjgT {
+  .iVjjgT,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-family-sans-serif);
   }
 
