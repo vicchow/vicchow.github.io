@@ -1179,9 +1179,6 @@
 
 @-moz-document url-prefix("moz-extension://a7a1144e-d908-44c0-b201-fce9d5d96439") {
 
-  .orbit-fab-tooltip {
-    font-family: sans-serif !important;
-  }
 
 }
 
@@ -1206,6 +1203,10 @@
     html {
       font-family: var(--font-family-sans-serif);
     }
+  }
+
+  .orbit-fab-tooltip {
+    font-family: var(--font-family-sans-serif) !important;
   }
 
 }
