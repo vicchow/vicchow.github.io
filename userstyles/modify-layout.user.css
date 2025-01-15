@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 11.0.0
+@version 11.1.0
 ==/UserStyle== */
 
 /*
@@ -347,6 +347,11 @@
 
   .hSgSrT .sc-1qoge05-0 {
     margin-bottom: 9px;
+  }
+
+  .eqRerm {
+    box-shadow: inherit;
+    text-decoration: underline;
   }
 
 }
