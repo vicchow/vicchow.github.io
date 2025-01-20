@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 64.0.0
+@version 64.0.1
 ==/UserStyle== */
 
 /*
@@ -1046,9 +1046,11 @@
   .yt-tab-shape-wiz__tab,
   .yt-video-attribute-view-model__subtitle,
   .yt-video-attribute-view-model__title,
+  .ytCarouselTitleViewModelTitle,
   .YtCarouselTitleViewModelTitle,
   .ytChipShapeChip,
   .YtChipShapeChip,
+  .ytTextCarouselItemViewModelText,
   .YtTextCarouselItemViewModelText,
   *,
   #aside-text[class$="-renderer"],
