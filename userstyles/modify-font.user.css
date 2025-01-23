@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.2.0
+@version 65.2.1
 ==/UserStyle== */
 
 /*
@@ -151,6 +151,7 @@
     font: 16px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
   }
 
+  .content-305,
   .fui-FluentProviderr0 {
     --fontFamilyBase: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
