@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.3.0
+@version 65.3.1
 ==/UserStyle== */
 
 /*
@@ -154,7 +154,7 @@
 
   html .hp_body #sw_as .sa_as #sa_ul .sa_tm,
   html .hp_body #sw_as .sa_as #sa_ul .sa_tmHS {
-    font: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
   .content-305,
