@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 64.0.1
+@version 65.0.0
 ==/UserStyle== */
 
 /*
@@ -124,6 +124,21 @@
     font-family: var(--font-family-sans-serif) !important;
   }
 
+}
+
+/* Bing */
+
+@-moz-document domain("bing.com") {
+
+  .b_no h4,
+  .b_searchboxForm,
+  .b_underSearchbox,
+  #b_header,
+  body,
+  h2 .b_alert,
+  h2 .b_secondaryText {
+    font-family: "Segoe UI", "HelveticalNeue", "Roboto", "Arial", "sans-serif";
+  }
 }
 
 /* Google */
