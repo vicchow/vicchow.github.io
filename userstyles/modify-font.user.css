@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.0
+@version 65.4.1
 ==/UserStyle== */
 
 /*
@@ -130,11 +130,14 @@
 @-moz-document domain("bing.com") {
 
   .b_searchboxForm,
-  .pb-title-nav-strip__nav-link,
+  .content-305,
   .ms-modal,
+  .pb-title-nav-strip__nav-link,
   h1,
   h2,
-  h3 {
+  h3,
+  html .hp_body #sw_as .sa_as #sa_ul .sa_tm,
+  html .hp_body #sw_as .sa_as #sa_ul .sa_tmHS {
     font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
@@ -156,12 +159,6 @@
     font: 16px/normal "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
-  html .hp_body #sw_as .sa_as #sa_ul .sa_tm,
-  html .hp_body #sw_as .sa_as #sa_ul .sa_tmHS {
-    font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
-  }
-
-  .content-305,
   .fui-FluentProviderr0 {
     --fontFamilyBase: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
