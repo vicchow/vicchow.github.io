@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.1.0
+@version 65.2.0
 ==/UserStyle== */
 
 /*
@@ -145,6 +145,10 @@
   h2 .b_alert,
   h2 .b_secondaryText {
     font: 14px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+  }
+
+  html .hp_body #sw_as #sa_ul, html .hp_body #sw_as .pp_title {
+    font: 16px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
   }
 
   .fui-FluentProviderr0 {
