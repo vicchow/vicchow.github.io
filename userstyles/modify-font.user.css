@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.0.3
+@version 65.1.0
 ==/UserStyle== */
 
 /*
@@ -129,19 +129,22 @@
 /* Bing */
 @-moz-document domain("bing.com") {
 
-  .b_no h4,
   .b_searchboxForm,
-  .b_underSearchbox,
   .pb-title-nav-strip__nav-link,
   .ms-modal,
-  #b_header,
-  body,
   h1,
-  h2 .b_alert,
-  h2 .b_secondaryText,
   h2,
   h3 {
-    font-family: "Segoe UI", HelveticalNeue, Roboto, Arial, sans-serif !important;
+    font-family: "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+  }
+
+  .b_no h4,
+  .b_underSearchbox,
+  #b_header,
+  body,
+  h2 .b_alert,
+  h2 .b_secondaryText {
+    font: 14px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
   }
 
   .fui-FluentProviderr0 {
