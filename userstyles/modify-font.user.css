@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.1
+@version 65.4.2
 ==/UserStyle== */
 
 /*
@@ -129,10 +129,15 @@
 /* Bing */
 @-moz-document domain("bing.com") {
 
+  .activityContent-317,
   .b_searchboxForm,
   .content-305,
+  .location-314,
   .ms-modal,
+  .openedContent-315,
+  .ownerContent-316,
   .pb-title-nav-strip__nav-link,
+  button,
   h1,
   h2,
   h3,
