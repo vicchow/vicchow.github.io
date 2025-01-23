@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.2.1
+@version 65.2.2
 ==/UserStyle== */
 
 /*
@@ -135,7 +135,7 @@
   h1,
   h2,
   h3 {
-    font-family: "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+    font-family: "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
   .b_no h4,
@@ -144,11 +144,12 @@
   body,
   h2 .b_alert,
   h2 .b_secondaryText {
-    font: 14px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+    font: 14px/normal "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
-  html .hp_body #sw_as #sa_ul, html .hp_body #sw_as .pp_title {
-    font: 16px/normal "Segoe UI", HelveticaNeue, Roboto, Arial, sans-serif;
+  html .hp_body #sw_as #sa_ul,
+  html .hp_body #sw_as .pp_title {
+    font: 16px/normal "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
   .content-305,
