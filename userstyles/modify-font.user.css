@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.0.0
+@version 65.0.1
 ==/UserStyle== */
 
 /*
@@ -135,8 +135,11 @@
   .b_underSearchbox,
   #b_header,
   body,
+  h1,
   h2 .b_alert,
-  h2 .b_secondaryText {
+  h2 .b_secondaryText,
+  h2,
+  h3 {
     font-family: "Segoe UI", "HelveticalNeue", "Roboto", "Arial", "sans-serif";
   }
 }
