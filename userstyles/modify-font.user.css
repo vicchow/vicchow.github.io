@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.3.1
+@version 65.4.0
 ==/UserStyle== */
 
 /*
@@ -149,6 +149,10 @@
 
   html .hp_body #sw_as #sa_ul,
   html .hp_body #sw_as .pp_title {
+    font: 16px/normal "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+  }
+
+  #sa_ul, .pp_title {
     font: 16px/normal "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
   }
 
