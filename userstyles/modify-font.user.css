@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.7
+@version 65.4.8
 ==/UserStyle== */
 
 /*
@@ -1069,6 +1069,7 @@
   .description.ytmusic-dropdown-item-renderer,
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
+  .fixed-column.ytmusic-responsive-list-item-renderer,
   .flex-column[class$="-renderer"],
   .floated-label-placeholder.tp-yt-paper-input-container,
   .grid-movie-renderer-metadata[class$="-renderer"],
@@ -1077,6 +1078,8 @@
   .input-content.tp-yt-paper-input-container>iron-autogrow-textarea,
   .input-content.tp-yt-paper-input-container>textarea,
   .input-content.tp-yt-paper-input-container>tp-yt-iron-input,
+  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
+  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>label,
   .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>.paper-input-input,
   .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>input,
   .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>iron-autogrow-textarea,
@@ -1159,8 +1162,6 @@
   #video-count-text[class$="-renderer"],
   #video-title[class$="-media"],
   #video-title[class$="-renderer"],
-  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>label,
-  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
   div#label.style-scope[class$="-renderer"],
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
