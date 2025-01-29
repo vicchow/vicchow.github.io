@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.4
+@version 65.4.5
 ==/UserStyle== */
 
 /*
@@ -161,7 +161,8 @@
     font: 16px/normal "Segoe UI", system-ui, Roboto, Arial, Helvetica, sans-serif;
   }
 
-  #sa_ul, .pp_title {
+  #sa_ul,
+  .pp_title {
     font: 16px/normal "Segoe UI", system-ui, Roboto, Arial, Helvetica, sans-serif;
   }
 
@@ -1065,10 +1066,18 @@
 @-moz-document domain("youtube.com") {
 
   .button[class$="-expander"],
+  .description.ytmusic-dropdown-item-renderer,
   .factoid-label[class$="-renderer"],
   .factoid-value[class$="-renderer"],
   .flex-column[class$="-renderer"],
+  .floated-label-placeholder.tp-yt-paper-input-container,
   .grid-movie-renderer-metadata[class$="-renderer"],
+  .input-content.tp-yt-paper-input-container>.paper-input-input,
+  .input-content.tp-yt-paper-input-container>input,
+  .input-content.tp-yt-paper-input-container>iron-autogrow-textarea,
+  .input-content.tp-yt-paper-input-container>textarea,
+  .input-content.tp-yt-paper-input-container>tp-yt-iron-input,
+  .label.ytmusic-dropdown-item-renderer,
   .less-button.ytd-comment-view-model,
   .less-button[class$="-renderer"],
   .miniplayer-title.ytd-miniplayer,
@@ -1080,10 +1089,17 @@
   .promo-body-text[class$="-renderer"],
   .promo-title[class$="-renderer"],
   .secondary-flex-columns[class$="-renderer"],
+  .song-button.ytmusic-av-toggle,
   .subheadline[class$="-renderer"],
   .subtitle[class$="-renderer"],
+  .summary.ytmusic-setting-action-renderer,
+  .summary.ytmusic-setting-boolean-renderer,
+  .summary.ytmusic-setting-read-only-item-renderer,
+  .tab.ytmusic-tabs,
   .text[class$="-renderer"],
+  .time-info.ytmusic-player-bar,
   .title[class$="-renderer"],
+  .video-button.ytmusic-av-toggle,
   .yt-channel-external-link-view-model-wiz__title--title-small-font,
   .yt-channel-external-link-view-model-wiz__title,
   .yt-content-metadata-view-model-wiz__metadata-text,
@@ -1123,6 +1139,7 @@
   #owner-name.ytd-miniplayer,
   #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
+  #reason.yt-player-error-message-renderer,
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$="-renderer"],
   #sub-header-text[class$="-renderer"],
@@ -1143,7 +1160,9 @@
   input.ytmusic-search-box,
   p[class$="-renderer"],
   td[class$="-renderer"],
+  tp-yt-iron-input.tp-yt-paper-input>input.tp-yt-paper-input,
   tp-yt-paper-button,
+  tp-yt-paper-item-body>[secondary],
   tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   yt-formatted-string[class$="-renderer"],
   yt-formatted-string[class$="-renderer"][secondary],
@@ -1196,6 +1215,8 @@
   ytd-video-meta-block[rich-meta] #byline-container.ytd-video-meta-block,
   ytd-video-owner-renderer[modern-metapanel] #channel-name[class$="-renderer"],
   ytd-video-owner-renderer[watch-metadata-refresh] #owner-sub-count[class$="-renderer"],
+  ytmusic-background-promo-renderer[renderer-style="adaptive-full-height"] .promo-title.ytmusic-background-promo-renderer:not([hidden]),
+  ytmusic-background-promo-renderer[renderer-style="full-height"] .promo-title.ytmusic-background-promo-renderer:not([hidden]),
   ytmusic-guide-entry-renderer,
   ytmusic-guide-entry-renderer:not([is-primary]) .subtitle[class$="-renderer"],
   ytmusic-guide-entry-renderer:not([is-primary]) .title[class$="-renderer"] {
