@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.5
+@version 65.4.6
 ==/UserStyle== */
 
 /*
@@ -1077,6 +1077,11 @@
   .input-content.tp-yt-paper-input-container>iron-autogrow-textarea,
   .input-content.tp-yt-paper-input-container>textarea,
   .input-content.tp-yt-paper-input-container>tp-yt-iron-input,
+  .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>.paper-input-input,
+  .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>input,
+  .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>iron-autogrow-textarea,
+  .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>textarea,
+  .input.ytmusic-playlist-form:not(tp-yt-paper-textarea) .input-content.tp-yt-paper-input-container>tp-yt-iron-input,
   .label.ytmusic-dropdown-item-renderer,
   .less-button.ytd-comment-view-model,
   .less-button[class$="-renderer"],
