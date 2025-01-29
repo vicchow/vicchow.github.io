@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.6
+@version 65.4.7
 ==/UserStyle== */
 
 /*
@@ -1159,6 +1159,8 @@
   #video-count-text[class$="-renderer"],
   #video-title[class$="-media"],
   #video-title[class$="-renderer"],
+  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>label,
+  .input.ytmusic-playlist-form #labelAndInputContainer.tp-yt-paper-input-container>.paper-input-label,
   div#label.style-scope[class$="-renderer"],
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
