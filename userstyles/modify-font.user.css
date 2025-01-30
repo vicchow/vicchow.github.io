@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.8
+@version 65.4.9
 ==/UserStyle== */
 
 /*
@@ -1100,9 +1100,7 @@
   .song-button.ytmusic-av-toggle,
   .subheadline[class$="-renderer"],
   .subtitle[class$="-renderer"],
-  .summary.ytmusic-setting-action-renderer,
-  .summary.ytmusic-setting-boolean-renderer,
-  .summary.ytmusic-setting-read-only-item-renderer,
+  .summary[class$="-renderer"],
   .tab.ytmusic-tabs,
   .text[class$="-renderer"],
   .time-info.ytmusic-player-bar,
@@ -1147,7 +1145,7 @@
   #owner-name.ytd-miniplayer,
   #placeholder.ytmusic-search-box,
   #primary-links[class$="-renderer"],
-  #reason.yt-player-error-message-renderer,
+  #reason[class$="-renderer"],
   #search-input.ytd-searchbox-spt input,
   #simplebox-placeholder[class$="-renderer"],
   #sub-header-text[class$="-renderer"],
@@ -1162,6 +1160,7 @@
   #video-count-text[class$="-renderer"],
   #video-title[class$="-media"],
   #video-title[class$="-renderer"],
+  #vote-count-middle.ytd-comment-engagement-bar,
   div#label.style-scope[class$="-renderer"],
   html tp-yt-paper-tooltip .tp-yt-paper-tooltip[style-target="tooltip"],
   html,
