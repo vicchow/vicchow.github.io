@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.10
+@version 65.4.11
 ==/UserStyle== */
 
 /*
@@ -1118,6 +1118,7 @@
   .YtCarouselTitleViewModelTitle,
   .ytChipShapeChip,
   .YtChipShapeChip,
+  .ytp-impression-link-text,
   .ytTextCarouselItemViewModelText,
   .YtTextCarouselItemViewModelText,
   *,
