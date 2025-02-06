@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.12
+@version 65.4.13
 ==/UserStyle== */
 
 /*
@@ -1214,6 +1214,7 @@
   ytd-rich-list-header-renderer[modern-typography] #subtitle[class$="-renderer"],
   ytd-rich-list-header-renderer[modern-typography] #title[class$="-renderer"],
   ytd-rich-list-header-renderer[title-style="TITLE_STYLE_TYPE_CHANNEL_INLINE_RECS"] #title[class$="-renderer"],
+  ytd-rich-shelf-renderer[modern-typography] #subtitle[class$="-renderer"],
   ytd-rich-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-shelf-renderer[modern-typography] #title[class$="-renderer"],
   ytd-structured-description-playlist-lockup-renderer[two-line-title] #title[class$="-renderer"],
