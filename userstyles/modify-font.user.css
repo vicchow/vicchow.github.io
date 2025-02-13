@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 65.4.17
+@version 66.0.0
 ==/UserStyle== */
 
 /*
@@ -76,6 +76,18 @@
     .globalnav-link-text-container svg {
       font-size: 72px;
     }
+  }
+
+}
+
+/* arXiv */
+@-moz-document domain("arxiv.org") {
+
+  .help,
+  #abs,
+  #support-ack,
+  body {
+    font-family: sans-serif;
   }
 
 }
@@ -199,7 +211,8 @@
   .bButFf,
   .BrvAFe,
   .bSz6zd,
-  .BwPElf .toI8Rb, .JMWMJ .LSYTNd,
+  .BwPElf .toI8Rb,
+  .JMWMJ .LSYTNd,
   .CF94Hd,
   .CFH2De,
   .cfWmIb .VfPpkd-fmcmS-wGMbrd,
