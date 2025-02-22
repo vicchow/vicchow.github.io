@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-layout
 @namespace vicchow
-@version 11.1.0
+@version 12.0.0
 ==/UserStyle== */
 
 /*
@@ -321,6 +321,17 @@
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title a,
   .sr2-rms-container>.middle-col .normal-review-section>.content>.profile>.info>.review-sub-title span {
     vertical-align: inherit;
+  }
+
+}
+
+/* O'Reilly Learning */
+@-moz-document domain("learning.oreilly.com") {
+
+  #book-content #sbo-rt-content a,
+  #book-content #sbo-rt-content a:link,
+  #book-content #sbo-rt-content a:visited {
+    text-decoration: none;
   }
 
 }
