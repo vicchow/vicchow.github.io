@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name modify-font
 @namespace vicchow
-@version 66.1.0
+@version 66.2.0
 ==/UserStyle== */
 
 /*
@@ -636,6 +636,7 @@
 /* O'Reilly Learning */
 @-moz-document domain("learning.oreilly.com") {
 
+  /*
   #book-content #sbo-rt-content .blockquote p,
   #book-content #sbo-rt-content .box_title,
   #book-content #sbo-rt-content .calibre4,
@@ -665,8 +666,9 @@
   #sbo-rt-content {
     font-family: var(--font-family-serif) !important;
     font-weight: normal !important;
-  }
+  } */
 
+  /*
   #book-content #sbo-rt-content .chapterNumber,
   #book-content #sbo-rt-content .chaptertitle,
   #book-content #sbo-rt-content .chapterTitle,
@@ -682,8 +684,9 @@
   #book-content #sbo-rt-content h6 {
     font-family: "Guardian Sans Text", var(--font-family-sans-serif) !important;
     font-weight: normal !important;
-  }
+  } */
 
+  /*
   #book-content #sbo-rt-content .boxg p,
   #book-content #sbo-rt-content .note p,
   #book-content #sbo-rt-content .note1 p,
@@ -695,7 +698,7 @@
   #book-content #sbo-rt-content div.tip p,
   #book-content #sbo-rt-content div.warning p {
     font-family: var(--font-family-sans-serif) !important;
-  }
+  } */
 
   #sbo-rt-content .packt_action,
   #sbo-rt-content kbd {
