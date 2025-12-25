@@ -1,5 +1,9 @@
 :root {
   color-scheme: light dark;
+
+  --font-family-sans-serif: sans-serif;
+  --font-family-serif: serif;
+  --font-family-monospace: monospace;
 }
 
 body {
