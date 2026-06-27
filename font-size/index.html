@@ -19,14 +19,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/styles.css">
     <style>
         :root {
-            --bg-color: #f4f7f6;
-            --card-bg: #ffffff;
-            --text-color: #333333;
-            --primary-color: #2563eb;
-            --primary-hover: #1d4ed8;
-            --border-color: #e5e7eb;
+            --bg-color: var(--surface);
+            --card-bg: var(--surface-elevated);
+            --text-color: var(--text);
+            --primary-color: var(--accent);
+            --primary-hover: var(--accent-strong);
+            --border-color: var(--border);
+            --muted-color: var(--muted);
         }
 
         body {
@@ -44,7 +46,8 @@
             background: var(--card-bg);
             padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 8px 20px -12px rgba(0, 0, 0, 0.45);
+            border: 1px solid var(--border-color);
         }
 
         h1 {
@@ -52,7 +55,7 @@
             margin-top: 0;
             margin-bottom: 20px;
             text-align: center;
-            color: #111827;
+            color: var(--text-color);
         }
 
         .grid {
@@ -84,7 +87,7 @@
             border: 1px solid var(--border-color);
             border-radius: 6px;
             font-size: 1rem;
-            background-color: #fff;
+            background-color: var(--card-bg);
         }
 
         select:focus, input:focus {
@@ -107,7 +110,7 @@
         }
 
         .results {
-            background-color: #f8fafc;
+            background-color: var(--surface-subtle);
             border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 20px;
@@ -127,7 +130,7 @@
         }
 
         .result-item {
-            background: #fff;
+            background: var(--card-bg);
             padding: 12px;
             border-radius: 6px;
             border: 1px solid var(--border-color);
@@ -136,7 +139,7 @@
 
         .result-label {
             font-size: 0.8rem;
-            color: #64748b;
+            color: var(--muted-color);
             text-transform: uppercase;
             letter-spacing: 0.05em;
             margin-bottom: 4px;
@@ -145,15 +148,20 @@
         .result-value {
             font-size: 1.2rem;
             font-weight: 700;
-            color: #0f172a;
+            color: var(--text-color);
+        }
+
+        #screen-dim {
+            font-size: 0.95rem;
+            font-weight: 600;
         }
 
         .preview-container {
-            border: 1px dashed #cbd5e1;
+            border: 1px dashed var(--border-color);
             border-radius: 8px;
             padding: 40px;
             text-align: center;
-            background: #ffffff;
+            background: var(--card-bg);
             overflow: auto;
             min-height: 160px;
             display: flex;
@@ -165,7 +173,7 @@
 
         .preview-title {
             font-size: 0.85rem;
-            color: #64748b;
+            color: var(--muted-color);
             margin-bottom: 15px;
             position: absolute;
             top: 10px;
@@ -178,20 +186,34 @@
             margin: 0;
             padding: 0;
             display: inline-block;
-            background: rgba(37, 99, 235, 0.05);
-            border-top: 1px solid rgba(37, 99, 235, 0.2);
-            border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+            background: var(--preview-tint);
+            border-top: 1px solid var(--preview-line);
+            border-bottom: 1px solid var(--preview-line);
         }
 
         .info-note {
             font-size: 0.8rem;
-            color: #64748b;
+            color: var(--muted-color);
             margin-top: 15px;
             text-align: center;
+        }
+
+        #actual-mm,
+        #actual-inch {
+            color: var(--primary-color);
         }
     </style>
 </head>
 <body>
+
+<form class="theme-switcher" action="#" aria-label="Theme selector">
+    <fieldset>
+        <legend>Theme</legend>
+        <label><input type="radio" name="theme" id="theme-system" checked><span>System</span></label>
+        <label><input type="radio" name="theme" id="theme-light"><span>Light</span></label>
+        <label><input type="radio" name="theme" id="theme-dark"><span>Dark</span></label>
+    </fieldset>
+</form>
 
 <div class="container">
     <h1>Physical Font Size Calculator</h1>
@@ -248,15 +270,15 @@
             </div>
             <div class="result-item">
                 <div class="result-label">Screen Dimensions</div>
-                <div class="result-value" id="screen-dim" style="font-size: 0.95rem; font-weight: 600;">-</div>
+                <div class="result-value" id="screen-dim">-</div>
             </div>
             <div class="result-item">
                 <div class="result-label">Actual Font (mm)</div>
-                <div class="result-value" id="actual-mm" style="color: #2563eb;">-</div>
+                <div class="result-value" id="actual-mm">-</div>
             </div>
             <div class="result-item">
                 <div class="result-label">Actual Font (inch)</div>
-                <div class="result-value" id="actual-inch" style="color: #2563eb;">-</div>
+                <div class="result-value" id="actual-inch">-</div>
             </div>
         </div>
     </div>

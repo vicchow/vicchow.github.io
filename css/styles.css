@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
   --font-family-sans-serif: sans-serif;
   --font-family-serif: serif;
@@ -13,8 +13,60 @@
   --space-lg: 1.5rem;
   --space-xl: 2rem;
   --focus-outline: #2563eb;
-  --surface: Canvas;
-  --text: CanvasText;
+  --surface: #f7f9fc;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #eef2f7;
+  --text: #101827;
+  --muted: #4b5563;
+  --border: #d4dde8;
+  --link: #0f4cc9;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --on-accent: #ffffff;
+  --code-surface: #f1f5fb;
+  --preview-tint: rgba(37, 99, 235, 0.08);
+  --preview-line: rgba(37, 99, 235, 0.35);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #0c1422;
+  --surface-elevated: #111b2c;
+  --surface-subtle: #1a2639;
+  --text: #e6edf7;
+  --muted: #a9b8ce;
+  --border: #30425e;
+  --link: #8fb7ff;
+  --accent: #7da8ff;
+  --accent-strong: #5d8ef2;
+  --on-accent: #0b1530;
+  --code-surface: #182338;
+  --preview-tint: rgba(125, 168, 255, 0.1);
+  --preview-line: rgba(125, 168, 255, 0.42);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]),
+  :root[data-theme="system"] {
+    color-scheme: dark;
+    --surface: #0c1422;
+    --surface-elevated: #111b2c;
+    --surface-subtle: #1a2639;
+    --text: #e6edf7;
+    --muted: #a9b8ce;
+    --border: #30425e;
+    --link: #8fb7ff;
+    --accent: #7da8ff;
+    --accent-strong: #5d8ef2;
+    --on-accent: #0b1530;
+    --code-surface: #182338;
+    --preview-tint: rgba(125, 168, 255, 0.1);
+    --preview-line: rgba(125, 168, 255, 0.42);
+  }
 }
 
 * {
@@ -26,7 +78,7 @@ body {
   font-size: 1rem;
   line-height: var(--line-height-normal);
   margin: 0;
-  padding: var(--space-lg) var(--space-md);
+  padding: 4.5rem var(--space-md) var(--space-lg);
 
   background-color: var(--surface);
   color: var(--text);
@@ -84,10 +136,12 @@ pre {
   padding: var(--space-sm);
   overflow: auto;
   border-radius: 0.5rem;
+  background: var(--code-surface);
+  border: 1px solid var(--border);
 }
 
 a {
-  color: LinkText;
+  color: var(--link);
 }
 
 a:hover {
@@ -105,6 +159,117 @@ textarea:focus-visible {
 
 li img {
   vertical-align: middle;
+}
+
+input,
+select,
+textarea,
+button {
+  color: var(--text);
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.hljs {
+  background: var(--code-surface) !important;
+  color: var(--text) !important;
+}
+
+/* CSS-only theme picker: defaults to system, can be overridden per page view. */
+.theme-switcher {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 10;
+}
+
+.theme-switcher fieldset {
+  margin: 0;
+  padding: 0.25rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-elevated);
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.theme-switcher legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.theme-switcher label {
+  font-size: 0.875rem;
+  color: var(--muted);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.theme-switcher label span {
+  display: inline-block;
+  padding: 0.3rem 0.65rem;
+}
+
+.theme-switcher input[type="radio"] {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.theme-switcher input[type="radio"]:checked + span {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-radius: 999px;
+}
+
+body:has(#theme-light:checked) {
+  color-scheme: light;
+  --surface: #f7f9fc;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #eef2f7;
+  --text: #101827;
+  --muted: #4b5563;
+  --border: #d4dde8;
+  --link: #0f4cc9;
+  --accent: #2563eb;
+  --accent-strong: #1d4ed8;
+  --on-accent: #ffffff;
+  --code-surface: #f1f5fb;
+  --preview-tint: rgba(37, 99, 235, 0.08);
+  --preview-line: rgba(37, 99, 235, 0.35);
+}
+
+body:has(#theme-dark:checked) {
+  color-scheme: dark;
+  --surface: #0c1422;
+  --surface-elevated: #111b2c;
+  --surface-subtle: #1a2639;
+  --text: #e6edf7;
+  --muted: #a9b8ce;
+  --border: #30425e;
+  --link: #8fb7ff;
+  --accent: #7da8ff;
+  --accent-strong: #5d8ef2;
+  --on-accent: #0b1530;
+  --code-surface: #182338;
+  --preview-tint: rgba(125, 168, 255, 0.1);
+  --preview-line: rgba(125, 168, 255, 0.42);
 }
 
 .sans-serif {
