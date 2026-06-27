@@ -238,7 +238,7 @@ button {
   border-radius: 999px;
 }
 
-body:has(#theme-light:checked) {
+:root:has(#theme-light:checked) {
   color-scheme: light;
   --surface: #f7f9fc;
   --surface-elevated: #ffffff;
@@ -255,7 +255,7 @@ body:has(#theme-light:checked) {
   --preview-line: rgba(37, 99, 235, 0.35);
 }
 
-body:has(#theme-dark:checked) {
+:root:has(#theme-dark:checked) {
   color-scheme: dark;
   --surface: #0c1422;
   --surface-elevated: #111b2c;
