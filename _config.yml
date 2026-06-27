@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+# Static site deployed by GitHub Pages Actions.
+title: vicchow.github.io
+
+# Keep Jekyll processing minimal; do not couple to a remote theme.
+markdown: kramdown
